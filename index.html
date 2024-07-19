@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPT Realism Mod Ammo Graph</title>
+    <script src="data.js"></script>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #161414;
+            color: #168638;
+        }
+        .caliber-buttons {
+            margin-bottom: 20px;
+        }
+        .caliber-buttons button {
+            margin: 5px;
+            background-color: #333333;
+            color: #FFFFFF;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .caliber-buttons button:hover {
+            background-color: #555555;
+        }
+        .caliber-buttons button.active {
+            background-color: #1E88E5;
+        }
+        #ammoChartContainer {
+            width: 1000px;
+            height: 800px;
+        }
+        #ammoChart {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="ammoChartContainer">
+        <div class="caliber-buttons" id="caliberButtons"></div>
+        <canvas id="ammoChart"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
