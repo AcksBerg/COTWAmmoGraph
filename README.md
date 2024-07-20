@@ -1,6 +1,6 @@
 # SPT Realism Ammo Graph
 This web application visualizes ammunition data for the SPT Realism Mod, displaying damage and penetration values for different calibers in a scatter plot. Users can select various calibers to compare their performance. The chart dynamically adjusts its axes and includes class labels for penetration levels.
-
+![Screenshot of the Ammo Graph](Example2.png)
 ## Files
 
 - **ammo_reader.py**: A Python script to read and process ammunition data from the realism mod ammo.js file and generates a JSON file (Beware of the path in line 5/6).
