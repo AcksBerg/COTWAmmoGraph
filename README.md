@@ -4,9 +4,10 @@ This web application visualizes ammunition data for the SPT Realism Mod, display
 ## Files
 
 - **ammo_reader.py**: A Python script to read and process ammunition data from the realism mod ammo.js file and generates the data.js file (Beware of the path in line 5/6).
+- - the ammo.js file is located in \user\mods\SPT-Realism\src\ballistics\ammo.js if you want to update the data.js file yourself.
 - **index.html**: The main HTML file that structures the web page, including the canvas for the chart and buttons for selecting calibers.
 - **script.js**: The JavaScript file that handles data processing, chart rendering, and user interactions.
-- **data.js**: A JavaScript file containing the ammunition data used by the web application.
+- **data.js**: A JavaScript file containing the ammunition data used by the web application. Currently for SPT 3.8.3 SM 1.3.1
 
 ## Usage
 Just download the index.html, script.js and data.js. The rest of the files are examples or to create the data.js.
