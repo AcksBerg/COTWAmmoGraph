@@ -25,7 +25,7 @@ def extract_data(file_path):
         if line.startswith("////"):
             if current_caliber:
                 if current_type:
-                    if "ProjectileCount" in current_type and int(current_type["ProjectileCount"]) > 1:
+                    if "ProjectileCount" in current_type and int(current_type["ProjectileCount"]) > 2:
                         shot_types.append(current_type)
                         shot_sum_type = current_type.copy()
                         shot_sum_type["Damage"] = str(int(current_type["Damage"]) * int(current_type["ProjectileCount"]))
@@ -55,7 +55,7 @@ def extract_data(file_path):
 
         elif line.startswith("//"):
             if current_type:
-                if "ProjectileCount" in current_type and int(current_type["ProjectileCount"]) > 1:
+                if "ProjectileCount" in current_type and int(current_type["ProjectileCount"]) > 2:
                     shot_types.append(current_type)
                     shot_sum_type = current_type.copy()
                     shot_sum_type["Damage"] = str(int(current_type["Damage"]) * int(current_type["ProjectileCount"]))
