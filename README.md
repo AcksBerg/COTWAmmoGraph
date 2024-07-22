@@ -9,6 +9,9 @@ This web application visualizes ammunition data for the SPT Realism Mod, display
 - **script.js**: The JavaScript file that handles data processing, chart rendering, and user interactions.
 - **data.js**: A JavaScript file containing the ammunition data used by the web application, copy the data from the generated json file.
 
+## Usage
+Just download the index.html, script.js and data.js. The rest of the files are examples or to create the data.js.
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
