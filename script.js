@@ -20,6 +20,18 @@ function loadSelectedCalibers() {
     }
 }
 
+function saveSelectedAxes() {
+    localStorage.setItem('xAxis', xAxis);
+    localStorage.setItem('yAxis', yAxis);
+}
+
+function loadSelectedAxes() {
+    const savedXAxis = localStorage.getItem('xAxis');
+    const savedYAxis = localStorage.getItem('yAxis');
+    if (savedXAxis) xAxis = savedXAxis;
+    if (savedYAxis) yAxis = savedYAxis;
+}
+
 function initializeChart() {
     const ammoChartCtx = document.getElementById('ammoChart').getContext('2d');
     return new Chart(ammoChartCtx, {
@@ -34,7 +46,7 @@ function initializeChart() {
                     position: 'bottom',
                     title: {
                         display: true,
-                        text: 'Damage',
+                        text: xAxis,
                         color: '#FFFFFF'
                     },
                     ticks: {
@@ -48,7 +60,7 @@ function initializeChart() {
                     type: 'linear',
                     title: {
                         display: true,
-                        text: 'Penetration',
+                        text: yAxis,
                         color: '#FFFFFF'
                     },
                     ticks: {
@@ -83,7 +95,7 @@ function initializeChart() {
                             label += `Heavy Bleeding Delta: ${type.HeavyBleedingDelta}\n`;
                             label += `Light Bleeding Delta: ${type.LightBleedingDelta}\n`;
                             label += `Ammo Accuracy: ${type.ammoAccr}\n`;
-                            // label += `Ammo Hear: ${type.ammoHear}\n`;
+                            label += `Ammo Hear: ${type.ammoHear}\n`;
                             label += `Ammo Recoil: ${type.ammoRec}\n`;
                             return label.split('\n');
                         }
@@ -93,25 +105,25 @@ function initializeChart() {
         },
         plugins: [{
             afterDatasetsDraw: function (chart) {
-                if (yAxis === 'PenetrationPower') {
-                    const ctx = chart.ctx;
-                    chart.data.datasets.forEach(function (dataset, i) {
-                        const meta = chart.getDatasetMeta(i);
-                        if (!meta.hidden) {
-                            meta.data.forEach(function (element, index) {
-                                ctx.fillStyle = 'rgb(255, 255, 255)';
-                                const fontSize = 12;
-                                const fontStyle = 'normal';
-                                const fontFamily = 'Helvetica Neue';
-                                ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
-                                const dataString = dataset.data[index].label;
-                                const padding = 5;
-                                const position = element.tooltipPosition();
-                                ctx.fillText(dataString, position.x + padding, position.y - padding);
-                            });
-                        }
-                    });
+                const ctx = chart.ctx;
+                chart.data.datasets.forEach(function (dataset, i) {
+                    const meta = chart.getDatasetMeta(i);
+                    if (!meta.hidden) {
+                        meta.data.forEach(function (element, index) {
+                            ctx.fillStyle = 'rgb(255, 255, 255)';
+                            const fontSize = 12;
+                            const fontStyle = 'normal';
+                            const fontFamily = 'Helvetica Neue';
+                            ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
+                            const dataString = dataset.data[index].label;
+                            const padding = 5;
+                            const position = element.tooltipPosition();
+                            ctx.fillText(dataString, position.x + padding, position.y - padding);
+                        });
+                    }
+                });
 
+                if (yAxis === 'PenetrationPower') {
                     const yScale = chart.scales['y'];
                     const chartHeight = yScale.height;
                     const chartOffset = yScale.top;
@@ -161,10 +173,10 @@ function updateChart() {
                     return {
                         x: xValue,
                         y: yValue,
+                        label: type.name, // Ensure the label is included here
                         ProjectileCount: type.ProjectileCount || 1,
                         Damage: type.Damage || 0,
                         PenetrationPower: type.PenetrationPower || 0,
-                        label: type.name,
                         InitialSpeed: type.InitialSpeed || 0,
                         RicochetChance: type.RicochetChance || 0,
                         FragmentationChance: type.FragmentationChance || 0,
@@ -233,17 +245,24 @@ function createCaliberButtons() {
 
 document.addEventListener('DOMContentLoaded', () => {
     loadSelectedCalibers();
+    loadSelectedAxes();
     createCaliberButtons();
     ammoChart = initializeChart();
     updateChart();
 
     document.getElementById('x-axis-select').addEventListener('change', function() {
         xAxis = this.value;
+        saveSelectedAxes();
         updateChart();
     });
 
     document.getElementById('y-axis-select').addEventListener('change', function() {
         yAxis = this.value;
+        saveSelectedAxes();
         updateChart();
     });
+
+    // Set initial values for select elements
+    document.getElementById('x-axis-select').value = xAxis;
+    document.getElementById('y-axis-select').value = yAxis;
 });
