@@ -60,6 +60,7 @@ let ammoChart = new Chart(ammoChartCtx, {
                         let label = `${type.label}:\n`;
                         label += `Damage: ${type.x}\n`;
                         label += `Penetration: ${type.y}\n`;
+                        label += `Projectile Count: ${type.bulletCount}\n`;
                         label += `Initial Speed: ${type.InitialSpeed}\n`;
                         label += `Ricochet Chance: ${type.RicochetChance}\n`;
                         label += `Fragmentation Chance: ${type.FragmentationChance}\n`;
@@ -67,7 +68,6 @@ let ammoChart = new Chart(ammoChartCtx, {
                         label += `Heavy Bleeding Delta: ${type.HeavyBleedingDelta}\n`;
                         label += `Light Bleeding Delta: ${type.LightBleedingDelta}\n`;
                         label += `Ammo Accuracy: ${type.ammoAccr}\n`;
-                        label += `Ammo Hear: ${type.ammoHear}\n`;
                         label += `Ammo Recoil: ${type.ammoRec}\n`;
                         return label.split('\n');
                     }
@@ -129,6 +129,7 @@ function updateChart() {
                 data: caliberData.types.map(type => {
                     const damage = type.Damage;
                     const penetration = type.PenetrationPower != undefined ? type.PenetrationPower : 0;
+                    const bulletCount = type.ProjectileCount != undefined ? type.ProjectileCount : 1;
 
                     minDamage = Math.min(minDamage, damage);
                     maxDamage = Math.max(maxDamage, damage);
@@ -139,6 +140,7 @@ function updateChart() {
                         x: damage,
                         y: penetration,
                         label: type.name,
+                        bulletCount: bulletCount,
                         InitialSpeed: type.InitialSpeed,
                         RicochetChance: type.RicochetChance,
                         FragmentationChance: type.FragmentationChance,
@@ -146,7 +148,6 @@ function updateChart() {
                         HeavyBleedingDelta: type.HeavyBleedingDelta,
                         LightBleedingDelta: type.LightBleedingDelta,
                         ammoAccr: type.ammoAccr,
-                        ammoHear: type.ammoHear,
                         ammoRec: type.ammoRec,
                         malf_changes: type.malf_changes,
                         MalfMisfireChance: type.MalfMisfireChance,
@@ -174,6 +175,19 @@ function updateChart() {
     ammoChart.update();
 }
 
+function saveSelectedCalibers() {
+    localStorage.setItem('selectedCalibers', JSON.stringify(Array.from(selectedCalibers)));
+}
+
+
+function loadSelectedCalibers() {
+    const savedCalibers = localStorage.getItem('selectedCalibers');
+    if (savedCalibers) {
+        selectedCalibers = new Set(JSON.parse(savedCalibers));
+    }
+}
+
+
 function createCaliberButtons() {
     const caliberButtonsDiv = document.getElementById('caliberButtons');
     data.forEach((caliber, index) => {
@@ -183,6 +197,9 @@ function createCaliberButtons() {
         const button = document.createElement('button');
         button.innerHTML = `<span style="color:${colorMap[colorIndex]}; font-size: 20px;">&#9679;</span> ${caliber.caliber}`;
         button.style.color = colorMap[colorIndex];
+        if (selectedCalibers.has(caliber.caliber)) {
+            button.classList.add('active');
+        }
         button.addEventListener('click', () => {
             if (selectedCalibers.has(caliber.caliber)) {
                 selectedCalibers.delete(caliber.caliber);
@@ -191,6 +208,7 @@ function createCaliberButtons() {
                 selectedCalibers.add(caliber.caliber);
                 button.classList.add('active');
             }
+            saveSelectedCalibers();
             updateChart();
         });
         caliberButtonsDiv.appendChild(button);
@@ -198,5 +216,7 @@ function createCaliberButtons() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    loadSelectedCalibers();
     createCaliberButtons();
+    updateChart();
 });
