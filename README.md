@@ -11,6 +11,7 @@ This web application visualizes ammunition data for the SPT Realism Mod, display
 
 ## Usage
 Just download the index.html, script.js and data.js. The rest of the files are examples or to create the data.js.
+When downloaded open the index.html.
 
 ## License
 
