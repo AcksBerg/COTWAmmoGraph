@@ -24,7 +24,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             },
             {
                 "name": "Flechette",
@@ -46,7 +47,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             },
             {
                 "name": "5.25mm Buckshot",
@@ -67,7 +69,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             },
             {
                 "name": "7mm Buckshot",
@@ -88,7 +91,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             },
             {
                 "name": "8.5mm Buckshot \"Magnum\"",
@@ -109,7 +113,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "5.2",
-                "HeatFactor": "1.21"
+                "HeatFactor": "1.21",
+                "malf_changes": 0
             },
             {
                 "name": "6.5mm Buckshot \"Express\"",
@@ -130,7 +135,30 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.4",
-                "HeatFactor": "1.14"
+                "HeatFactor": "1.14",
+                "malf_changes": 0
+            },
+            {
+                "name": "Dual Sabot",
+                "PenetrationPower": "20",
+                "ArmorDamage": "1",
+                "ProjectileCount": "2",
+                "Damage": "77",
+                "InitialSpeed": "415",
+                "RicochetChance": "0.25",
+                "FragmentationChance": "0",
+                "BulletMassGram": "22.5",
+                "HeavyBleedingDelta": "0.6",
+                "LightBleedingDelta": "0.9",
+                "ammoAccr": "-35",
+                "ammoHear": "0",
+                "ammoRec": "28",
+                "MalfMisfireChance": "0.3",
+                "MisfireChance": "0",
+                "MalfFeedChance": "0",
+                "DurabilityBurnModificator": "6",
+                "HeatFactor": "1.5",
+                "malf_changes": 0
             }
         ]
     },
@@ -159,7 +187,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             },
             {
                 "name": "Flechette",
@@ -181,7 +210,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             },
             {
                 "name": "5.25mm Buckshot",
@@ -202,7 +232,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             },
             {
                 "name": "7mm Buckshot",
@@ -223,7 +254,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             },
             {
                 "name": "8.5mm Buckshot \"Magnum\"",
@@ -244,7 +276,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "5.2",
-                "HeatFactor": "1.21"
+                "HeatFactor": "1.21",
+                "malf_changes": 0
             },
             {
                 "name": "6.5mm Buckshot \"Express\"",
@@ -265,7 +298,30 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.4",
-                "HeatFactor": "1.14"
+                "HeatFactor": "1.14",
+                "malf_changes": 0
+            },
+            {
+                "name": "Dual Sabot",
+                "PenetrationPower": "20",
+                "ArmorDamage": "1",
+                "ProjectileCount": "2",
+                "Damage": "154",
+                "InitialSpeed": "415",
+                "RicochetChance": "0.25",
+                "FragmentationChance": "0",
+                "BulletMassGram": "22.5",
+                "HeavyBleedingDelta": "0.6",
+                "LightBleedingDelta": "0.9",
+                "ammoAccr": "-35",
+                "ammoHear": "0",
+                "ammoRec": "28",
+                "MalfMisfireChance": "0.3",
+                "MisfireChance": "0",
+                "MalfFeedChance": "0",
+                "DurabilityBurnModificator": "6",
+                "HeatFactor": "1.5",
+                "malf_changes": 0
             }
         ]
     },
@@ -291,7 +347,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.2",
                 "HeatFactor": "1.12",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Lead slug",
@@ -312,28 +369,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "4.3",
                 "HeatFactor": "1.33",
-                "ProjectileCount": "1"
-            },
-            {
-                "name": "Dual Sabot",
-                "PenetrationPower": "20",
-                "ArmorDamage": "1",
-                "ProjectileCount": "2",
-                "Damage": "77",
-                "InitialSpeed": "415",
-                "RicochetChance": "0.25",
-                "FragmentationChance": "0",
-                "BulletMassGram": "22.5",
-                "HeavyBleedingDelta": "0.6",
-                "LightBleedingDelta": "0.9",
-                "ammoAccr": "-35",
-                "ammoHear": "0",
-                "ammoRec": "28",
-                "MalfMisfireChance": "0.3",
-                "MisfireChance": "0",
-                "MalfFeedChance": "0",
-                "DurabilityBurnModificator": "6",
-                "HeatFactor": "1.5"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Poleva-3 (HP)",
@@ -354,7 +391,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.8",
                 "HeatFactor": "1.28",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Grizzly (HP)",
@@ -375,7 +413,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "5",
                 "HeatFactor": "1.4",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "RIP (HP copper)",
@@ -396,7 +435,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.7",
                 "HeatFactor": "1.17",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Poleva-6u (FMJ)",
@@ -417,7 +457,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "5",
                 "HeatFactor": "1.4",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Copper Sabot (HP)",
@@ -438,7 +479,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "4.5",
                 "HeatFactor": "1.35",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "FTX custom light",
@@ -459,7 +501,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.6",
                 "HeatFactor": "1.26",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "SuperPerformance (HP)",
@@ -480,7 +523,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "5.4",
                 "HeatFactor": "1.44",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "AP-20",
@@ -501,7 +545,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "11",
                 "HeatFactor": "1.5",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -527,7 +572,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             },
             {
                 "name": "6.2mm buckshot",
@@ -548,7 +594,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             },
             {
                 "name": "7.3mm buckshot",
@@ -569,7 +616,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1.1"
+                "HeatFactor": "1.1",
+                "malf_changes": 0
             },
             {
                 "name": "7.5mm buckshot",
@@ -590,7 +638,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.8",
-                "HeatFactor": "1.28"
+                "HeatFactor": "1.28",
+                "malf_changes": 0
             }
         ]
     },
@@ -616,7 +665,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             },
             {
                 "name": "6.2mm buckshot",
@@ -637,7 +687,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             },
             {
                 "name": "7.3mm buckshot",
@@ -658,7 +709,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1.1"
+                "HeatFactor": "1.1",
+                "malf_changes": 0
             },
             {
                 "name": "7.5mm buckshot",
@@ -679,7 +731,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.8",
-                "HeatFactor": "1.28"
+                "HeatFactor": "1.28",
+                "malf_changes": 0
             }
         ]
     },
@@ -705,7 +758,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.3",
                 "HeatFactor": "1.3",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Devestator HP slug",
@@ -726,7 +780,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
                 "HeatFactor": "1.04",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Poleva 3 HP slug",
@@ -747,7 +802,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.1",
                 "HeatFactor": "1.1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Poleva 6u FMJ slug",
@@ -768,7 +824,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.2",
                 "HeatFactor": "1.32",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -796,7 +853,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             },
             {
                 "name": "Shrap 25",
@@ -819,7 +877,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             }
         ]
     },
@@ -847,7 +906,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             },
             {
                 "name": "Shrap 25",
@@ -870,7 +930,8 @@
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "malf_changes": 0
             }
         ]
     },
@@ -896,7 +957,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "10",
                 "HeatFactor": "1.58",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Flashbang",
@@ -908,7 +970,17 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "PenetrationPower": 0,
+                "InitialSpeed": 0,
+                "RicochetChance": 0,
+                "FragmentationChance": 0,
+                "BulletMassGram": 0,
+                "HeavyBleedingDelta": 0,
+                "LightBleedingDelta": 0,
+                "ammoAccr": 0,
+                "ammoHear": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -934,7 +1006,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PM SP7 gzh",
@@ -955,7 +1028,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "5.1",
                 "HeatFactor": "1.62",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PM PSV",
@@ -976,7 +1050,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.3",
                 "HeatFactor": "1.06",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PM P gzh",
@@ -997,7 +1072,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PM PSO gzh",
@@ -1018,7 +1094,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
                 "HeatFactor": "1.08",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PM PS gs PPO",
@@ -1039,7 +1116,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
                 "HeatFactor": "1.2",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PM PRS gs",
@@ -1060,7 +1138,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PM PPe gzh",
@@ -1081,7 +1160,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.1",
                 "HeatFactor": "1.22",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PM PPT gzh",
@@ -1102,7 +1182,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
                 "HeatFactor": "1.04",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PM Pst gzh",
@@ -1123,7 +1204,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PM RG028 gzh",
@@ -1144,7 +1226,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.4",
                 "HeatFactor": "1.14",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PM 9 BZT gzh",
@@ -1165,7 +1248,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.8",
                 "HeatFactor": "1.08",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PM PBM",
@@ -1186,7 +1270,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.5",
                 "HeatFactor": "1.38",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PM PMM 7n16",
@@ -1207,7 +1292,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "4",
                 "HeatFactor": "1.6",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -1233,7 +1319,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
                 "HeatFactor": "1.04",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "QuakeMaker",
@@ -1254,7 +1341,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "12",
                 "HeatFactor": "1.24",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Luger CCI",
@@ -1275,7 +1363,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3",
                 "HeatFactor": "1.22",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Green Tracer",
@@ -1296,7 +1385,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.5",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PSO gzh",
@@ -1317,7 +1407,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "M882",
@@ -1338,7 +1429,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "5",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Pst gzh",
@@ -1360,7 +1452,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "13",
                 "HeatFactor": "1.24",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "7N31",
@@ -1382,7 +1475,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "15",
                 "HeatFactor": "1.4",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "AP 6.3",
@@ -1403,7 +1497,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "14",
                 "HeatFactor": "1.32",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -1429,7 +1524,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.075",
                 "HeatFactor": "1.05",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "SP11 P",
@@ -1450,7 +1546,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.05",
                 "HeatFactor": "1.02",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "7U4",
@@ -1470,7 +1567,9 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "BulletMassGram": 0,
+                "malf_changes": 0
             },
             {
                 "name": "SP10 PS",
@@ -1491,7 +1590,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "6",
                 "HeatFactor": "1.1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "SP13 BT",
@@ -1512,7 +1612,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "6.25",
                 "HeatFactor": "1.15",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "7N24",
@@ -1532,7 +1633,9 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "7",
                 "HeatFactor": "1.2",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "BulletMassGram": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -1558,7 +1661,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Hydra-Shok",
@@ -1579,7 +1683,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "12",
                 "HeatFactor": "1.12",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Lasermatch FMJ",
@@ -1600,7 +1705,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "FMJ",
@@ -1621,7 +1727,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.5",
                 "HeatFactor": "1.2",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "AP",
@@ -1642,7 +1749,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "16",
                 "HeatFactor": "1.64",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -1666,7 +1774,10 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.5",
                 "HeatFactor": "1.5",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "InitialSpeed": 0,
+                "BulletMassGram": 0,
+                "malf_changes": 0
             },
             {
                 "name": "JHP",
@@ -1685,7 +1796,10 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.5",
                 "HeatFactor": "1.3",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "InitialSpeed": 0,
+                "BulletMassGram": 0,
+                "malf_changes": 0
             },
             {
                 "name": "SP",
@@ -1704,7 +1818,10 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3",
                 "HeatFactor": "1.4",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "InitialSpeed": 0,
+                "BulletMassGram": 0,
+                "malf_changes": 0
             },
             {
                 "name": "FMJ",
@@ -1723,7 +1840,10 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "InitialSpeed": 0,
+                "BulletMassGram": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -1749,7 +1869,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Action SX",
@@ -1770,7 +1891,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Subsonic SX",
@@ -1791,7 +1913,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "FMJ SX",
@@ -1812,7 +1935,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "AP SX",
@@ -1833,7 +1957,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.11",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -1859,7 +1984,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.1",
                 "HeatFactor": "1.22",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "SS198LF",
@@ -1880,7 +2006,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.3",
                 "HeatFactor": "1.06",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "R37.X",
@@ -1901,7 +2028,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
                 "HeatFactor": "1.2",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "SS197SR",
@@ -1922,7 +2050,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "L191",
@@ -1943,7 +2072,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "SB193",
@@ -1964,7 +2094,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "SS190",
@@ -1985,7 +2116,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.12",
                 "HeatFactor": "1.02",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -2011,7 +2143,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.3",
                 "HeatFactor": "1.04",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "LRN",
@@ -2032,7 +2165,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "FMJ43",
@@ -2053,7 +2187,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.3",
                 "HeatFactor": "1.26",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "AKBS",
@@ -2074,7 +2209,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.5",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "P gl",
@@ -2095,7 +2231,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PT gl",
@@ -2116,7 +2253,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Pst gzh",
@@ -2137,7 +2275,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -2163,7 +2302,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
                 "HeatFactor": "1.08",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "UCW",
@@ -2184,7 +2324,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "FMJ",
@@ -2205,7 +2346,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "AP",
@@ -2226,7 +2368,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "8",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -2252,7 +2395,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
                 "HeatFactor": "1.04",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "SP5",
@@ -2273,7 +2417,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
                 "HeatFactor": "1.04",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PAB-9",
@@ -2294,7 +2439,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "8.4",
                 "HeatFactor": "1.08",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "SP6",
@@ -2315,7 +2461,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "6.5",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "7N9 SPP",
@@ -2336,7 +2483,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "6.7",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "7N12 BP",
@@ -2357,7 +2505,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "6",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -2383,7 +2532,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "V-Max",
@@ -2404,7 +2554,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.7",
                 "HeatFactor": "1.14",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "BCP FMJ",
@@ -2425,7 +2576,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "M62 .300blk",
@@ -2446,7 +2598,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.5",
                 "HeatFactor": "1.1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "AAC AP",
@@ -2467,7 +2620,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3",
                 "HeatFactor": "1.2",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "CBJ",
@@ -2488,7 +2642,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "5",
                 "HeatFactor": "1.2",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -2514,7 +2669,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
                 "HeatFactor": "1.08",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "FMJ",
@@ -2535,7 +2691,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "EKO",
@@ -2556,7 +2713,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "AP-M",
@@ -2577,7 +2735,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "7.4",
                 "HeatFactor": "1.14",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -2603,7 +2762,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.1",
                 "HeatFactor": "1.42",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PS12",
@@ -2624,7 +2784,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PS12B",
@@ -2645,7 +2806,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.9",
                 "HeatFactor": "1.48",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -2671,7 +2833,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "BT SP",
@@ -2692,7 +2855,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "FMJ",
@@ -2713,7 +2877,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "T-46M",
@@ -2734,7 +2899,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "LPS Gzh",
@@ -2755,7 +2921,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.4",
                 "HeatFactor": "1.08",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PS 7N1",
@@ -2776,7 +2943,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.5",
                 "HeatFactor": "1.1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "7BT1 BT",
@@ -2797,7 +2965,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.2",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "SNB",
@@ -2818,7 +2987,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.6",
                 "HeatFactor": "1.12",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "7N37",
@@ -2839,7 +3009,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "12.5",
                 "HeatFactor": "1.3",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -2865,7 +3036,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
                 "HeatFactor": "1.06",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "BPZ FMJ",
@@ -2886,7 +3058,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.3",
                 "HeatFactor": "1.06",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "TPZ SP",
@@ -2907,7 +3080,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
                 "HeatFactor": "1.2",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "M80",
@@ -2929,7 +3103,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "M62",
@@ -2950,7 +3125,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.05",
                 "HeatFactor": "1.02",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "M61",
@@ -2971,7 +3147,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
                 "HeatFactor": "1.04",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "M993",
@@ -2992,7 +3169,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -3018,7 +3196,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "HP",
@@ -3039,7 +3218,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.5",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "SP",
@@ -3060,7 +3240,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "FMJ",
@@ -3081,7 +3262,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "T45M",
@@ -3102,7 +3284,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PS",
@@ -3123,7 +3306,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3",
                 "HeatFactor": "1.03",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PP",
@@ -3144,7 +3328,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.3",
                 "HeatFactor": "1.04",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "BP",
@@ -3165,7 +3350,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.8",
                 "HeatFactor": "1.08",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "MAI AP",
@@ -3186,7 +3372,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "9.4",
                 "HeatFactor": "1.24",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -3212,7 +3399,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
                 "HeatFactor": "1.08",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "HP",
@@ -3233,7 +3421,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.25",
                 "HeatFactor": "1.1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PRS",
@@ -3254,7 +3443,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
                 "HeatFactor": "1.025",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "US",
@@ -3275,7 +3465,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "FMJ",
@@ -3296,7 +3487,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
                 "HeatFactor": "1.05",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "T",
@@ -3317,7 +3509,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PS",
@@ -3338,7 +3531,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1.05",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "PP",
@@ -3359,7 +3553,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.1",
                 "HeatFactor": "1.07",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "BP",
@@ -3380,7 +3575,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
                 "HeatFactor": "1.14",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "BT",
@@ -3401,7 +3597,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.1",
                 "HeatFactor": "1.15",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "BS",
@@ -3422,7 +3619,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
                 "HeatFactor": "1.17",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "7N40",
@@ -3443,7 +3641,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.8",
                 "HeatFactor": "1.1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "7N39 PPBS",
@@ -3464,7 +3663,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.6",
                 "HeatFactor": "1.18",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -3491,7 +3691,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Hybrid",
@@ -3513,7 +3714,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "10",
                 "HeatFactor": "1.2",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     },
@@ -3539,7 +3741,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
                 "HeatFactor": "1.12",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "55 HP",
@@ -3560,7 +3763,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1.08",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Mk 255 Mod 0",
@@ -3581,7 +3785,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "Mk 318 Mod 0 (SOST)",
@@ -3602,7 +3807,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.8",
                 "HeatFactor": "1.1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "M856",
@@ -3623,7 +3829,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
                 "HeatFactor": "1",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "FMJ",
@@ -3644,7 +3851,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
                 "HeatFactor": "1.04",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "M856A1",
@@ -3665,7 +3873,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
                 "HeatFactor": "1.04",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "M855",
@@ -3686,7 +3895,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.3",
                 "HeatFactor": "1.07",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "M855A1",
@@ -3707,7 +3917,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "8",
                 "HeatFactor": "1.15",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "M995",
@@ -3728,7 +3939,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.5",
                 "HeatFactor": "1.12",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             },
             {
                 "name": "SSA AP",
@@ -3749,7 +3961,8 @@
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "9",
                 "HeatFactor": "1.24",
-                "ProjectileCount": "1"
+                "ProjectileCount": 0,
+                "malf_changes": 0
             }
         ]
     }
