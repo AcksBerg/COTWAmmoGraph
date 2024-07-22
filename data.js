@@ -131,27 +131,141 @@ const data = [
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.4",
                 "HeatFactor": "1.14"
-            },
+            }
+        ]
+    },
+    {
+        "caliber": "12ga shot sum",
+        "types": [
             {
-                "name": "Dual Sabot",
-                "PenetrationPower": "20",
+                "name": "Piranha",
+                "PenetrationPower": "10",
                 "ArmorDamage": "1",
-                "ProjectileCount": "2",
-                "Damage": "77",
-                "InitialSpeed": "415",
-                "RicochetChance": "0.25",
-                "FragmentationChance": "0",
-                "BulletMassGram": "22.5",
-                "HeavyBleedingDelta": "0.6",
-                "LightBleedingDelta": "0.9",
-                "ammoAccr": "-35",
+                "ProjectileCount": "26",
+                "Damage": "130",
+                "InitialSpeed": "285",
+                "BallisticCoeficient": "0.01",
+                "RicochetChance": "0.8",
+                "FragmentationChance": "0.5",
+                "BulletMassGram": "0.4",
+                "HeavyBleedingDelta": "1",
+                "LightBleedingDelta": "1",
+                "ammoAccr": "-80",
                 "ammoHear": "0",
-                "ammoRec": "28",
-                "MalfMisfireChance": "0.3",
+                "ammoRec": "-15",
+                "Tracer": "true",
+                "TracerColor": "\"grey\"",
+                "MalfMisfireChance": "0.5",
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
-                "DurabilityBurnModificator": "6",
-                "HeatFactor": "1.5"
+                "DurabilityBurnModificator": "2",
+                "HeatFactor": "1"
+            },
+            {
+                "name": "Flechette",
+                "PenetrationPower": "4",
+                "ArmorDamage": "0.5",
+                "ProjectileCount": "18",
+                "Damage": "126",
+                "InitialSpeed": "300",
+                "BallisticCoeficient": "0.009",
+                "RicochetChance": "1",
+                "FragmentationChance": "0.1",
+                "BulletMassGram": "0.47",
+                "HeavyBleedingDelta": "0.8",
+                "LightBleedingDelta": "1",
+                "ammoAccr": "-110",
+                "ammoHear": "0",
+                "ammoRec": "-20",
+                "MalfMisfireChance": "0.75",
+                "MisfireChance": "0",
+                "MalfFeedChance": "0",
+                "DurabilityBurnModificator": "1",
+                "HeatFactor": "1"
+            },
+            {
+                "name": "5.25mm Buckshot",
+                "PenetrationPower": "8",
+                "ArmorDamage": "1",
+                "ProjectileCount": "24",
+                "Damage": "168",
+                "InitialSpeed": "330",
+                "RicochetChance": "0.35",
+                "FragmentationChance": "0.25",
+                "BulletMassGram": "0.9",
+                "HeavyBleedingDelta": "0.2",
+                "LightBleedingDelta": "0.7",
+                "ammoAccr": "-45",
+                "ammoHear": "0",
+                "ammoRec": "-10",
+                "MalfMisfireChance": "0",
+                "MisfireChance": "0",
+                "MalfFeedChance": "0",
+                "DurabilityBurnModificator": "1",
+                "HeatFactor": "1"
+            },
+            {
+                "name": "7mm Buckshot",
+                "PenetrationPower": "18",
+                "ArmorDamage": "1",
+                "ProjectileCount": "12",
+                "Damage": "192",
+                "InitialSpeed": "415",
+                "RicochetChance": "0.28",
+                "FragmentationChance": "0.22",
+                "BulletMassGram": "1.9",
+                "HeavyBleedingDelta": "0.3",
+                "LightBleedingDelta": "0.9",
+                "ammoAccr": "-15",
+                "ammoHear": "0",
+                "ammoRec": "0",
+                "MalfMisfireChance": "0",
+                "MisfireChance": "0",
+                "MalfFeedChance": "0",
+                "DurabilityBurnModificator": "1",
+                "HeatFactor": "1"
+            },
+            {
+                "name": "8.5mm Buckshot \"Magnum\"",
+                "PenetrationPower": "17",
+                "ArmorDamage": "1",
+                "ProjectileCount": "9",
+                "Damage": "234",
+                "InitialSpeed": "385",
+                "RicochetChance": "0.24",
+                "FragmentationChance": "0",
+                "BulletMassGram": "3.38",
+                "HeavyBleedingDelta": "0.4",
+                "LightBleedingDelta": "0.9",
+                "ammoAccr": "0",
+                "ammoHear": "0",
+                "ammoRec": "25",
+                "MalfMisfireChance": "0.15",
+                "MisfireChance": "0",
+                "MalfFeedChance": "0",
+                "DurabilityBurnModificator": "5.2",
+                "HeatFactor": "1.21"
+            },
+            {
+                "name": "6.5mm Buckshot \"Express\"",
+                "PenetrationPower": "25",
+                "ArmorDamage": "1",
+                "ProjectileCount": "15",
+                "Damage": "210",
+                "InitialSpeed": "430",
+                "RicochetChance": "0.22",
+                "FragmentationChance": "0",
+                "BulletMassGram": "2.1",
+                "HeavyBleedingDelta": "0.4",
+                "LightBleedingDelta": "0.9",
+                "ammoAccr": "35",
+                "ammoHear": "0",
+                "ammoRec": "10",
+                "MalfMisfireChance": "0",
+                "MisfireChance": "0",
+                "MalfFeedChance": "0",
+                "DurabilityBurnModificator": "2.4",
+                "HeatFactor": "1.14"
             }
         ]
     },
@@ -176,7 +290,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.2",
-                "HeatFactor": "1.12"
+                "HeatFactor": "1.12",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Lead slug",
@@ -196,7 +311,29 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "4.3",
-                "HeatFactor": "1.33"
+                "HeatFactor": "1.33",
+                "ProjectileCount": "1"
+            },
+            {
+                "name": "Dual Sabot",
+                "PenetrationPower": "20",
+                "ArmorDamage": "1",
+                "ProjectileCount": "2",
+                "Damage": "77",
+                "InitialSpeed": "415",
+                "RicochetChance": "0.25",
+                "FragmentationChance": "0",
+                "BulletMassGram": "22.5",
+                "HeavyBleedingDelta": "0.6",
+                "LightBleedingDelta": "0.9",
+                "ammoAccr": "-35",
+                "ammoHear": "0",
+                "ammoRec": "28",
+                "MalfMisfireChance": "0.3",
+                "MisfireChance": "0",
+                "MalfFeedChance": "0",
+                "DurabilityBurnModificator": "6",
+                "HeatFactor": "1.5"
             },
             {
                 "name": "Poleva-3 (HP)",
@@ -216,7 +353,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.8",
-                "HeatFactor": "1.28"
+                "HeatFactor": "1.28",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Grizzly (HP)",
@@ -236,7 +374,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "5",
-                "HeatFactor": "1.4"
+                "HeatFactor": "1.4",
+                "ProjectileCount": "1"
             },
             {
                 "name": "RIP (HP copper)",
@@ -256,7 +395,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.7",
-                "HeatFactor": "1.17"
+                "HeatFactor": "1.17",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Poleva-6u (FMJ)",
@@ -276,7 +416,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "5",
-                "HeatFactor": "1.4"
+                "HeatFactor": "1.4",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Copper Sabot (HP)",
@@ -296,7 +437,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "4.5",
-                "HeatFactor": "1.35"
+                "HeatFactor": "1.35",
+                "ProjectileCount": "1"
             },
             {
                 "name": "FTX custom light",
@@ -316,7 +458,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.6",
-                "HeatFactor": "1.26"
+                "HeatFactor": "1.26",
+                "ProjectileCount": "1"
             },
             {
                 "name": "SuperPerformance (HP)",
@@ -336,7 +479,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "5.4",
-                "HeatFactor": "1.44"
+                "HeatFactor": "1.44",
+                "ProjectileCount": "1"
             },
             {
                 "name": "AP-20",
@@ -356,7 +500,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "11",
-                "HeatFactor": "1.5"
+                "HeatFactor": "1.5",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -450,6 +595,95 @@ const data = [
         ]
     },
     {
+        "caliber": "20ga shot sum",
+        "types": [
+            {
+                "name": "5.6mm shot",
+                "PenetrationPower": "8",
+                "ArmorDamage": "1",
+                "ProjectileCount": "15",
+                "Damage": "135",
+                "InitialSpeed": "340",
+                "RicochetChance": "0.33",
+                "FragmentationChance": "0.12",
+                "BulletMassGram": "1",
+                "HeavyBleedingDelta": "0.2",
+                "LightBleedingDelta": "0.5",
+                "ammoAccr": "-40",
+                "ammoHear": "0",
+                "ammoRec": "-15",
+                "MalfMisfireChance": "0",
+                "MisfireChance": "0",
+                "MalfFeedChance": "0",
+                "DurabilityBurnModificator": "1",
+                "HeatFactor": "1"
+            },
+            {
+                "name": "6.2mm buckshot",
+                "PenetrationPower": "12",
+                "ArmorDamage": "1",
+                "ProjectileCount": "12",
+                "Damage": "144",
+                "InitialSpeed": "410",
+                "RicochetChance": "0.3",
+                "FragmentationChance": "0.15",
+                "BulletMassGram": "1.26",
+                "HeavyBleedingDelta": "0.3",
+                "LightBleedingDelta": "0.7",
+                "ammoAccr": "-10",
+                "ammoHear": "0",
+                "ammoRec": "-10",
+                "MalfMisfireChance": "0",
+                "MisfireChance": "0",
+                "MalfFeedChance": "0",
+                "DurabilityBurnModificator": "1",
+                "HeatFactor": "1"
+            },
+            {
+                "name": "7.3mm buckshot",
+                "PenetrationPower": "14",
+                "ArmorDamage": "1",
+                "ProjectileCount": "10",
+                "Damage": "160",
+                "InitialSpeed": "475",
+                "RicochetChance": "0.26",
+                "FragmentationChance": "0.2",
+                "BulletMassGram": "2",
+                "HeavyBleedingDelta": "0.4",
+                "LightBleedingDelta": "0.9",
+                "ammoAccr": "20",
+                "ammoHear": "0",
+                "ammoRec": "10",
+                "MalfMisfireChance": "0",
+                "MisfireChance": "0",
+                "MalfFeedChance": "0",
+                "DurabilityBurnModificator": "1",
+                "HeatFactor": "1.1"
+            },
+            {
+                "name": "7.5mm buckshot",
+                "PenetrationPower": "12",
+                "ArmorDamage": "1",
+                "ProjectileCount": "9",
+                "Damage": "171",
+                "InitialSpeed": "430",
+                "RicochetChance": "0.24",
+                "FragmentationChance": "0.17",
+                "BulletMassGram": "3.5",
+                "HeavyBleedingDelta": "0.4",
+                "LightBleedingDelta": "0.9",
+                "ammoAccr": "10",
+                "ammoHear": "0",
+                "ammoRec": "20",
+                "MalfMisfireChance": "0",
+                "MisfireChance": "0",
+                "MalfFeedChance": "0",
+                "DurabilityBurnModificator": "2.8",
+                "HeatFactor": "1.28"
+            }
+        ]
+    },
+    {
         "caliber": "20ga slug",
         "types": [
             {
@@ -470,7 +704,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.3",
-                "HeatFactor": "1.3"
+                "HeatFactor": "1.3",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Devestator HP slug",
@@ -490,7 +725,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
-                "HeatFactor": "1.04"
+                "HeatFactor": "1.04",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Poleva 3 HP slug",
@@ -510,7 +746,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.1",
-                "HeatFactor": "1.1"
+                "HeatFactor": "1.1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Poleva 6u FMJ slug",
@@ -530,7 +767,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.2",
-                "HeatFactor": "1.32"
+                "HeatFactor": "1.32",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -586,6 +824,57 @@ const data = [
         ]
     },
     {
+        "caliber": "KS23 shot sum",
+        "types": [
+            {
+                "name": "Shrap 10",
+                "PenetrationPower": "22",
+                "ArmorDamage": "1",
+                "ProjectileCount": "12",
+                "Damage": "264",
+                "InitialSpeed": "270",
+                "RicochetChance": "0.35",
+                "FragmentationChance": "0.05",
+                "BulletMassGram": "3.38",
+                "HeavyBleedingDelta": "0.6",
+                "LightBleedingDelta": "0.9",
+                "ammoAccr": "-50",
+                "ammoHear": "0",
+                "ammoRec": "0",
+                "BallisticCoeficient": "0.018",
+                "BulletDiameterMilimeters": "8.5",
+                "MalfMisfireChance": "0",
+                "MisfireChance": "0",
+                "MalfFeedChance": "0",
+                "DurabilityBurnModificator": "1",
+                "HeatFactor": "1"
+            },
+            {
+                "name": "Shrap 25",
+                "PenetrationPower": "35",
+                "ArmorDamage": "1",
+                "ProjectileCount": "12",
+                "Damage": "240",
+                "InitialSpeed": "375",
+                "RicochetChance": "0.35",
+                "FragmentationChance": "0",
+                "BulletMassGram": "3.38",
+                "HeavyBleedingDelta": "0.5",
+                "LightBleedingDelta": "0.9",
+                "ammoAccr": "0",
+                "ammoHear": "0",
+                "ammoRec": "-10",
+                "BallisticCoeficient": "0.020",
+                "BulletDiameterMilimeters": "8.5",
+                "MalfMisfireChance": "0",
+                "MisfireChance": "0",
+                "MalfFeedChance": "0",
+                "DurabilityBurnModificator": "1",
+                "HeatFactor": "1"
+            }
+        ]
+    },
+    {
         "caliber": "KS23 slug",
         "types": [
             {
@@ -606,7 +895,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "10",
-                "HeatFactor": "1.58"
+                "HeatFactor": "1.58",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Flashbang",
@@ -617,7 +907,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -642,7 +933,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PM SP7 gzh",
@@ -662,7 +954,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "5.1",
-                "HeatFactor": "1.62"
+                "HeatFactor": "1.62",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PM PSV",
@@ -682,7 +975,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.3",
-                "HeatFactor": "1.06"
+                "HeatFactor": "1.06",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PM P gzh",
@@ -702,7 +996,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PM PSO gzh",
@@ -722,7 +1017,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
-                "HeatFactor": "1.08"
+                "HeatFactor": "1.08",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PM PS gs PPO",
@@ -742,7 +1038,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
-                "HeatFactor": "1.2"
+                "HeatFactor": "1.2",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PM PRS gs",
@@ -762,7 +1059,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PM PPe gzh",
@@ -782,7 +1080,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.1",
-                "HeatFactor": "1.22"
+                "HeatFactor": "1.22",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PM PPT gzh",
@@ -802,7 +1101,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
-                "HeatFactor": "1.04"
+                "HeatFactor": "1.04",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PM Pst gzh",
@@ -822,7 +1122,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PM RG028 gzh",
@@ -842,7 +1143,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.4",
-                "HeatFactor": "1.14"
+                "HeatFactor": "1.14",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PM 9 BZT gzh",
@@ -862,7 +1164,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.8",
-                "HeatFactor": "1.08"
+                "HeatFactor": "1.08",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PM PBM",
@@ -882,7 +1185,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.5",
-                "HeatFactor": "1.38"
+                "HeatFactor": "1.38",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PM PMM 7n16",
@@ -902,7 +1206,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "4",
-                "HeatFactor": "1.6"
+                "HeatFactor": "1.6",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -927,7 +1232,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
-                "HeatFactor": "1.04"
+                "HeatFactor": "1.04",
+                "ProjectileCount": "1"
             },
             {
                 "name": "QuakeMaker",
@@ -947,7 +1253,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "12",
-                "HeatFactor": "1.24"
+                "HeatFactor": "1.24",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Luger CCI",
@@ -967,7 +1274,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3",
-                "HeatFactor": "1.22"
+                "HeatFactor": "1.22",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Green Tracer",
@@ -987,7 +1295,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.5",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PSO gzh",
@@ -1007,7 +1316,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "M882",
@@ -1027,7 +1337,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "5",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Pst gzh",
@@ -1048,7 +1359,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "13",
-                "HeatFactor": "1.24"
+                "HeatFactor": "1.24",
+                "ProjectileCount": "1"
             },
             {
                 "name": "7N31",
@@ -1069,7 +1381,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "15",
-                "HeatFactor": "1.4"
+                "HeatFactor": "1.4",
+                "ProjectileCount": "1"
             },
             {
                 "name": "AP 6.3",
@@ -1089,7 +1402,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "14",
-                "HeatFactor": "1.32"
+                "HeatFactor": "1.32",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -1114,7 +1428,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.075",
-                "HeatFactor": "1.05"
+                "HeatFactor": "1.05",
+                "ProjectileCount": "1"
             },
             {
                 "name": "SP11 P",
@@ -1134,7 +1449,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.05",
-                "HeatFactor": "1.02"
+                "HeatFactor": "1.02",
+                "ProjectileCount": "1"
             },
             {
                 "name": "7U4",
@@ -1153,7 +1469,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "SP10 PS",
@@ -1173,7 +1490,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "6",
-                "HeatFactor": "1.1"
+                "HeatFactor": "1.1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "SP13 BT",
@@ -1193,7 +1511,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "6.25",
-                "HeatFactor": "1.15"
+                "HeatFactor": "1.15",
+                "ProjectileCount": "1"
             },
             {
                 "name": "7N24",
@@ -1212,7 +1531,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "7",
-                "HeatFactor": "1.2"
+                "HeatFactor": "1.2",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -1237,7 +1557,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Hydra-Shok",
@@ -1257,7 +1578,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "12",
-                "HeatFactor": "1.12"
+                "HeatFactor": "1.12",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Lasermatch FMJ",
@@ -1277,7 +1599,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "FMJ",
@@ -1297,7 +1620,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.5",
-                "HeatFactor": "1.2"
+                "HeatFactor": "1.2",
+                "ProjectileCount": "1"
             },
             {
                 "name": "AP",
@@ -1317,7 +1641,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "16",
-                "HeatFactor": "1.64"
+                "HeatFactor": "1.64",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -1340,7 +1665,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.5",
-                "HeatFactor": "1.5"
+                "HeatFactor": "1.5",
+                "ProjectileCount": "1"
             },
             {
                 "name": "JHP",
@@ -1358,7 +1684,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.5",
-                "HeatFactor": "1.3"
+                "HeatFactor": "1.3",
+                "ProjectileCount": "1"
             },
             {
                 "name": "SP",
@@ -1376,7 +1703,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3",
-                "HeatFactor": "1.4"
+                "HeatFactor": "1.4",
+                "ProjectileCount": "1"
             },
             {
                 "name": "FMJ",
@@ -1394,7 +1722,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -1419,7 +1748,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Action SX",
@@ -1439,7 +1769,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Subsonic SX",
@@ -1459,7 +1790,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "FMJ SX",
@@ -1479,7 +1811,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "AP SX",
@@ -1499,7 +1832,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.11",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -1524,7 +1858,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.1",
-                "HeatFactor": "1.22"
+                "HeatFactor": "1.22",
+                "ProjectileCount": "1"
             },
             {
                 "name": "SS198LF",
@@ -1544,7 +1879,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.3",
-                "HeatFactor": "1.06"
+                "HeatFactor": "1.06",
+                "ProjectileCount": "1"
             },
             {
                 "name": "R37.X",
@@ -1564,7 +1900,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
-                "HeatFactor": "1.2"
+                "HeatFactor": "1.2",
+                "ProjectileCount": "1"
             },
             {
                 "name": "SS197SR",
@@ -1584,7 +1921,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "L191",
@@ -1604,7 +1942,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "SB193",
@@ -1624,7 +1963,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "SS190",
@@ -1644,7 +1984,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.12",
-                "HeatFactor": "1.02"
+                "HeatFactor": "1.02",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -1669,7 +2010,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.3",
-                "HeatFactor": "1.04"
+                "HeatFactor": "1.04",
+                "ProjectileCount": "1"
             },
             {
                 "name": "LRN",
@@ -1689,7 +2031,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "FMJ43",
@@ -1709,7 +2052,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.3",
-                "HeatFactor": "1.26"
+                "HeatFactor": "1.26",
+                "ProjectileCount": "1"
             },
             {
                 "name": "AKBS",
@@ -1729,7 +2073,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.5",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "P gl",
@@ -1749,7 +2094,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PT gl",
@@ -1769,7 +2115,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Pst gzh",
@@ -1789,7 +2136,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -1814,7 +2162,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
-                "HeatFactor": "1.08"
+                "HeatFactor": "1.08",
+                "ProjectileCount": "1"
             },
             {
                 "name": "UCW",
@@ -1834,7 +2183,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "FMJ",
@@ -1854,7 +2204,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "AP",
@@ -1874,7 +2225,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "8",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -1899,7 +2251,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
-                "HeatFactor": "1.04"
+                "HeatFactor": "1.04",
+                "ProjectileCount": "1"
             },
             {
                 "name": "SP5",
@@ -1919,7 +2272,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
-                "HeatFactor": "1.04"
+                "HeatFactor": "1.04",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PAB-9",
@@ -1939,7 +2293,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "8.4",
-                "HeatFactor": "1.08"
+                "HeatFactor": "1.08",
+                "ProjectileCount": "1"
             },
             {
                 "name": "SP6",
@@ -1959,7 +2314,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "6.5",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "7N9 SPP",
@@ -1979,7 +2335,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "6.7",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "7N12 BP",
@@ -1999,7 +2356,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "6",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -2024,7 +2382,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "V-Max",
@@ -2044,7 +2403,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.7",
-                "HeatFactor": "1.14"
+                "HeatFactor": "1.14",
+                "ProjectileCount": "1"
             },
             {
                 "name": "BCP FMJ",
@@ -2064,7 +2424,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "M62 .300blk",
@@ -2084,7 +2445,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.5",
-                "HeatFactor": "1.1"
+                "HeatFactor": "1.1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "AAC AP",
@@ -2104,7 +2466,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3",
-                "HeatFactor": "1.2"
+                "HeatFactor": "1.2",
+                "ProjectileCount": "1"
             },
             {
                 "name": "CBJ",
@@ -2124,7 +2487,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "5",
-                "HeatFactor": "1.2"
+                "HeatFactor": "1.2",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -2149,7 +2513,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
-                "HeatFactor": "1.08"
+                "HeatFactor": "1.08",
+                "ProjectileCount": "1"
             },
             {
                 "name": "FMJ",
@@ -2169,7 +2534,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "EKO",
@@ -2189,7 +2555,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "AP-M",
@@ -2209,7 +2576,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "7.4",
-                "HeatFactor": "1.14"
+                "HeatFactor": "1.14",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -2234,7 +2602,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.1",
-                "HeatFactor": "1.42"
+                "HeatFactor": "1.42",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PS12",
@@ -2254,7 +2623,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PS12B",
@@ -2274,7 +2644,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.9",
-                "HeatFactor": "1.48"
+                "HeatFactor": "1.48",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -2299,7 +2670,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "BT SP",
@@ -2319,7 +2691,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "FMJ",
@@ -2339,7 +2712,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "T-46M",
@@ -2359,7 +2733,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "LPS Gzh",
@@ -2379,7 +2754,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.4",
-                "HeatFactor": "1.08"
+                "HeatFactor": "1.08",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PS 7N1",
@@ -2399,7 +2775,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.5",
-                "HeatFactor": "1.1"
+                "HeatFactor": "1.1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "7BT1 BT",
@@ -2419,7 +2796,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.2",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "SNB",
@@ -2439,7 +2817,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2.6",
-                "HeatFactor": "1.12"
+                "HeatFactor": "1.12",
+                "ProjectileCount": "1"
             },
             {
                 "name": "7N37",
@@ -2459,7 +2838,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "12.5",
-                "HeatFactor": "1.3"
+                "HeatFactor": "1.3",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -2484,7 +2864,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
-                "HeatFactor": "1.06"
+                "HeatFactor": "1.06",
+                "ProjectileCount": "1"
             },
             {
                 "name": "BPZ FMJ",
@@ -2504,7 +2885,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.3",
-                "HeatFactor": "1.06"
+                "HeatFactor": "1.06",
+                "ProjectileCount": "1"
             },
             {
                 "name": "TPZ SP",
@@ -2524,7 +2906,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
-                "HeatFactor": "1.2"
+                "HeatFactor": "1.2",
+                "ProjectileCount": "1"
             },
             {
                 "name": "M80",
@@ -2545,7 +2928,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "M62",
@@ -2565,7 +2949,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.05",
-                "HeatFactor": "1.02"
+                "HeatFactor": "1.02",
+                "ProjectileCount": "1"
             },
             {
                 "name": "M61",
@@ -2585,7 +2970,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
-                "HeatFactor": "1.04"
+                "HeatFactor": "1.04",
+                "ProjectileCount": "1"
             },
             {
                 "name": "M993",
@@ -2605,7 +2991,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -2630,7 +3017,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "HP",
@@ -2650,7 +3038,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.5",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "SP",
@@ -2670,7 +3059,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "FMJ",
@@ -2690,7 +3080,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "T45M",
@@ -2710,7 +3101,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PS",
@@ -2730,7 +3122,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3",
-                "HeatFactor": "1.03"
+                "HeatFactor": "1.03",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PP",
@@ -2750,7 +3143,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.3",
-                "HeatFactor": "1.04"
+                "HeatFactor": "1.04",
+                "ProjectileCount": "1"
             },
             {
                 "name": "BP",
@@ -2770,7 +3164,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.8",
-                "HeatFactor": "1.08"
+                "HeatFactor": "1.08",
+                "ProjectileCount": "1"
             },
             {
                 "name": "MAI AP",
@@ -2790,7 +3185,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "9.4",
-                "HeatFactor": "1.24"
+                "HeatFactor": "1.24",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -2815,7 +3211,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
-                "HeatFactor": "1.08"
+                "HeatFactor": "1.08",
+                "ProjectileCount": "1"
             },
             {
                 "name": "HP",
@@ -2835,7 +3232,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.25",
-                "HeatFactor": "1.1"
+                "HeatFactor": "1.1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PRS",
@@ -2855,7 +3253,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
-                "HeatFactor": "1.025"
+                "HeatFactor": "1.025",
+                "ProjectileCount": "1"
             },
             {
                 "name": "US",
@@ -2875,7 +3274,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "FMJ",
@@ -2895,7 +3295,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
-                "HeatFactor": "1.05"
+                "HeatFactor": "1.05",
+                "ProjectileCount": "1"
             },
             {
                 "name": "T",
@@ -2915,7 +3316,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PS",
@@ -2935,7 +3337,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1.05"
+                "HeatFactor": "1.05",
+                "ProjectileCount": "1"
             },
             {
                 "name": "PP",
@@ -2955,7 +3358,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.1",
-                "HeatFactor": "1.07"
+                "HeatFactor": "1.07",
+                "ProjectileCount": "1"
             },
             {
                 "name": "BP",
@@ -2975,7 +3379,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
-                "HeatFactor": "1.14"
+                "HeatFactor": "1.14",
+                "ProjectileCount": "1"
             },
             {
                 "name": "BT",
@@ -2995,7 +3400,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.1",
-                "HeatFactor": "1.15"
+                "HeatFactor": "1.15",
+                "ProjectileCount": "1"
             },
             {
                 "name": "BS",
@@ -3015,7 +3421,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.4",
-                "HeatFactor": "1.17"
+                "HeatFactor": "1.17",
+                "ProjectileCount": "1"
             },
             {
                 "name": "7N40",
@@ -3035,7 +3442,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.8",
-                "HeatFactor": "1.1"
+                "HeatFactor": "1.1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "7N39 PPBS",
@@ -3055,7 +3463,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.6",
-                "HeatFactor": "1.18"
+                "HeatFactor": "1.18",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -3081,7 +3490,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Hybrid",
@@ -3102,7 +3512,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "10",
-                "HeatFactor": "1.2"
+                "HeatFactor": "1.2",
+                "ProjectileCount": "1"
             }
         ]
     },
@@ -3127,7 +3538,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "2",
-                "HeatFactor": "1.12"
+                "HeatFactor": "1.12",
+                "ProjectileCount": "1"
             },
             {
                 "name": "55 HP",
@@ -3147,7 +3559,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1.08"
+                "HeatFactor": "1.08",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Mk 255 Mod 0",
@@ -3167,7 +3580,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "Mk 318 Mod 0 (SOST)",
@@ -3187,7 +3601,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.8",
-                "HeatFactor": "1.1"
+                "HeatFactor": "1.1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "M856",
@@ -3207,7 +3622,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1",
-                "HeatFactor": "1"
+                "HeatFactor": "1",
+                "ProjectileCount": "1"
             },
             {
                 "name": "FMJ",
@@ -3227,7 +3643,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
-                "HeatFactor": "1.04"
+                "HeatFactor": "1.04",
+                "ProjectileCount": "1"
             },
             {
                 "name": "M856A1",
@@ -3247,7 +3664,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.2",
-                "HeatFactor": "1.04"
+                "HeatFactor": "1.04",
+                "ProjectileCount": "1"
             },
             {
                 "name": "M855",
@@ -3267,7 +3685,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "1.3",
-                "HeatFactor": "1.07"
+                "HeatFactor": "1.07",
+                "ProjectileCount": "1"
             },
             {
                 "name": "M855A1",
@@ -3287,7 +3706,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "8",
-                "HeatFactor": "1.15"
+                "HeatFactor": "1.15",
+                "ProjectileCount": "1"
             },
             {
                 "name": "M995",
@@ -3307,7 +3727,8 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "3.5",
-                "HeatFactor": "1.12"
+                "HeatFactor": "1.12",
+                "ProjectileCount": "1"
             },
             {
                 "name": "SSA AP",
@@ -3327,8 +3748,9 @@ const data = [
                 "MisfireChance": "0",
                 "MalfFeedChance": "0",
                 "DurabilityBurnModificator": "9",
-                "HeatFactor": "1.24"
+                "HeatFactor": "1.24",
+                "ProjectileCount": "1"
             }
         ]
     }
-];
+]
