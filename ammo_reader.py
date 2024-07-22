@@ -1,8 +1,6 @@
 import json
 
-
-# If not sure where you are put in an absolute path
-input_file = "user/mods/SPT-Realism/src/ballistics/ammo.js"
+input_file = "ammo.js"
 output_file = "output.json"
 
 def extract_data(file_path):
@@ -19,6 +17,7 @@ def extract_data(file_path):
     types = []
     slug_types = []
     shot_types = []
+    shot_sum_types = []
 
     for line in lines:
         line = line.strip()
@@ -28,12 +27,16 @@ def extract_data(file_path):
                 if current_type:
                     if "ProjectileCount" in current_type and int(current_type["ProjectileCount"]) > 1:
                         shot_types.append(current_type)
+                        shot_sum_type = current_type.copy()
+                        shot_sum_type["Damage"] = str(int(current_type["Damage"]) * int(current_type["ProjectileCount"]))
+                        shot_sum_types.append(shot_sum_type)
                     else:
                         slug_types.append(current_type)
                     current_type = None
                 
                 if shot_types and slug_types:
                     data_list.append({"caliber": current_caliber + " shot", "types": shot_types})
+                    data_list.append({"caliber": current_caliber + " shot sum", "types": shot_sum_types})
                     data_list.append({"caliber": current_caliber + " slug", "types": slug_types})
                 else:
                     data_list.append({"caliber": current_caliber, "types": shot_types + slug_types})
@@ -45,6 +48,7 @@ def extract_data(file_path):
             types = []
             slug_types = []
             shot_types = []
+            shot_sum_types = []
 
         elif line.startswith("///"):
             break
@@ -53,6 +57,9 @@ def extract_data(file_path):
             if current_type:
                 if "ProjectileCount" in current_type and int(current_type["ProjectileCount"]) > 1:
                     shot_types.append(current_type)
+                    shot_sum_type = current_type.copy()
+                    shot_sum_type["Damage"] = str(int(current_type["Damage"]) * int(current_type["ProjectileCount"]))
+                    shot_sum_types.append(shot_sum_type)
                 else:
                     slug_types.append(current_type)
             current_type = {"name": line.replace("//", "").strip()}
@@ -64,12 +71,16 @@ def extract_data(file_path):
     if current_type:
         if "ProjectileCount" in current_type and int(current_type["ProjectileCount"]) > 1:
             shot_types.append(current_type)
+            shot_sum_type = current_type.copy()
+            shot_sum_type["Damage"] = str(int(current_type["Damage"]) * int(current_type["ProjectileCount"]))
+            shot_sum_types.append(shot_sum_type)
         else:
             slug_types.append(current_type)
     if current_caliber:
         if shot_types and slug_types:
             data_list.append({"caliber": current_caliber + " shot", "types": shot_types})
             data_list.append({"caliber": current_caliber + " slug", "types": slug_types})
+            data_list.append({"caliber": current_caliber + " shot sum", "types": shot_sum_types})
         else:
             data_list.append({"caliber": current_caliber, "types": shot_types + slug_types})
 
