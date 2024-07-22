@@ -83,7 +83,7 @@ function initializeChart() {
                             label += `Heavy Bleeding Delta: ${type.HeavyBleedingDelta}\n`;
                             label += `Light Bleeding Delta: ${type.LightBleedingDelta}\n`;
                             label += `Ammo Accuracy: ${type.ammoAccr}\n`;
-                            label += `Ammo Hear: ${type.ammoHear}\n`;
+                            // label += `Ammo Hear: ${type.ammoHear}\n`;
                             label += `Ammo Recoil: ${type.ammoRec}\n`;
                             return label.split('\n');
                         }
