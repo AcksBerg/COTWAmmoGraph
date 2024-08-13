@@ -16,6 +16,7 @@ query Ammo_query {
   items(lang: en, type: ammo) {
     id
     name
+    weight
     properties {
       ... on ItemPropertiesAmmo {
         penetrationPower
@@ -32,6 +33,7 @@ query Ammo_query {
         failureToFeedChance
         misfireChance
         heatFactor
+        bulletMassGrams
       }
     }
   }

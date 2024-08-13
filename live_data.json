@@ -4,11 +4,13 @@
             {
                 "id": "5448be9a4bdc2dfd2f8b456a",
                 "name": "RGD-5 hand grenade",
+                "weight": 0.31,
                 "properties": {}
             },
             {
                 "id": "54527a984bdc2d4e668b4567",
                 "name": "5.56x45mm M855",
+                "weight": 0.012,
                 "properties": {
                     "penetrationPower": 31,
                     "damage": 57,
@@ -29,6 +31,7 @@
             {
                 "id": "54527ac44bdc2d36668b4567",
                 "name": "5.56x45mm M855A1",
+                "weight": 0.012,
                 "properties": {
                     "penetrationPower": 44,
                     "damage": 49,
@@ -49,6 +52,7 @@
             {
                 "id": "560d5e524bdc2d25448b4571",
                 "name": "12/70 7mm buckshot",
+                "weight": 0.05,
                 "properties": {
                     "penetrationPower": 3,
                     "damage": 39,
@@ -69,6 +73,7 @@
             {
                 "id": "560d61e84bdc2da74d8b4571",
                 "name": "7.62x54mm R SNB gzh",
+                "weight": 0.024,
                 "properties": {
                     "penetrationPower": 62,
                     "damage": 75,
@@ -89,6 +94,7 @@
             {
                 "id": "5656d7c34bdc2d9d198b4587",
                 "name": "7.62x39mm PS gzh",
+                "weight": 0.016,
                 "properties": {
                     "penetrationPower": 35,
                     "damage": 57,
@@ -109,6 +115,7 @@
             {
                 "id": "5656eb674bdc2d35148b457c",
                 "name": "40mm VOG-25 grenade",
+                "weight": 0.255,
                 "properties": {
                     "penetrationPower": 0,
                     "damage": 199,
@@ -129,6 +136,7 @@
             {
                 "id": "56d59d3ad2720bdb418b4577",
                 "name": "9x19mm Pst gzh",
+                "weight": 0.005,
                 "properties": {
                     "penetrationPower": 20,
                     "damage": 54,
@@ -149,6 +157,7 @@
             {
                 "id": "56dfef82d2720bbd668b4567",
                 "name": "5.45x39mm BP gs",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 45,
                     "damage": 46,
@@ -169,6 +178,7 @@
             {
                 "id": "56dff026d2720bb8668b4567",
                 "name": "5.45x39mm BS gs",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 54,
                     "damage": 43,
@@ -189,6 +199,7 @@
             {
                 "id": "56dff061d2720bb5668b4567",
                 "name": "5.45x39mm BT gs",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 37,
                     "damage": 48,
@@ -209,6 +220,7 @@
             {
                 "id": "56dff0bed2720bb0668b4567",
                 "name": "5.45x39mm FMJ",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 24,
                     "damage": 55,
@@ -229,6 +241,7 @@
             {
                 "id": "56dff216d2720bbd668b4568",
                 "name": "5.45x39mm HP",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 9,
                     "damage": 76,
@@ -249,6 +262,7 @@
             {
                 "id": "56dff2ced2720bb4668b4567",
                 "name": "5.45x39mm PP gs",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 34,
                     "damage": 50,
@@ -269,6 +283,7 @@
             {
                 "id": "56dff338d2720bbd668b4569",
                 "name": "5.45x39mm PRS gs",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 13,
                     "damage": 70,
@@ -289,6 +304,7 @@
             {
                 "id": "56dff3afd2720bba668b4567",
                 "name": "5.45x39mm PS gs",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 28,
                     "damage": 53,
@@ -309,6 +325,7 @@
             {
                 "id": "56dff421d2720b5f5a8b4567",
                 "name": "5.45x39mm SP",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 15,
                     "damage": 65,
@@ -329,6 +346,7 @@
             {
                 "id": "56dff4a2d2720bbd668b456a",
                 "name": "5.45x39mm T gs",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 20,
                     "damage": 57,
@@ -349,6 +367,7 @@
             {
                 "id": "56dff4ecd2720b5f5a8b4568",
                 "name": "5.45x39mm US gs",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 17,
                     "damage": 63,
@@ -369,11 +388,13 @@
             {
                 "id": "5710c24ad2720bc3458b45a3",
                 "name": "F-1 hand grenade",
+                "weight": 0.6,
                 "properties": {}
             },
             {
                 "id": "5735fdcd2459776445391d61",
                 "name": "7.62x25mm TT AKBS",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 12,
                     "damage": 58,
@@ -394,6 +415,7 @@
             {
                 "id": "5735ff5c245977640e39ba7e",
                 "name": "7.62x25mm TT FMJ43",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 11,
                     "damage": 60,
@@ -414,6 +436,7 @@
             {
                 "id": "573601b42459776410737435",
                 "name": "7.62x25mm TT LRN",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 8,
                     "damage": 64,
@@ -434,6 +457,7 @@
             {
                 "id": "573602322459776445391df1",
                 "name": "7.62x25mm TT LRNPC",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 7,
                     "damage": 66,
@@ -454,6 +478,7 @@
             {
                 "id": "5736026a245977644601dc61",
                 "name": "7.62x25mm TT P gl",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 14,
                     "damage": 58,
@@ -474,6 +499,7 @@
             {
                 "id": "573603562459776430731618",
                 "name": "7.62x25mm TT Pst gzh",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 25,
                     "damage": 50,
@@ -494,6 +520,7 @@
             {
                 "id": "573603c924597764442bd9cb",
                 "name": "7.62x25mm TT PT gzh",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 18,
                     "damage": 55,
@@ -514,6 +541,7 @@
             {
                 "id": "573718ba2459775a75491131",
                 "name": "9x18mm PM BZhT gzh",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 18,
                     "damage": 53,
@@ -534,6 +562,7 @@
             {
                 "id": "573719762459775a626ccbc1",
                 "name": "9x18mm PM P gzh",
+                "weight": 0.011,
                 "properties": {
                     "penetrationPower": 5,
                     "damage": 50,
@@ -554,6 +583,7 @@
             {
                 "id": "573719df2459775a626ccbc2",
                 "name": "9x18mm PM PBM gzh",
+                "weight": 0.007,
                 "properties": {
                     "penetrationPower": 28,
                     "damage": 40,
@@ -574,6 +604,7 @@
             {
                 "id": "57371aab2459775a77142f22",
                 "name": "9x18mm PMM PstM gzh",
+                "weight": 0.009,
                 "properties": {
                     "penetrationPower": 24,
                     "damage": 58,
@@ -594,6 +625,7 @@
             {
                 "id": "57371b192459775a9f58a5e0",
                 "name": "9x18mm PM PPe gzh",
+                "weight": 0.009,
                 "properties": {
                     "penetrationPower": 7,
                     "damage": 61,
@@ -614,6 +646,7 @@
             {
                 "id": "57371e4124597760ff7b25f1",
                 "name": "9x18mm PM PPT gzh",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 8,
                     "damage": 59,
@@ -634,6 +667,7 @@
             {
                 "id": "57371eb62459776125652ac1",
                 "name": "9x18mm PM PRS gs",
+                "weight": 0.011,
                 "properties": {
                     "penetrationPower": 6,
                     "damage": 58,
@@ -654,6 +688,7 @@
             {
                 "id": "57371f2b24597761224311f1",
                 "name": "9x18mm PM PS gs PPO",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 6,
                     "damage": 55,
@@ -674,6 +709,7 @@
             {
                 "id": "57371f8d24597761006c6a81",
                 "name": "9x18mm PM PSO gzh",
+                "weight": 0.008,
                 "properties": {
                     "penetrationPower": 5,
                     "damage": 54,
@@ -694,6 +730,7 @@
             {
                 "id": "5737201124597760fc4431f1",
                 "name": "9x18mm PM Pst gzh",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 12,
                     "damage": 50,
@@ -714,6 +751,7 @@
             {
                 "id": "5737207f24597760ff7b25f2",
                 "name": "9x18mm PM PSV",
+                "weight": 0.012,
                 "properties": {
                     "penetrationPower": 3,
                     "damage": 69,
@@ -734,6 +772,7 @@
             {
                 "id": "573720e02459776143012541",
                 "name": "9x18mm PM RG028 gzh",
+                "weight": 0.011,
                 "properties": {
                     "penetrationPower": 13,
                     "damage": 65,
@@ -754,6 +793,7 @@
             {
                 "id": "57372140245977611f70ee91",
                 "name": "9x18mm PM SP7 gzh",
+                "weight": 0.011,
                 "properties": {
                     "penetrationPower": 2,
                     "damage": 77,
@@ -774,6 +814,7 @@
             {
                 "id": "5737218f245977612125ba51",
                 "name": "9x18mm PM SP8 gzh",
+                "weight": 0.009,
                 "properties": {
                     "penetrationPower": 1,
                     "damage": 67,
@@ -794,16 +835,19 @@
             {
                 "id": "5737292724597765e5728562",
                 "name": "5.45x39mm BP gs ammo pack (120 pcs)",
+                "weight": 0.1,
                 "properties": null
             },
             {
                 "id": "57372c21245977670937c6c2",
                 "name": "5.45x39mm BT gs ammo pack (120 pcs)",
+                "weight": 0.1,
                 "properties": null
             },
             {
                 "id": "57a0dfb82459774d3078b56c",
                 "name": "9x39mm SP-5 gs",
+                "weight": 0.023,
                 "properties": {
                     "penetrationPower": 28,
                     "damage": 71,
@@ -824,6 +868,7 @@
             {
                 "id": "57a0e5022459774d1673f889",
                 "name": "9x39mm SP-6 gs",
+                "weight": 0.023,
                 "properties": {
                     "penetrationPower": 48,
                     "damage": 60,
@@ -844,6 +889,7 @@
             {
                 "id": "58820d1224597753c90aeb13",
                 "name": "12/70 lead slug",
+                "weight": 0.05,
                 "properties": {
                     "penetrationPower": 15,
                     "damage": 167,
@@ -864,6 +910,7 @@
             {
                 "id": "58864a4f2459770fcc257101",
                 "name": "9x19mm PSO gzh",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 10,
                     "damage": 59,
@@ -884,6 +931,7 @@
             {
                 "id": "5887431f2459777e1612938f",
                 "name": "7.62x54mm R LPS gzh",
+                "weight": 0.024,
                 "properties": {
                     "penetrationPower": 42,
                     "damage": 81,
@@ -904,11 +952,13 @@
             {
                 "id": "58d3db5386f77426186285a0",
                 "name": "M67 hand grenade",
+                "weight": 0.396,
                 "properties": {}
             },
             {
                 "id": "58dd3ad986f77403051cba8f",
                 "name": "7.62x51mm M80",
+                "weight": 0.024,
                 "properties": {
                     "penetrationPower": 41,
                     "damage": 80,
@@ -929,6 +979,7 @@
             {
                 "id": "59e0d99486f7744a32234762",
                 "name": "7.62x39mm BP gzh",
+                "weight": 0.016,
                 "properties": {
                     "penetrationPower": 47,
                     "damage": 58,
@@ -949,6 +1000,7 @@
             {
                 "id": "59e4cf5286f7741778269d8a",
                 "name": "7.62x39mm T-45M1 gzh",
+                "weight": 0.016,
                 "properties": {
                     "penetrationPower": 30,
                     "damage": 64,
@@ -969,6 +1021,7 @@
             {
                 "id": "59e4d24686f7741776641ac7",
                 "name": "7.62x39mm US gzh",
+                "weight": 0.02,
                 "properties": {
                     "penetrationPower": 29,
                     "damage": 56,
@@ -989,6 +1042,7 @@
             {
                 "id": "59e4d3d286f774176a36250a",
                 "name": "7.62x39mm HP",
+                "weight": 0.012,
                 "properties": {
                     "penetrationPower": 15,
                     "damage": 87,
@@ -1009,6 +1063,7 @@
             {
                 "id": "59e6542b86f77411dc52a77a",
                 "name": ".366 TKM FMJ",
+                "weight": 0.016,
                 "properties": {
                     "penetrationPower": 23,
                     "damage": 98,
@@ -1029,6 +1084,7 @@
             {
                 "id": "59e655cb86f77411dc52a77b",
                 "name": ".366 TKM EKO",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 30,
                     "damage": 73,
@@ -1049,6 +1105,7 @@
             {
                 "id": "59e6658b86f77411d949b250",
                 "name": ".366 TKM Geksa",
+                "weight": 0.016,
                 "properties": {
                     "penetrationPower": 14,
                     "damage": 110,
@@ -1069,6 +1126,7 @@
             {
                 "id": "59e68f6f86f7746c9f75e846",
                 "name": "5.56x45mm M856",
+                "weight": 0.012,
                 "properties": {
                     "penetrationPower": 18,
                     "damage": 64,
@@ -1089,6 +1147,7 @@
             {
                 "id": "59e6906286f7746c9f75e847",
                 "name": "5.56x45mm M856A1",
+                "weight": 0.012,
                 "properties": {
                     "penetrationPower": 38,
                     "damage": 52,
@@ -1109,6 +1168,7 @@
             {
                 "id": "59e690b686f7746c9f75e848",
                 "name": "5.56x45mm M995",
+                "weight": 0.012,
                 "properties": {
                     "penetrationPower": 53,
                     "damage": 42,
@@ -1129,6 +1189,7 @@
             {
                 "id": "59e6918f86f7746c9f75e849",
                 "name": "5.56x45mm MK 255 Mod 0 (RRLP)",
+                "weight": 0.012,
                 "properties": {
                     "penetrationPower": 11,
                     "damage": 72,
@@ -1149,6 +1210,7 @@
             {
                 "id": "59e6920f86f77411d82aa167",
                 "name": "5.56x45mm FMJ",
+                "weight": 0.012,
                 "properties": {
                     "penetrationPower": 23,
                     "damage": 59,
@@ -1169,6 +1231,7 @@
             {
                 "id": "59e6927d86f77411da468256",
                 "name": "5.56x45mm HP",
+                "weight": 0.012,
                 "properties": {
                     "penetrationPower": 7,
                     "damage": 79,
@@ -1189,6 +1252,7 @@
             {
                 "id": "59e77a2386f7742ee578960a",
                 "name": "7.62x54mm R PS gzh",
+                "weight": 0.024,
                 "properties": {
                     "penetrationPower": 45,
                     "damage": 84,
@@ -1209,11 +1273,13 @@
             {
                 "id": "5a0c27731526d80618476ac4",
                 "name": "Zarya stun grenade",
+                "weight": 0.175,
                 "properties": {}
             },
             {
                 "id": "5a269f97c4a282000b151807",
                 "name": "9x21mm PS gzh",
+                "weight": 0.023,
                 "properties": {
                     "penetrationPower": 22,
                     "damage": 54,
@@ -1234,6 +1300,7 @@
             {
                 "id": "5a26abfac4a28232980eabff",
                 "name": "9x21mm P gzh",
+                "weight": 0.023,
                 "properties": {
                     "penetrationPower": 18,
                     "damage": 65,
@@ -1254,6 +1321,7 @@
             {
                 "id": "5a26ac06c4a282000c5a90a8",
                 "name": "9x21mm PE gzh",
+                "weight": 0.023,
                 "properties": {
                     "penetrationPower": 15,
                     "damage": 80,
@@ -1274,6 +1342,7 @@
             {
                 "id": "5a26ac0ec4a28200741e1e18",
                 "name": "9x21mm BT gzh",
+                "weight": 0.023,
                 "properties": {
                     "penetrationPower": 32,
                     "damage": 49,
@@ -1294,11 +1363,13 @@
             {
                 "id": "5a2a57cfc4a2826c6e06d44a",
                 "name": "RDG-2B smoke grenade",
+                "weight": 0.6,
                 "properties": {}
             },
             {
                 "id": "5a38ebd9c4a282000d722a5b",
                 "name": "20/70 7.5mm buckshot",
+                "weight": 0.04,
                 "properties": {
                     "penetrationPower": 3,
                     "damage": 25,
@@ -1319,6 +1390,7 @@
             {
                 "id": "5a3c16fe86f77452b62de32a",
                 "name": "9x19mm Luger CCI",
+                "weight": 0.015,
                 "properties": {
                     "penetrationPower": 10,
                     "damage": 70,
@@ -1339,6 +1411,7 @@
             {
                 "id": "5a6086ea4f39f99cd479502f",
                 "name": "7.62x51mm M61",
+                "weight": 0.024,
                 "properties": {
                     "penetrationPower": 64,
                     "damage": 70,
@@ -1359,6 +1432,7 @@
             {
                 "id": "5a608bf24f39f98ffc77720e",
                 "name": "7.62x51mm M62 Tracer",
+                "weight": 0.024,
                 "properties": {
                     "penetrationPower": 44,
                     "damage": 79,
@@ -1379,6 +1453,7 @@
             {
                 "id": "5ba2678ad4351e44f824b344",
                 "name": "4.6x30mm FMJ SX",
+                "weight": 0.007,
                 "properties": {
                     "penetrationPower": 40,
                     "damage": 43,
@@ -1399,6 +1474,7 @@
             {
                 "id": "5ba26812d4351e003201fef1",
                 "name": "4.6x30mm Action SX",
+                "weight": 0.007,
                 "properties": {
                     "penetrationPower": 18,
                     "damage": 65,
@@ -1419,6 +1495,7 @@
             {
                 "id": "5ba26835d4351e0035628ff5",
                 "name": "4.6x30mm AP SX",
+                "weight": 0.007,
                 "properties": {
                     "penetrationPower": 53,
                     "damage": 35,
@@ -1439,6 +1516,7 @@
             {
                 "id": "5ba26844d4351e00334c9475",
                 "name": "4.6x30mm Subsonic SX",
+                "weight": 0.01,
                 "properties": {
                     "penetrationPower": 23,
                     "damage": 52,
@@ -1459,6 +1537,7 @@
             {
                 "id": "5c0d56a986f774449d5de529",
                 "name": "9x19mm RIP",
+                "weight": 0.013,
                 "properties": {
                     "penetrationPower": 2,
                     "damage": 102,
@@ -1479,6 +1558,7 @@
             {
                 "id": "5c0d591486f7744c505b416f",
                 "name": "12/70 RIP",
+                "weight": 0.04,
                 "properties": {
                     "penetrationPower": 2,
                     "damage": 265,
@@ -1499,6 +1579,7 @@
             {
                 "id": "5c0d5ae286f7741e46554302",
                 "name": "5.56x45mm Warmageddon",
+                "weight": 0.011,
                 "properties": {
                     "penetrationPower": 3,
                     "damage": 88,
@@ -1519,6 +1600,7 @@
             {
                 "id": "5c0d5e4486f77478390952fe",
                 "name": "5.45x39mm PPBS gs \"Igolnik\"",
+                "weight": 0.011,
                 "properties": {
                     "penetrationPower": 62,
                     "damage": 37,
@@ -1539,6 +1621,7 @@
             {
                 "id": "5c0d668f86f7747ccb7f13b2",
                 "name": "9x39mm SPP gs",
+                "weight": 0.023,
                 "properties": {
                     "penetrationPower": 35,
                     "damage": 68,
@@ -1559,6 +1642,7 @@
             {
                 "id": "5c0d688c86f77413ae3407b2",
                 "name": "9x39mm BP gs",
+                "weight": 0.023,
                 "properties": {
                     "penetrationPower": 54,
                     "damage": 58,
@@ -1579,6 +1663,7 @@
             {
                 "id": "5c3df7d588a4501f290594e5",
                 "name": "9x19mm Green Tracer",
+                "weight": 0.006,
                 "properties": {
                     "penetrationPower": 14,
                     "damage": 58,
@@ -1599,6 +1684,7 @@
             {
                 "id": "5c925fa22e221601da359b7b",
                 "name": "9x19mm AP 6.3",
+                "weight": 0.009,
                 "properties": {
                     "penetrationPower": 30,
                     "damage": 52,
@@ -1619,6 +1705,7 @@
             {
                 "id": "5cadf6ddae9215051e1c23b2",
                 "name": "12.7x55mm PS12",
+                "weight": 0.07,
                 "properties": {
                     "penetrationPower": 28,
                     "damage": 115,
@@ -1639,6 +1726,7 @@
             {
                 "id": "5cadf6e5ae921500113bb973",
                 "name": "12.7x55mm PS12A",
+                "weight": 0.044,
                 "properties": {
                     "penetrationPower": 10,
                     "damage": 165,
@@ -1659,6 +1747,7 @@
             {
                 "id": "5cadf6eeae921500134b2799",
                 "name": "12.7x55mm PS12B",
+                "weight": 0.055,
                 "properties": {
                     "penetrationPower": 46,
                     "damage": 102,
@@ -1679,6 +1768,7 @@
             {
                 "id": "5cc80f38e4a949001152b560",
                 "name": "5.7x28mm SS190",
+                "weight": 0.006,
                 "properties": {
                     "penetrationPower": 37,
                     "damage": 49,
@@ -1699,6 +1789,7 @@
             {
                 "id": "5cc80f53e4a949000e1ea4f8",
                 "name": "5.7x28mm L191",
+                "weight": 0.006,
                 "properties": {
                     "penetrationPower": 33,
                     "damage": 53,
@@ -1719,6 +1810,7 @@
             {
                 "id": "5cc80f67e4a949035e43bbba",
                 "name": "5.7x28mm SB193",
+                "weight": 0.007,
                 "properties": {
                     "penetrationPower": 27,
                     "damage": 59,
@@ -1739,6 +1831,7 @@
             {
                 "id": "5cc80f79e4a949033c7343b2",
                 "name": "5.7x28mm SS198LF",
+                "weight": 0.006,
                 "properties": {
                     "penetrationPower": 17,
                     "damage": 70,
@@ -1759,6 +1852,7 @@
             {
                 "id": "5cc80f8fe4a949033b0224a2",
                 "name": "5.7x28mm SS197SR",
+                "weight": 0.007,
                 "properties": {
                     "penetrationPower": 25,
                     "damage": 62,
@@ -1779,6 +1873,7 @@
             {
                 "id": "5cc86832d7f00c000d3a6e6c",
                 "name": "5.7x28mm R37.F",
+                "weight": 0.006,
                 "properties": {
                     "penetrationPower": 8,
                     "damage": 98,
@@ -1799,6 +1894,7 @@
             {
                 "id": "5cc86840d7f00c002412c56c",
                 "name": "5.7x28mm R37.X",
+                "weight": 0.006,
                 "properties": {
                     "penetrationPower": 11,
                     "damage": 81,
@@ -1819,6 +1915,7 @@
             {
                 "id": "5d6e6772a4b936088465b17c",
                 "name": "12/70 5.25mm buckshot",
+                "weight": 0.044,
                 "properties": {
                     "penetrationPower": 1,
                     "damage": 37,
@@ -1839,6 +1936,7 @@
             {
                 "id": "5d6e67fba4b9361bc73bc779",
                 "name": "12/70 6.5mm Express buckshot",
+                "weight": 0.048,
                 "properties": {
                     "penetrationPower": 3,
                     "damage": 35,
@@ -1859,6 +1957,7 @@
             {
                 "id": "5d6e6806a4b936088465b17e",
                 "name": "12/70 8.5mm Magnum buckshot",
+                "weight": 0.059,
                 "properties": {
                     "penetrationPower": 2,
                     "damage": 50,
@@ -1879,6 +1978,7 @@
             {
                 "id": "5d6e6869a4b9361c140bcfde",
                 "name": "12/70 Grizzly 40 slug",
+                "weight": 0.055,
                 "properties": {
                     "penetrationPower": 12,
                     "damage": 190,
@@ -1899,6 +1999,7 @@
             {
                 "id": "5d6e6891a4b9361bd473feea",
                 "name": "12/70 \"Poleva-3\" slug",
+                "weight": 0.044,
                 "properties": {
                     "penetrationPower": 17,
                     "damage": 140,
@@ -1919,6 +2020,7 @@
             {
                 "id": "5d6e689ca4b9361bc8618956",
                 "name": "12/70 \"Poleva-6u\" slug",
+                "weight": 0.048,
                 "properties": {
                     "penetrationPower": 20,
                     "damage": 150,
@@ -1939,6 +2041,7 @@
             {
                 "id": "5d6e68a8a4b9360b6c0d54e2",
                 "name": "12/70 AP-20 armor-piercing slug",
+                "weight": 0.05,
                 "properties": {
                     "penetrationPower": 37,
                     "damage": 164,
@@ -1959,6 +2062,7 @@
             {
                 "id": "5d6e68b3a4b9361bca7e50b5",
                 "name": "12/70 Copper Sabot Premier HP slug",
+                "weight": 0.043,
                 "properties": {
                     "penetrationPower": 14,
                     "damage": 206,
@@ -1979,6 +2083,7 @@
             {
                 "id": "5d6e68c4a4b9361b93413f79",
                 "name": "12/70 makeshift .50 BMG slug",
+                "weight": 0.055,
                 "properties": {
                     "penetrationPower": 26,
                     "damage": 197,
@@ -1999,6 +2104,7 @@
             {
                 "id": "5d6e68d1a4b93622fe60e845",
                 "name": "12/70 SuperFormance HP slug",
+                "weight": 0.034,
                 "properties": {
                     "penetrationPower": 5,
                     "damage": 220,
@@ -2019,6 +2125,7 @@
             {
                 "id": "5d6e68dea4b9361bcc29e659",
                 "name": "12/70 Dual Sabot slug",
+                "weight": 0.05,
                 "properties": {
                     "penetrationPower": 17,
                     "damage": 85,
@@ -2039,6 +2146,7 @@
             {
                 "id": "5d6e68e6a4b9361c140bcfe0",
                 "name": "12/70 FTX Custom Lite slug",
+                "weight": 0.026,
                 "properties": {
                     "penetrationPower": 20,
                     "damage": 183,
@@ -2059,6 +2167,7 @@
             {
                 "id": "5d6e6911a4b9361bd5780d52",
                 "name": "12/70 flechette",
+                "weight": 0.04,
                 "properties": {
                     "penetrationPower": 31,
                     "damage": 25,
@@ -2079,6 +2188,7 @@
             {
                 "id": "5d6e695fa4b936359b35d852",
                 "name": "20/70 5.6mm buckshot",
+                "weight": 0.028,
                 "properties": {
                     "penetrationPower": 1,
                     "damage": 26,
@@ -2099,6 +2209,7 @@
             {
                 "id": "5d6e69b9a4b9361bc8618958",
                 "name": "20/70 6.2mm buckshot",
+                "weight": 0.032,
                 "properties": {
                     "penetrationPower": 2,
                     "damage": 22,
@@ -2119,6 +2230,7 @@
             {
                 "id": "5d6e69c7a4b9360b6c0d54e4",
                 "name": "20/70 7.3mm buckshot",
+                "weight": 0.032,
                 "properties": {
                     "penetrationPower": 3,
                     "damage": 23,
@@ -2139,6 +2251,7 @@
             {
                 "id": "5d6e6a05a4b93618084f58d0",
                 "name": "20/70 Star slug",
+                "weight": 0.034,
                 "properties": {
                     "penetrationPower": 16,
                     "damage": 154,
@@ -2159,6 +2272,7 @@
             {
                 "id": "5d6e6a42a4b9364f07165f52",
                 "name": "20/70 \"Poleva-6u\" slug",
+                "weight": 0.032,
                 "properties": {
                     "penetrationPower": 17,
                     "damage": 135,
@@ -2179,6 +2293,7 @@
             {
                 "id": "5d6e6a53a4b9361bd473feec",
                 "name": "20/70 \"Poleva-3\" slug",
+                "weight": 0.029,
                 "properties": {
                     "penetrationPower": 14,
                     "damage": 120,
@@ -2199,6 +2314,7 @@
             {
                 "id": "5d6e6a5fa4b93614ec501745",
                 "name": "20/70 Devastator slug",
+                "weight": 0.029,
                 "properties": {
                     "penetrationPower": 5,
                     "damage": 198,
@@ -2219,6 +2335,7 @@
             {
                 "id": "5e023cf8186a883be655e54f",
                 "name": "7.62x54mm R T-46M gzh",
+                "weight": 0.025,
                 "properties": {
                     "penetrationPower": 41,
                     "damage": 82,
@@ -2239,6 +2356,7 @@
             {
                 "id": "5e023d34e8a400319a28ed44",
                 "name": "7.62x54mm R BT gzh",
+                "weight": 0.024,
                 "properties": {
                     "penetrationPower": 55,
                     "damage": 78,
@@ -2259,6 +2377,7 @@
             {
                 "id": "5e023d48186a883be655e551",
                 "name": "7.62x54mm R BS gs",
+                "weight": 0.025,
                 "properties": {
                     "penetrationPower": 70,
                     "damage": 72,
@@ -2279,6 +2398,7 @@
             {
                 "id": "5e023e53d4353e3302577c4c",
                 "name": "7.62x51mm BCP FMJ",
+                "weight": 0.022,
                 "properties": {
                     "penetrationPower": 35,
                     "damage": 83,
@@ -2299,6 +2419,7 @@
             {
                 "id": "5e023e6e34d52a55c3304f71",
                 "name": "7.62x51mm TCW SP",
+                "weight": 0.023,
                 "properties": {
                     "penetrationPower": 30,
                     "damage": 87,
@@ -2319,6 +2440,7 @@
             {
                 "id": "5e023e88277cce2b522ff2b1",
                 "name": "7.62x51mm Ultra Nosler",
+                "weight": 0.021,
                 "properties": {
                     "penetrationPower": 15,
                     "damage": 107,
@@ -2339,16 +2461,19 @@
             {
                 "id": "5e32f56fcb6d5863cc5e5ee4",
                 "name": "VOG-17 Khattabka improvised hand grenade",
+                "weight": 0.28,
                 "properties": {}
             },
             {
                 "id": "5e340dcdcb6d5863cc5e5efb",
                 "name": "VOG-25 Khattabka improvised hand grenade",
+                "weight": 0.25,
                 "properties": {}
             },
             {
                 "id": "5e81f423763d9f754677bf2e",
                 "name": ".45 ACP Match FMJ",
+                "weight": 0.015,
                 "properties": {
                     "penetrationPower": 25,
                     "damage": 72,
@@ -2369,6 +2494,7 @@
             {
                 "id": "5e85a9a6eacf8c039e4e2ac1",
                 "name": "23x75mm Shrapnel-10 buckshot",
+                "weight": 0.08,
                 "properties": {
                     "penetrationPower": 11,
                     "damage": 87,
@@ -2389,6 +2515,7 @@
             {
                 "id": "5e85a9f4add9fe03027d9bf1",
                 "name": "23x75mm Zvezda flashbang round",
+                "weight": 0.07,
                 "properties": {
                     "penetrationPower": 0,
                     "damage": 0,
@@ -2409,6 +2536,7 @@
             {
                 "id": "5e85aa1a988a8701445df1f5",
                 "name": "23x75mm Barrikada slug",
+                "weight": 0.08,
                 "properties": {
                     "penetrationPower": 39,
                     "damage": 192,
@@ -2429,6 +2557,7 @@
             {
                 "id": "5ea2a8e200685063ec28c05a",
                 "name": ".45 ACP RIP",
+                "weight": 0.019,
                 "properties": {
                     "penetrationPower": 3,
                     "damage": 130,
@@ -2449,6 +2578,7 @@
             {
                 "id": "5ede4739e0350d05467f73e8",
                 "name": "40x46mm M406 (HE) grenade",
+                "weight": 0.23,
                 "properties": {
                     "penetrationPower": 1,
                     "damage": 199,
@@ -2469,6 +2599,7 @@
             {
                 "id": "5ede47405b097655935d7d16",
                 "name": "40x46mm M441 (HE) grenade",
+                "weight": 0.23,
                 "properties": {
                     "penetrationPower": 1,
                     "damage": 199,
@@ -2489,6 +2620,7 @@
             {
                 "id": "5ede474b0c226a66f5402622",
                 "name": "40x46mm M381 (HE) grenade",
+                "weight": 0.23,
                 "properties": {
                     "penetrationPower": 1,
                     "damage": 199,
@@ -2509,6 +2641,7 @@
             {
                 "id": "5ede475339ee016e8c534742",
                 "name": "40x46mm M576 (MP-APERS) grenade",
+                "weight": 0.12,
                 "properties": {
                     "penetrationPower": 5,
                     "damage": 160,
@@ -2529,6 +2662,7 @@
             {
                 "id": "5ede475b549eed7c6d5c18fb",
                 "name": "40x46mm M386 (HE) grenade",
+                "weight": 0.23,
                 "properties": {
                     "penetrationPower": 1,
                     "damage": 199,
@@ -2549,6 +2683,7 @@
             {
                 "id": "5efb0c1bd79ff02a1f5e68d9",
                 "name": "7.62x51mm M993",
+                "weight": 0.024,
                 "properties": {
                     "penetrationPower": 70,
                     "damage": 67,
@@ -2569,6 +2704,7 @@
             {
                 "id": "5efb0cabfb3e451d70735af5",
                 "name": ".45 ACP AP",
+                "weight": 0.015,
                 "properties": {
                     "penetrationPower": 38,
                     "damage": 66,
@@ -2589,6 +2725,7 @@
             {
                 "id": "5efb0d4f4bc50b58e81710f3",
                 "name": ".45 ACP Lasermatch FMJ",
+                "weight": 0.015,
                 "properties": {
                     "penetrationPower": 19,
                     "damage": 76,
@@ -2609,6 +2746,7 @@
             {
                 "id": "5efb0da7a29a85116f6ea05f",
                 "name": "9x19mm PBP gzh",
+                "weight": 0.009,
                 "properties": {
                     "penetrationPower": 39,
                     "damage": 52,
@@ -2629,6 +2767,7 @@
             {
                 "id": "5efb0e16aeb21837e749c7ff",
                 "name": "9x19mm QuakeMaker",
+                "weight": 0.013,
                 "properties": {
                     "penetrationPower": 8,
                     "damage": 85,
@@ -2649,6 +2788,7 @@
             {
                 "id": "5efb0fc6aeb21837e749c801",
                 "name": ".45 ACP Hydra-Shok",
+                "weight": 0.017,
                 "properties": {
                     "penetrationPower": 13,
                     "damage": 100,
@@ -2669,6 +2809,7 @@
             {
                 "id": "5f0596629e22f464da6bbdd9",
                 "name": ".366 TKM AP-M",
+                "weight": 0.019,
                 "properties": {
                     "penetrationPower": 42,
                     "damage": 90,
@@ -2689,6 +2830,7 @@
             {
                 "id": "5f0c892565703e5c461894e9",
                 "name": "40x46mm M433 (HEDP) grenade",
+                "weight": 0.23,
                 "properties": {
                     "penetrationPower": 1,
                     "damage": 199,
@@ -2709,6 +2851,7 @@
             {
                 "id": "5f647f31b6238e5dd066e196",
                 "name": "23x75mm Shrapnel-25 buckshot",
+                "weight": 0.08,
                 "properties": {
                     "penetrationPower": 10,
                     "damage": 78,
@@ -2729,6 +2872,7 @@
             {
                 "id": "5fbe3ffdf8b6a877a729ea82",
                 "name": ".300 Blackout BCP FMJ",
+                "weight": 0.015,
                 "properties": {
                     "penetrationPower": 30,
                     "damage": 60,
@@ -2749,6 +2893,7 @@
             {
                 "id": "5fc275cf85fd526b824a571a",
                 "name": ".338 Lapua Magnum FMJ",
+                "weight": 0.047,
                 "properties": {
                     "penetrationPower": 47,
                     "damage": 122,
@@ -2769,6 +2914,7 @@
             {
                 "id": "5fc382a9d724d907e2077dab",
                 "name": ".338 Lapua Magnum AP",
+                "weight": 0.049,
                 "properties": {
                     "penetrationPower": 79,
                     "damage": 115,
@@ -2789,6 +2935,7 @@
             {
                 "id": "5fc382b6d6fa9c00c571bbc3",
                 "name": ".338 Lapua Magnum TAC-X",
+                "weight": 0.044,
                 "properties": {
                     "penetrationPower": 18,
                     "damage": 196,
@@ -2809,6 +2956,7 @@
             {
                 "id": "5fc382c1016cce60e8341b20",
                 "name": ".338 Lapua Magnum UCW",
+                "weight": 0.045,
                 "properties": {
                     "penetrationPower": 32,
                     "damage": 142,
@@ -2829,6 +2977,7 @@
             {
                 "id": "5fd20ff893a8961fc660a954",
                 "name": ".300 Blackout AP",
+                "weight": 0.014,
                 "properties": {
                     "penetrationPower": 48,
                     "damage": 51,
@@ -2849,6 +2998,7 @@
             {
                 "id": "60194943740c5d77f6705eea",
                 "name": "5.56x45mm MK 318 Mod 0 (SOST)",
+                "weight": 0.012,
                 "properties": {
                     "penetrationPower": 33,
                     "damage": 55,
@@ -2869,6 +3019,7 @@
             {
                 "id": "601949593ae8f707c4608daa",
                 "name": "5.56x45mm SSA AP",
+                "weight": 0.013,
                 "properties": {
                     "penetrationPower": 57,
                     "damage": 38,
@@ -2889,6 +3040,7 @@
             {
                 "id": "601aa3d2b2bcb34913271e6d",
                 "name": "7.62x39mm MAI AP",
+                "weight": 0.015,
                 "properties": {
                     "penetrationPower": 58,
                     "damage": 47,
@@ -2909,6 +3061,7 @@
             {
                 "id": "61962b617c6c7b169525f168",
                 "name": "5.45x39mm 7N40",
+                "weight": 0.011,
                 "properties": {
                     "penetrationPower": 42,
                     "damage": 52,
@@ -2929,6 +3082,7 @@
             {
                 "id": "61962d879bb3d20b0946d385",
                 "name": "9x39mm PAB-9 gs",
+                "weight": 0.024,
                 "properties": {
                     "penetrationPower": 43,
                     "damage": 62,
@@ -2949,6 +3103,7 @@
             {
                 "id": "6196364158ef8c428c287d9f",
                 "name": ".300 Blackout V-Max",
+                "weight": 0.015,
                 "properties": {
                     "penetrationPower": 20,
                     "damage": 72,
@@ -2969,6 +3124,7 @@
             {
                 "id": "6196365d58ef8c428c287da1",
                 "name": ".300 Whisper",
+                "weight": 0.015,
                 "properties": {
                     "penetrationPower": 14,
                     "damage": 90,
@@ -2989,6 +3145,7 @@
             {
                 "id": "619636be6db0f2477964e710",
                 "name": ".300 Blackout M62 Tracer",
+                "weight": 0.016,
                 "properties": {
                     "penetrationPower": 36,
                     "damage": 54,
@@ -3009,6 +3166,7 @@
             {
                 "id": "62330b3ed4dc74626d570b95",
                 "name": ".357 Magnum FMJ",
+                "weight": 0.016,
                 "properties": {
                     "penetrationPower": 35,
                     "damage": 70,
@@ -3029,6 +3187,7 @@
             {
                 "id": "62330bfadc5883093563729b",
                 "name": ".357 Magnum HP",
+                "weight": 0.016,
                 "properties": {
                     "penetrationPower": 18,
                     "damage": 99,
@@ -3049,6 +3208,7 @@
             {
                 "id": "62330c18744e5e31df12f516",
                 "name": ".357 Magnum JHP",
+                "weight": 0.016,
                 "properties": {
                     "penetrationPower": 24,
                     "damage": 88,
@@ -3069,6 +3229,7 @@
             {
                 "id": "62330c40bdd19b369e1e53d1",
                 "name": ".357 Magnum SP",
+                "weight": 0.015,
                 "properties": {
                     "penetrationPower": 12,
                     "damage": 108,
@@ -3089,6 +3250,7 @@
             {
                 "id": "62389aaba63f32501b1b444f",
                 "name": "26x75mm flare cartridge (Green)",
+                "weight": 0.043,
                 "properties": {
                     "penetrationPower": 0,
                     "damage": 37,
@@ -3109,6 +3271,7 @@
             {
                 "id": "62389ba9a63f32501b1b4451",
                 "name": "26x75mm flare cartridge (Red)",
+                "weight": 0.042,
                 "properties": {
                     "penetrationPower": 0,
                     "damage": 37,
@@ -3129,6 +3292,7 @@
             {
                 "id": "62389bc9423ed1685422dc57",
                 "name": "26x75mm flare cartridge (White)",
+                "weight": 0.055,
                 "properties": {
                     "penetrationPower": 0,
                     "damage": 37,
@@ -3149,6 +3313,7 @@
             {
                 "id": "62389be94d5d474bf712e709",
                 "name": "26x75mm flare cartridge (Yellow)",
+                "weight": 0.05,
                 "properties": {
                     "penetrationPower": 0,
                     "damage": 37,
@@ -3169,6 +3334,7 @@
             {
                 "id": "635267f063651329f75a4ee8",
                 "name": "26x75mm flare cartridge (Acid Green)",
+                "weight": 0.043,
                 "properties": {
                     "penetrationPower": 0,
                     "damage": 37,
@@ -3189,6 +3355,7 @@
             {
                 "id": "64b6979341772715af0f9c39",
                 "name": "4.6x30mm JSP SX",
+                "weight": 0.007,
                 "properties": {
                     "penetrationPower": 32,
                     "damage": 46,
@@ -3209,6 +3376,7 @@
             {
                 "id": "64b7af434b75259c590fa893",
                 "name": "7.62x39mm PP gzh",
+                "weight": 0.016,
                 "properties": {
                     "penetrationPower": 41,
                     "damage": 55,
@@ -3229,6 +3397,7 @@
             {
                 "id": "64b7af5a8532cf95ee0a0dbd",
                 "name": "7.62x39mm FMJ",
+                "weight": 0.012,
                 "properties": {
                     "penetrationPower": 26,
                     "damage": 63,
@@ -3249,6 +3418,7 @@
             {
                 "id": "64b7af734b75259c590fa895",
                 "name": "7.62x39mm SP",
+                "weight": 0.012,
                 "properties": {
                     "penetrationPower": 20,
                     "damage": 68,
@@ -3269,6 +3439,7 @@
             {
                 "id": "64b7bbb74b75259c590fa897",
                 "name": "9x19mm FMJ M882",
+                "weight": 0.005,
                 "properties": {
                     "penetrationPower": 18,
                     "damage": 56,
@@ -3289,6 +3460,7 @@
             {
                 "id": "64b8725c4b75259c590fa899",
                 "name": ".300 Blackout CBJ",
+                "weight": 0.015,
                 "properties": {
                     "penetrationPower": 43,
                     "damage": 58,
@@ -3309,6 +3481,7 @@
             {
                 "id": "64b8ee384b75259c590fa89b",
                 "name": "12/70 Piranha",
+                "weight": 0.05,
                 "properties": {
                     "penetrationPower": 24,
                     "damage": 25,
@@ -3329,6 +3502,7 @@
             {
                 "id": "64b8f7968532cf95ee0a0dbf",
                 "name": "7.62x54mm R FMJ",
+                "weight": 0.024,
                 "properties": {
                     "penetrationPower": 33,
                     "damage": 84,
@@ -3349,6 +3523,7 @@
             {
                 "id": "64b8f7b5389d7ffd620ccba2",
                 "name": "7.62x54mm R SP BT",
+                "weight": 0.024,
                 "properties": {
                     "penetrationPower": 27,
                     "damage": 92,
@@ -3369,6 +3544,7 @@
             {
                 "id": "64b8f7c241772715af0f9c3d",
                 "name": "7.62x54mm R HP BT",
+                "weight": 0.024,
                 "properties": {
                     "penetrationPower": 23,
                     "damage": 102,
@@ -3389,6 +3565,7 @@
             {
                 "id": "6529243824cbe3c74a05e5c1",
                 "name": "6.8x51mm SIG Hybrid",
+                "weight": 0.024,
                 "properties": {
                     "penetrationPower": 47,
                     "damage": 72,
@@ -3409,6 +3586,7 @@
             {
                 "id": "6529302b8c26af6326029fb7",
                 "name": "6.8x51mm SIG FMJ",
+                "weight": 0.024,
                 "properties": {
                     "penetrationPower": 36,
                     "damage": 80,
@@ -3429,6 +3607,7 @@
             {
                 "id": "6576f4708ca9c4381d16cd9d",
                 "name": "9x21mm 7N42 \"Zubilo\"",
+                "weight": 0.023,
                 "properties": {
                     "penetrationPower": 38,
                     "damage": 45,
@@ -3449,6 +3628,7 @@
             {
                 "id": "6576f93989f0062e741ba952",
                 "name": "9x21mm 7U4",
+                "weight": 0.027,
                 "properties": {
                     "penetrationPower": 27,
                     "damage": 47,
@@ -3469,6 +3649,7 @@
             {
                 "id": "6576f96220d53a5b8f3e395e",
                 "name": "9x39mm FMJ",
+                "weight": 0.023,
                 "properties": {
                     "penetrationPower": 17,
                     "damage": 75,
@@ -3489,6 +3670,7 @@
             {
                 "id": "6601546f86889319850bd566",
                 "name": "20x1mm disk",
+                "weight": 0.001,
                 "properties": {
                     "penetrationPower": 0,
                     "damage": 1,
