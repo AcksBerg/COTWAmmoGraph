@@ -42,6 +42,20 @@ query Ammo_query {
 }
 """
 
+data = run_query(ammo_query)
 
 with open("live_data.json", "w", encoding="UTF-8") as file:
-    json.dump(run_query(ammo_query), file, indent=4)
+    json.dump(data, file, indent=4)
+
+caliber_data = {}
+
+for entry in data["data"]["items"]:
+    if entry["name"].lower().find("grenade") != -1 or not entry.get("properties"):
+        continue
+    if entry["properties"]["caliber"] not in caliber_data:
+        caliber_data[entry["properties"]["caliber"]] = [entry["name"]]
+        continue
+    caliber_data[entry["properties"]["caliber"]].append(entry["name"])
+
+with open("caliber_data.json", "w", encoding="UTF-8") as file:
+    json.dump(caliber_data, file, indent=4)
