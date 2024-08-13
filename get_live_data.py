@@ -37,5 +37,5 @@ query Ammo_query {
   }
 }
 """
-with open("live_data.json", "w") as file:
+with open("live_data.json", "w", encoding="UTF-8") as file:
     json.dump(run_query(new_query), file, indent=4)
