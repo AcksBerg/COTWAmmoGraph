@@ -12,6 +12,7 @@
                 "name": "5.56x45mm M855",
                 "weight": 0.012,
                 "properties": {
+                    "caliber": "Caliber556x45NATO",
                     "penetrationPower": 31,
                     "damage": 57,
                     "armorDamage": 37,
@@ -25,7 +26,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.615
+                    "heatFactor": 1.615,
+                    "durabilityBurnFactor": 1.15
                 }
             },
             {
@@ -33,6 +35,7 @@
                 "name": "5.56x45mm M855A1",
                 "weight": 0.012,
                 "properties": {
+                    "caliber": "Caliber556x45NATO",
                     "penetrationPower": 44,
                     "damage": 49,
                     "armorDamage": 47,
@@ -46,7 +49,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.094,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.71
+                    "heatFactor": 1.71,
+                    "durabilityBurnFactor": 1.34
                 }
             },
             {
@@ -54,6 +58,7 @@
                 "name": "12/70 7mm buckshot",
                 "weight": 0.05,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 3,
                     "damage": 39,
                     "armorDamage": 26,
@@ -67,7 +72,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.266,
-                    "heatFactor": 2.0331
+                    "heatFactor": 2.0331,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -75,6 +81,7 @@
                 "name": "7.62x54mm R SNB gzh",
                 "weight": 0.024,
                 "properties": {
+                    "caliber": "Caliber762x54R",
                     "penetrationPower": 62,
                     "damage": 75,
                     "armorDamage": 87,
@@ -88,7 +95,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.095,
                     "misfireChance": 0.168,
-                    "heatFactor": 2.3387
+                    "heatFactor": 2.3387,
+                    "durabilityBurnFactor": 1.2
                 }
             },
             {
@@ -96,6 +104,7 @@
                 "name": "7.62x39mm PS gzh",
                 "weight": 0.016,
                 "properties": {
+                    "caliber": "Caliber762x39",
                     "penetrationPower": 35,
                     "damage": 57,
                     "armorDamage": 52,
@@ -109,7 +118,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.154,
-                    "heatFactor": 1.125
+                    "heatFactor": 1.125,
+                    "durabilityBurnFactor": 1.2
                 }
             },
             {
@@ -117,6 +127,7 @@
                 "name": "40mm VOG-25 grenade",
                 "weight": 0.255,
                 "properties": {
+                    "caliber": "Caliber40mmRU",
                     "penetrationPower": 0,
                     "damage": 199,
                     "armorDamage": 68,
@@ -130,7 +141,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0,
                     "misfireChance": 0,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -138,6 +150,7 @@
                 "name": "9x19mm Pst gzh",
                 "weight": 0.005,
                 "properties": {
+                    "caliber": "Caliber9x19PARA",
                     "penetrationPower": 20,
                     "damage": 54,
                     "armorDamage": 33,
@@ -151,7 +164,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.071
+                    "heatFactor": 1.071,
+                    "durabilityBurnFactor": 2.17
                 }
             },
             {
@@ -159,6 +173,7 @@
                 "name": "5.45x39mm BP gs",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber545x39",
                     "penetrationPower": 45,
                     "damage": 46,
                     "armorDamage": 46,
@@ -172,7 +187,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.082,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.593
+                    "heatFactor": 1.593,
+                    "durabilityBurnFactor": 1.35
                 }
             },
             {
@@ -180,6 +196,7 @@
                 "name": "5.45x39mm BS gs",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber545x39",
                     "penetrationPower": 54,
                     "damage": 43,
                     "armorDamage": 57,
@@ -193,7 +210,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.094,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.6992
+                    "heatFactor": 1.6992,
+                    "durabilityBurnFactor": 1.45
                 }
             },
             {
@@ -201,6 +219,7 @@
                 "name": "5.45x39mm BT gs",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber545x39",
                     "penetrationPower": 37,
                     "damage": 48,
                     "armorDamage": 44,
@@ -214,7 +233,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.079,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.6815
+                    "heatFactor": 1.6815,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -222,6 +242,7 @@
                 "name": "5.45x39mm FMJ",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber545x39",
                     "penetrationPower": 24,
                     "damage": 55,
                     "armorDamage": 38,
@@ -235,7 +256,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.14,
-                    "heatFactor": 1.4337
+                    "heatFactor": 1.4337,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -243,6 +265,7 @@
                 "name": "5.45x39mm HP",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber545x39",
                     "penetrationPower": 9,
                     "damage": 76,
                     "armorDamage": 15,
@@ -256,7 +279,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.14,
-                    "heatFactor": 1.416
+                    "heatFactor": 1.416,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -264,6 +288,7 @@
                 "name": "5.45x39mm PP gs",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber545x39",
                     "penetrationPower": 34,
                     "damage": 50,
                     "armorDamage": 42,
@@ -277,7 +302,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.5399
+                    "heatFactor": 1.5399,
+                    "durabilityBurnFactor": 1.2
                 }
             },
             {
@@ -285,6 +311,7 @@
                 "name": "5.45x39mm PRS gs",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber545x39",
                     "penetrationPower": 13,
                     "damage": 70,
                     "armorDamage": 24,
@@ -298,7 +325,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.154,
-                    "heatFactor": 1.5045
+                    "heatFactor": 1.5045,
+                    "durabilityBurnFactor": 1.15
                 }
             },
             {
@@ -306,6 +334,7 @@
                 "name": "5.45x39mm PS gs",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber545x39",
                     "penetrationPower": 28,
                     "damage": 53,
                     "armorDamage": 40,
@@ -319,7 +348,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.4868
+                    "heatFactor": 1.4868,
+                    "durabilityBurnFactor": 1.1
                 }
             },
             {
@@ -327,6 +357,7 @@
                 "name": "5.45x39mm SP",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber545x39",
                     "penetrationPower": 15,
                     "damage": 65,
                     "armorDamage": 31,
@@ -340,7 +371,8 @@
                     "lightBleedModifier": 0.1,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.154,
-                    "heatFactor": 1.4514
+                    "heatFactor": 1.4514,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -348,6 +380,7 @@
                 "name": "5.45x39mm T gs",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber545x39",
                     "penetrationPower": 20,
                     "damage": 57,
                     "armorDamage": 36,
@@ -361,7 +394,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.182,
-                    "heatFactor": 1.5222
+                    "heatFactor": 1.5222,
+                    "durabilityBurnFactor": 1.15
                 }
             },
             {
@@ -369,6 +403,7 @@
                 "name": "5.45x39mm US gs",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber545x39",
                     "penetrationPower": 17,
                     "damage": 63,
                     "armorDamage": 33,
@@ -382,7 +417,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.14,
-                    "heatFactor": 1.3275
+                    "heatFactor": 1.3275,
+                    "durabilityBurnFactor": 0.8
                 }
             },
             {
@@ -396,6 +432,7 @@
                 "name": "7.62x25mm TT AKBS",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber762x25TT",
                     "penetrationPower": 12,
                     "damage": 58,
                     "armorDamage": 32,
@@ -409,7 +446,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.196,
-                    "heatFactor": 0.944
+                    "heatFactor": 0.944,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -417,6 +455,7 @@
                 "name": "7.62x25mm TT FMJ43",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber762x25TT",
                     "penetrationPower": 11,
                     "damage": 60,
                     "armorDamage": 29,
@@ -430,7 +469,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.128,
                     "misfireChance": 0.175,
-                    "heatFactor": 0.9735
+                    "heatFactor": 0.9735,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -438,6 +478,7 @@
                 "name": "7.62x25mm TT LRN",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber762x25TT",
                     "penetrationPower": 8,
                     "damage": 64,
                     "armorDamage": 28,
@@ -451,7 +492,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.14,
-                    "heatFactor": 1.062
+                    "heatFactor": 1.062,
+                    "durabilityBurnFactor": 1.15
                 }
             },
             {
@@ -459,6 +501,7 @@
                 "name": "7.62x25mm TT LRNPC",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber762x25TT",
                     "penetrationPower": 7,
                     "damage": 66,
                     "armorDamage": 27,
@@ -472,7 +515,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.14,
-                    "heatFactor": 1.0679
+                    "heatFactor": 1.0679,
+                    "durabilityBurnFactor": 1.15
                 }
             },
             {
@@ -480,6 +524,7 @@
                 "name": "7.62x25mm TT P gl",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber762x25TT",
                     "penetrationPower": 14,
                     "damage": 58,
                     "armorDamage": 32,
@@ -493,7 +538,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 0.9558
+                    "heatFactor": 0.9558,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -501,6 +547,7 @@
                 "name": "7.62x25mm TT Pst gzh",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber762x25TT",
                     "penetrationPower": 25,
                     "damage": 50,
                     "armorDamage": 36,
@@ -514,7 +561,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.081,
                     "misfireChance": 0.14,
-                    "heatFactor": 1.0738
+                    "heatFactor": 1.0738,
+                    "durabilityBurnFactor": 1.4
                 }
             },
             {
@@ -522,6 +570,7 @@
                 "name": "7.62x25mm TT PT gzh",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber762x25TT",
                     "penetrationPower": 18,
                     "damage": 55,
                     "armorDamage": 34,
@@ -535,7 +584,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.154,
-                    "heatFactor": 1.18
+                    "heatFactor": 1.18,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -543,6 +593,7 @@
                 "name": "9x18mm PM BZhT gzh",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber9x18PM",
                     "penetrationPower": 18,
                     "damage": 53,
                     "armorDamage": 28,
@@ -556,7 +607,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.0431
+                    "heatFactor": 1.0431,
+                    "durabilityBurnFactor": 1.15
                 }
             },
             {
@@ -564,6 +616,7 @@
                 "name": "9x18mm PM P gzh",
                 "weight": 0.011,
                 "properties": {
+                    "caliber": "Caliber9x18PM",
                     "penetrationPower": 5,
                     "damage": 50,
                     "armorDamage": 16,
@@ -577,7 +630,8 @@
                     "lightBleedModifier": 0.1,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 0.9291
+                    "heatFactor": 0.9291,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -585,6 +639,7 @@
                 "name": "9x18mm PM PBM gzh",
                 "weight": 0.007,
                 "properties": {
+                    "caliber": "Caliber9x18PM",
                     "penetrationPower": 28,
                     "damage": 40,
                     "armorDamage": 30,
@@ -598,7 +653,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.078,
                     "misfireChance": 0.196,
-                    "heatFactor": 1.14
+                    "heatFactor": 1.14,
+                    "durabilityBurnFactor": 1.7
                 }
             },
             {
@@ -606,6 +662,7 @@
                 "name": "9x18mm PMM PstM gzh",
                 "weight": 0.009,
                 "properties": {
+                    "caliber": "Caliber9x18PM",
                     "penetrationPower": 24,
                     "damage": 58,
                     "armorDamage": 33,
@@ -619,7 +676,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.088,
                     "misfireChance": 0.21,
-                    "heatFactor": 1.083
+                    "heatFactor": 1.083,
+                    "durabilityBurnFactor": 1.6
                 }
             },
             {
@@ -627,6 +685,7 @@
                 "name": "9x18mm PM PPe gzh",
                 "weight": 0.009,
                 "properties": {
+                    "caliber": "Caliber9x18PM",
                     "penetrationPower": 7,
                     "damage": 61,
                     "armorDamage": 15,
@@ -640,7 +699,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 0.92625
+                    "heatFactor": 0.92625,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -648,6 +708,7 @@
                 "name": "9x18mm PM PPT gzh",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber9x18PM",
                     "penetrationPower": 8,
                     "damage": 59,
                     "armorDamage": 22,
@@ -661,7 +722,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.0317
+                    "heatFactor": 1.0317,
+                    "durabilityBurnFactor": 1.15
                 }
             },
             {
@@ -669,6 +731,7 @@
                 "name": "9x18mm PM PRS gs",
                 "weight": 0.011,
                 "properties": {
+                    "caliber": "Caliber9x18PM",
                     "penetrationPower": 6,
                     "damage": 58,
                     "armorDamage": 16,
@@ -682,7 +745,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 0.9006
+                    "heatFactor": 0.9006,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -690,6 +754,7 @@
                 "name": "9x18mm PM PS gs PPO",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber9x18PM",
                     "penetrationPower": 6,
                     "damage": 55,
                     "armorDamage": 16,
@@ -703,7 +768,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 0.9177
+                    "heatFactor": 0.9177,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -711,6 +777,7 @@
                 "name": "9x18mm PM PSO gzh",
                 "weight": 0.008,
                 "properties": {
+                    "caliber": "Caliber9x18PM",
                     "penetrationPower": 5,
                     "damage": 54,
                     "armorDamage": 13,
@@ -724,7 +791,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.266,
-                    "heatFactor": 0.9063
+                    "heatFactor": 0.9063,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -732,6 +800,7 @@
                 "name": "9x18mm PM Pst gzh",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber9x18PM",
                     "penetrationPower": 12,
                     "damage": 50,
                     "armorDamage": 26,
@@ -745,7 +814,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.0374
+                    "heatFactor": 1.0374,
+                    "durabilityBurnFactor": 1.15
                 }
             },
             {
@@ -753,6 +823,7 @@
                 "name": "9x18mm PM PSV",
                 "weight": 0.012,
                 "properties": {
+                    "caliber": "Caliber9x18PM",
                     "penetrationPower": 3,
                     "damage": 69,
                     "armorDamage": 5,
@@ -766,7 +837,8 @@
                     "lightBleedModifier": 0.1,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 0.912
+                    "heatFactor": 0.912,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -774,6 +846,7 @@
                 "name": "9x18mm PM RG028 gzh",
                 "weight": 0.011,
                 "properties": {
+                    "caliber": "Caliber9x18PM",
                     "penetrationPower": 13,
                     "damage": 65,
                     "armorDamage": 26,
@@ -787,7 +860,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 0.9234
+                    "heatFactor": 0.9234,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -795,6 +869,7 @@
                 "name": "9x18mm PM SP7 gzh",
                 "weight": 0.011,
                 "properties": {
+                    "caliber": "Caliber9x18PM",
                     "penetrationPower": 2,
                     "damage": 77,
                     "armorDamage": 5,
@@ -808,7 +883,8 @@
                     "lightBleedModifier": 0.25,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.14,
-                    "heatFactor": 0.9348
+                    "heatFactor": 0.9348,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -816,6 +892,7 @@
                 "name": "9x18mm PM SP8 gzh",
                 "weight": 0.009,
                 "properties": {
+                    "caliber": "Caliber9x18PM",
                     "penetrationPower": 1,
                     "damage": 67,
                     "armorDamage": 2,
@@ -829,7 +906,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 0.855
+                    "heatFactor": 0.855,
+                    "durabilityBurnFactor": 0.8
                 }
             },
             {
@@ -849,6 +927,7 @@
                 "name": "9x39mm SP-5 gs",
                 "weight": 0.023,
                 "properties": {
+                    "caliber": "Caliber9x39",
                     "penetrationPower": 28,
                     "damage": 71,
                     "armorDamage": 39,
@@ -862,7 +941,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.0923,
                     "misfireChance": 0.154,
-                    "heatFactor": 1.53
+                    "heatFactor": 1.53,
+                    "durabilityBurnFactor": 1.2
                 }
             },
             {
@@ -870,6 +950,7 @@
                 "name": "9x39mm SP-6 gs",
                 "weight": 0.023,
                 "properties": {
+                    "caliber": "Caliber9x39",
                     "penetrationPower": 48,
                     "damage": 60,
                     "armorDamage": 64,
@@ -883,7 +964,8 @@
                     "lightBleedModifier": 0.1,
                     "failureToFeedChance": 0.0903,
                     "misfireChance": 0.168,
-                    "heatFactor": 1.61
+                    "heatFactor": 1.61,
+                    "durabilityBurnFactor": 1.45
                 }
             },
             {
@@ -891,6 +973,7 @@
                 "name": "12/70 lead slug",
                 "weight": 0.05,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 15,
                     "damage": 167,
                     "armorDamage": 55,
@@ -904,7 +987,8 @@
                     "lightBleedModifier": 0.1,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 2.1084
+                    "heatFactor": 2.1084,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -912,6 +996,7 @@
                 "name": "9x19mm PSO gzh",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber9x19PARA",
                     "penetrationPower": 10,
                     "damage": 59,
                     "armorDamage": 32,
@@ -925,7 +1010,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.196,
-                    "heatFactor": 1.0115
+                    "heatFactor": 1.0115,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -933,6 +1019,7 @@
                 "name": "7.62x54mm R LPS gzh",
                 "weight": 0.024,
                 "properties": {
+                    "caliber": "Caliber762x54R",
                     "penetrationPower": 42,
                     "damage": 81,
                     "armorDamage": 78,
@@ -946,7 +1033,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.168,
-                    "heatFactor": 2.313
+                    "heatFactor": 2.313,
+                    "durabilityBurnFactor": 1.1
                 }
             },
             {
@@ -960,6 +1048,7 @@
                 "name": "7.62x51mm M80",
                 "weight": 0.024,
                 "properties": {
+                    "caliber": "Caliber762x51",
                     "penetrationPower": 41,
                     "damage": 80,
                     "armorDamage": 66,
@@ -973,7 +1062,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.0935,
                     "misfireChance": 0.175,
-                    "heatFactor": 2.2568
+                    "heatFactor": 2.2568,
+                    "durabilityBurnFactor": 1.3
                 }
             },
             {
@@ -981,6 +1071,7 @@
                 "name": "7.62x39mm BP gzh",
                 "weight": 0.016,
                 "properties": {
+                    "caliber": "Caliber762x39",
                     "penetrationPower": 47,
                     "damage": 58,
                     "armorDamage": 63,
@@ -994,7 +1085,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.088,
                     "misfireChance": 0.1834,
-                    "heatFactor": 1.919
+                    "heatFactor": 1.919,
+                    "durabilityBurnFactor": 1.45
                 }
             },
             {
@@ -1002,6 +1094,7 @@
                 "name": "7.62x39mm T-45M1 gzh",
                 "weight": 0.016,
                 "properties": {
+                    "caliber": "Caliber762x39",
                     "penetrationPower": 30,
                     "damage": 64,
                     "armorDamage": 46,
@@ -1015,7 +1108,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.2
+                    "heatFactor": 1.2,
+                    "durabilityBurnFactor": 1.2
                 }
             },
             {
@@ -1023,6 +1117,7 @@
                 "name": "7.62x39mm US gzh",
                 "weight": 0.02,
                 "properties": {
+                    "caliber": "Caliber762x39",
                     "penetrationPower": 29,
                     "damage": 56,
                     "armorDamage": 42,
@@ -1036,7 +1131,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.14,
-                    "heatFactor": 0.896
+                    "heatFactor": 0.896,
+                    "durabilityBurnFactor": 0.8
                 }
             },
             {
@@ -1044,6 +1140,7 @@
                 "name": "7.62x39mm HP",
                 "weight": 0.012,
                 "properties": {
+                    "caliber": "Caliber762x39",
                     "penetrationPower": 15,
                     "damage": 87,
                     "armorDamage": 20,
@@ -1057,7 +1154,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.14,
-                    "heatFactor": 0.925
+                    "heatFactor": 0.925,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1065,6 +1163,7 @@
                 "name": ".366 TKM FMJ",
                 "weight": 0.016,
                 "properties": {
+                    "caliber": "Caliber366TKM",
                     "penetrationPower": 23,
                     "damage": 98,
                     "armorDamage": 48,
@@ -1078,7 +1177,8 @@
                     "lightBleedModifier": 0.2,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.21,
-                    "heatFactor": 1.8387
+                    "heatFactor": 1.8387,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1086,6 +1186,7 @@
                 "name": ".366 TKM EKO",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber366TKM",
                     "penetrationPower": 30,
                     "damage": 73,
                     "armorDamage": 40,
@@ -1099,7 +1200,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.266,
-                    "heatFactor": 1.816
+                    "heatFactor": 1.816,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1107,6 +1209,7 @@
                 "name": ".366 TKM Geksa",
                 "weight": 0.016,
                 "properties": {
+                    "caliber": "Caliber366TKM",
                     "penetrationPower": 14,
                     "damage": 110,
                     "armorDamage": 38,
@@ -1120,7 +1223,8 @@
                     "lightBleedModifier": 0.3,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.21,
-                    "heatFactor": 2.043
+                    "heatFactor": 2.043,
+                    "durabilityBurnFactor": 1.35
                 }
             },
             {
@@ -1128,6 +1232,7 @@
                 "name": "5.56x45mm M856",
                 "weight": 0.012,
                 "properties": {
+                    "caliber": "Caliber556x45NATO",
                     "penetrationPower": 18,
                     "damage": 64,
                     "armorDamage": 26,
@@ -1141,7 +1246,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.634
+                    "heatFactor": 1.634,
+                    "durabilityBurnFactor": 1.15
                 }
             },
             {
@@ -1149,6 +1255,7 @@
                 "name": "5.56x45mm M856A1",
                 "weight": 0.012,
                 "properties": {
+                    "caliber": "Caliber556x45NATO",
                     "penetrationPower": 38,
                     "damage": 52,
                     "armorDamage": 44,
@@ -1162,7 +1269,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.081,
                     "misfireChance": 0.1834,
-                    "heatFactor": 1.653
+                    "heatFactor": 1.653,
+                    "durabilityBurnFactor": 1.2
                 }
             },
             {
@@ -1170,6 +1278,7 @@
                 "name": "5.56x45mm M995",
                 "weight": 0.012,
                 "properties": {
+                    "caliber": "Caliber556x45NATO",
                     "penetrationPower": 53,
                     "damage": 42,
                     "armorDamage": 52,
@@ -1183,7 +1292,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.087,
                     "misfireChance": 0.1834,
-                    "heatFactor": 1.805
+                    "heatFactor": 1.805,
+                    "durabilityBurnFactor": 1.7
                 }
             },
             {
@@ -1191,6 +1301,7 @@
                 "name": "5.56x45mm MK 255 Mod 0 (RRLP)",
                 "weight": 0.012,
                 "properties": {
+                    "caliber": "Caliber556x45NATO",
                     "penetrationPower": 11,
                     "damage": 72,
                     "armorDamage": 24,
@@ -1204,7 +1315,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.596
+                    "heatFactor": 1.596,
+                    "durabilityBurnFactor": 1.1
                 }
             },
             {
@@ -1212,6 +1324,7 @@
                 "name": "5.56x45mm FMJ",
                 "weight": 0.012,
                 "properties": {
+                    "caliber": "Caliber556x45NATO",
                     "penetrationPower": 23,
                     "damage": 59,
                     "armorDamage": 33,
@@ -1225,7 +1338,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.154,
-                    "heatFactor": 1.501
+                    "heatFactor": 1.501,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1233,6 +1347,7 @@
                 "name": "5.56x45mm HP",
                 "weight": 0.012,
                 "properties": {
+                    "caliber": "Caliber556x45NATO",
                     "penetrationPower": 7,
                     "damage": 79,
                     "armorDamage": 22,
@@ -1246,7 +1361,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.154,
-                    "heatFactor": 1.558
+                    "heatFactor": 1.558,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1254,6 +1370,7 @@
                 "name": "7.62x54mm R PS gzh",
                 "weight": 0.024,
                 "properties": {
+                    "caliber": "Caliber762x54R",
                     "penetrationPower": 45,
                     "damage": 84,
                     "armorDamage": 84,
@@ -1267,7 +1384,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.082,
                     "misfireChance": 0.175,
-                    "heatFactor": 2.1845
+                    "heatFactor": 2.1845,
+                    "durabilityBurnFactor": 1.15
                 }
             },
             {
@@ -1281,6 +1399,7 @@
                 "name": "9x21mm PS gzh",
                 "weight": 0.023,
                 "properties": {
+                    "caliber": "Caliber9x21",
                     "penetrationPower": 22,
                     "damage": 54,
                     "armorDamage": 39,
@@ -1294,7 +1413,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.094,
                     "misfireChance": 0.14,
-                    "heatFactor": 1.1875
+                    "heatFactor": 1.1875,
+                    "durabilityBurnFactor": 1.35
                 }
             },
             {
@@ -1302,6 +1422,7 @@
                 "name": "9x21mm P gzh",
                 "weight": 0.023,
                 "properties": {
+                    "caliber": "Caliber9x21",
                     "penetrationPower": 18,
                     "damage": 65,
                     "armorDamage": 44,
@@ -1315,7 +1436,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.14,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1.1
                 }
             },
             {
@@ -1323,6 +1445,7 @@
                 "name": "9x21mm PE gzh",
                 "weight": 0.023,
                 "properties": {
+                    "caliber": "Caliber9x21",
                     "penetrationPower": 15,
                     "damage": 80,
                     "armorDamage": 63,
@@ -1336,7 +1459,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.087,
                     "misfireChance": 0.14,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1.1
                 }
             },
             {
@@ -1344,6 +1468,7 @@
                 "name": "9x21mm BT gzh",
                 "weight": 0.023,
                 "properties": {
+                    "caliber": "Caliber9x21",
                     "penetrationPower": 32,
                     "damage": 49,
                     "armorDamage": 42,
@@ -1357,7 +1482,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.082,
                     "misfireChance": 0.126,
-                    "heatFactor": 1.25
+                    "heatFactor": 1.25,
+                    "durabilityBurnFactor": 1.4
                 }
             },
             {
@@ -1371,6 +1497,7 @@
                 "name": "20/70 7.5mm buckshot",
                 "weight": 0.04,
                 "properties": {
+                    "caliber": "Caliber20g",
                     "penetrationPower": 3,
                     "damage": 25,
                     "armorDamage": 14,
@@ -1384,7 +1511,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.266,
-                    "heatFactor": 1.9295
+                    "heatFactor": 1.9295,
+                    "durabilityBurnFactor": 1.35
                 }
             },
             {
@@ -1392,6 +1520,7 @@
                 "name": "9x19mm Luger CCI",
                 "weight": 0.015,
                 "properties": {
+                    "caliber": "Caliber9x19PARA",
                     "penetrationPower": 10,
                     "damage": 70,
                     "armorDamage": 38,
@@ -1405,7 +1534,8 @@
                     "lightBleedModifier": 0.2,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.14,
-                    "heatFactor": 0.952
+                    "heatFactor": 0.952,
+                    "durabilityBurnFactor": 1.1
                 }
             },
             {
@@ -1413,6 +1543,7 @@
                 "name": "7.62x51mm M61",
                 "weight": 0.024,
                 "properties": {
+                    "caliber": "Caliber762x51",
                     "penetrationPower": 64,
                     "damage": 70,
                     "armorDamage": 83,
@@ -1426,7 +1557,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.087,
                     "misfireChance": 0.1834,
-                    "heatFactor": 2.356
+                    "heatFactor": 2.356,
+                    "durabilityBurnFactor": 1.8
                 }
             },
             {
@@ -1434,6 +1566,7 @@
                 "name": "7.62x51mm M62 Tracer",
                 "weight": 0.024,
                 "properties": {
+                    "caliber": "Caliber762x51",
                     "penetrationPower": 44,
                     "damage": 79,
                     "armorDamage": 75,
@@ -1447,7 +1580,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.09,
                     "misfireChance": 0.175,
-                    "heatFactor": 2.232
+                    "heatFactor": 2.232,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -1455,6 +1589,7 @@
                 "name": "4.6x30mm FMJ SX",
                 "weight": 0.007,
                 "properties": {
+                    "caliber": "Caliber46x30",
                     "penetrationPower": 40,
                     "damage": 43,
                     "armorDamage": 41,
@@ -1468,7 +1603,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1476,6 +1612,7 @@
                 "name": "4.6x30mm Action SX",
                 "weight": 0.007,
                 "properties": {
+                    "caliber": "Caliber46x30",
                     "penetrationPower": 18,
                     "damage": 65,
                     "armorDamage": 28,
@@ -1489,7 +1626,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.089,
                     "misfireChance": 0.175,
-                    "heatFactor": 0.99
+                    "heatFactor": 0.99,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1497,6 +1635,7 @@
                 "name": "4.6x30mm AP SX",
                 "weight": 0.007,
                 "properties": {
+                    "caliber": "Caliber46x30",
                     "penetrationPower": 53,
                     "damage": 35,
                     "armorDamage": 46,
@@ -1510,7 +1649,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.084,
                     "misfireChance": 0.21,
-                    "heatFactor": 1.1
+                    "heatFactor": 1.1,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -1518,6 +1658,7 @@
                 "name": "4.6x30mm Subsonic SX",
                 "weight": 0.01,
                 "properties": {
+                    "caliber": "Caliber46x30",
                     "penetrationPower": 23,
                     "damage": 52,
                     "armorDamage": 33,
@@ -1531,7 +1672,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.14,
-                    "heatFactor": 0.88
+                    "heatFactor": 0.88,
+                    "durabilityBurnFactor": 0.7
                 }
             },
             {
@@ -1539,6 +1681,7 @@
                 "name": "9x19mm RIP",
                 "weight": 0.013,
                 "properties": {
+                    "caliber": "Caliber9x19PARA",
                     "penetrationPower": 2,
                     "damage": 102,
                     "armorDamage": 11,
@@ -1552,7 +1695,8 @@
                     "lightBleedModifier": 0.3,
                     "failureToFeedChance": 0.112,
                     "misfireChance": 0.196,
-                    "heatFactor": 1.0829
+                    "heatFactor": 1.0829,
+                    "durabilityBurnFactor": 1.2
                 }
             },
             {
@@ -1560,6 +1704,7 @@
                 "name": "12/70 RIP",
                 "weight": 0.04,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 2,
                     "damage": 265,
                     "armorDamage": 11,
@@ -1573,7 +1718,8 @@
                     "lightBleedModifier": 0.4,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.21,
-                    "heatFactor": 2.3845
+                    "heatFactor": 2.3845,
+                    "durabilityBurnFactor": 1.6
                 }
             },
             {
@@ -1581,6 +1727,7 @@
                 "name": "5.56x45mm Warmageddon",
                 "weight": 0.011,
                 "properties": {
+                    "caliber": "Caliber556x45NATO",
                     "penetrationPower": 3,
                     "damage": 88,
                     "armorDamage": 11,
@@ -1594,7 +1741,8 @@
                     "lightBleedModifier": 0.2,
                     "failureToFeedChance": 0.091,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.539
+                    "heatFactor": 1.539,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1602,6 +1750,7 @@
                 "name": "5.45x39mm PPBS gs \"Igolnik\"",
                 "weight": 0.011,
                 "properties": {
+                    "caliber": "Caliber545x39",
                     "penetrationPower": 62,
                     "damage": 37,
                     "armorDamage": 59,
@@ -1615,7 +1764,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.089,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.77
+                    "heatFactor": 1.77,
+                    "durabilityBurnFactor": 1.7
                 }
             },
             {
@@ -1623,6 +1773,7 @@
                 "name": "9x39mm SPP gs",
                 "weight": 0.023,
                 "properties": {
+                    "caliber": "Caliber9x39",
                     "penetrationPower": 35,
                     "damage": 68,
                     "armorDamage": 48,
@@ -1636,7 +1787,8 @@
                     "lightBleedModifier": 0.1,
                     "failureToFeedChance": 0.0884,
                     "misfireChance": 0.14,
-                    "heatFactor": 1.45
+                    "heatFactor": 1.45,
+                    "durabilityBurnFactor": 1.1
                 }
             },
             {
@@ -1644,6 +1796,7 @@
                 "name": "9x39mm BP gs",
                 "weight": 0.023,
                 "properties": {
+                    "caliber": "Caliber9x39",
                     "penetrationPower": 54,
                     "damage": 58,
                     "armorDamage": 69,
@@ -1657,7 +1810,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.0871,
                     "misfireChance": 0.196,
-                    "heatFactor": 1.61
+                    "heatFactor": 1.61,
+                    "durabilityBurnFactor": 1.35
                 }
             },
             {
@@ -1665,6 +1819,7 @@
                 "name": "9x19mm Green Tracer",
                 "weight": 0.006,
                 "properties": {
+                    "caliber": "Caliber9x19PARA",
                     "penetrationPower": 14,
                     "damage": 58,
                     "armorDamage": 33,
@@ -1678,7 +1833,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.14,
-                    "heatFactor": 1.1305
+                    "heatFactor": 1.1305,
+                    "durabilityBurnFactor": 1.15
                 }
             },
             {
@@ -1686,6 +1842,7 @@
                 "name": "9x19mm AP 6.3",
                 "weight": 0.009,
                 "properties": {
+                    "caliber": "Caliber9x19PARA",
                     "penetrationPower": 30,
                     "damage": 52,
                     "armorDamage": 48,
@@ -1699,7 +1856,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.086,
                     "misfireChance": 0.196,
-                    "heatFactor": 1.13645
+                    "heatFactor": 1.13645,
+                    "durabilityBurnFactor": 1.35
                 }
             },
             {
@@ -1707,6 +1865,7 @@
                 "name": "12.7x55mm PS12",
                 "weight": 0.07,
                 "properties": {
+                    "caliber": "Caliber127x55",
                     "penetrationPower": 28,
                     "damage": 115,
                     "armorDamage": 60,
@@ -1720,7 +1879,8 @@
                     "lightBleedModifier": 0.3,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 2.3845
+                    "heatFactor": 2.3845,
+                    "durabilityBurnFactor": 1.4
                 }
             },
             {
@@ -1728,6 +1888,7 @@
                 "name": "12.7x55mm PS12A",
                 "weight": 0.044,
                 "properties": {
+                    "caliber": "Caliber127x55",
                     "penetrationPower": 10,
                     "damage": 165,
                     "armorDamage": 22,
@@ -1741,7 +1902,8 @@
                     "lightBleedModifier": 0.35,
                     "failureToFeedChance": 0.0925,
                     "misfireChance": 0.175,
-                    "heatFactor": 2.1335
+                    "heatFactor": 2.1335,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1749,6 +1911,7 @@
                 "name": "12.7x55mm PS12B",
                 "weight": 0.055,
                 "properties": {
+                    "caliber": "Caliber127x55",
                     "penetrationPower": 46,
                     "damage": 102,
                     "armorDamage": 57,
@@ -1762,7 +1925,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.0874,
                     "misfireChance": 0.175,
-                    "heatFactor": 2.51
+                    "heatFactor": 2.51,
+                    "durabilityBurnFactor": 1.8
                 }
             },
             {
@@ -1770,6 +1934,7 @@
                 "name": "5.7x28mm SS190",
                 "weight": 0.006,
                 "properties": {
+                    "caliber": "Caliber57x28",
                     "penetrationPower": 37,
                     "damage": 49,
                     "armorDamage": 43,
@@ -1783,7 +1948,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.0935,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.17
+                    "heatFactor": 1.17,
+                    "durabilityBurnFactor": 1.2
                 }
             },
             {
@@ -1791,6 +1957,7 @@
                 "name": "5.7x28mm L191",
                 "weight": 0.006,
                 "properties": {
+                    "caliber": "Caliber57x28",
                     "penetrationPower": 33,
                     "damage": 53,
                     "armorDamage": 41,
@@ -1804,7 +1971,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.081,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.1115
+                    "heatFactor": 1.1115,
+                    "durabilityBurnFactor": 1.15
                 }
             },
             {
@@ -1812,6 +1980,7 @@
                 "name": "5.7x28mm SB193",
                 "weight": 0.007,
                 "properties": {
+                    "caliber": "Caliber57x28",
                     "penetrationPower": 27,
                     "damage": 59,
                     "armorDamage": 37,
@@ -1825,7 +1994,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.0775,
                     "misfireChance": 0.14,
-                    "heatFactor": 0.936
+                    "heatFactor": 0.936,
+                    "durabilityBurnFactor": 0.75
                 }
             },
             {
@@ -1833,6 +2003,7 @@
                 "name": "5.7x28mm SS198LF",
                 "weight": 0.006,
                 "properties": {
+                    "caliber": "Caliber57x28",
                     "penetrationPower": 17,
                     "damage": 70,
                     "armorDamage": 19,
@@ -1846,7 +2017,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 0.9945
+                    "heatFactor": 0.9945,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1854,6 +2026,7 @@
                 "name": "5.7x28mm SS197SR",
                 "weight": 0.007,
                 "properties": {
+                    "caliber": "Caliber57x28",
                     "penetrationPower": 25,
                     "damage": 62,
                     "armorDamage": 22,
@@ -1867,7 +2040,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 0.8
                 }
             },
             {
@@ -1875,6 +2049,7 @@
                 "name": "5.7x28mm R37.F",
                 "weight": 0.006,
                 "properties": {
+                    "caliber": "Caliber57x28",
                     "penetrationPower": 8,
                     "damage": 98,
                     "armorDamage": 7,
@@ -1888,7 +2063,8 @@
                     "lightBleedModifier": 0.2,
                     "failureToFeedChance": 0.087,
                     "misfireChance": 0.196,
-                    "heatFactor": 0.9711
+                    "heatFactor": 0.9711,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1896,6 +2072,7 @@
                 "name": "5.7x28mm R37.X",
                 "weight": 0.006,
                 "properties": {
+                    "caliber": "Caliber57x28",
                     "penetrationPower": 11,
                     "damage": 81,
                     "armorDamage": 9,
@@ -1909,7 +2086,8 @@
                     "lightBleedModifier": 0.1,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 0.9828
+                    "heatFactor": 0.9828,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1917,6 +2095,7 @@
                 "name": "12/70 5.25mm buckshot",
                 "weight": 0.044,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 1,
                     "damage": 37,
                     "armorDamage": 15,
@@ -1930,7 +2109,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.266,
-                    "heatFactor": 2.008
+                    "heatFactor": 2.008,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1938,6 +2118,7 @@
                 "name": "12/70 6.5mm Express buckshot",
                 "weight": 0.048,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 3,
                     "damage": 35,
                     "armorDamage": 26,
@@ -1951,7 +2132,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.224,
-                    "heatFactor": 2.259
+                    "heatFactor": 2.259,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1959,6 +2141,7 @@
                 "name": "12/70 8.5mm Magnum buckshot",
                 "weight": 0.059,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 2,
                     "damage": 50,
                     "armorDamage": 26,
@@ -1972,7 +2155,8 @@
                     "lightBleedModifier": 0.2,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.196,
-                    "heatFactor": 2.4598
+                    "heatFactor": 2.4598,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -1980,6 +2164,7 @@
                 "name": "12/70 Grizzly 40 slug",
                 "weight": 0.055,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 12,
                     "damage": 190,
                     "armorDamage": 48,
@@ -1993,7 +2178,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.224,
-                    "heatFactor": 2.02055
+                    "heatFactor": 2.02055,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2001,6 +2187,7 @@
                 "name": "12/70 \"Poleva-3\" slug",
                 "weight": 0.044,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 17,
                     "damage": 140,
                     "armorDamage": 40,
@@ -2014,7 +2201,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.266,
-                    "heatFactor": 2.0833
+                    "heatFactor": 2.0833,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -2022,6 +2210,7 @@
                 "name": "12/70 \"Poleva-6u\" slug",
                 "weight": 0.048,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 20,
                     "damage": 150,
                     "armorDamage": 50,
@@ -2035,7 +2224,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.224,
-                    "heatFactor": 2.3594
+                    "heatFactor": 2.3594,
+                    "durabilityBurnFactor": 1.6
                 }
             },
             {
@@ -2043,6 +2233,7 @@
                 "name": "12/70 AP-20 armor-piercing slug",
                 "weight": 0.05,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 37,
                     "damage": 164,
                     "armorDamage": 65,
@@ -2056,7 +2247,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.21,
-                    "heatFactor": 2.4849
+                    "heatFactor": 2.4849,
+                    "durabilityBurnFactor": 2.2
                 }
             },
             {
@@ -2064,6 +2256,7 @@
                 "name": "12/70 Copper Sabot Premier HP slug",
                 "weight": 0.043,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 14,
                     "damage": 206,
                     "armorDamage": 46,
@@ -2077,7 +2270,8 @@
                     "lightBleedModifier": 0.35,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.154,
-                    "heatFactor": 2.0582
+                    "heatFactor": 2.0582,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -2085,6 +2279,7 @@
                 "name": "12/70 makeshift .50 BMG slug",
                 "weight": 0.055,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 26,
                     "damage": 197,
                     "armorDamage": 57,
@@ -2098,7 +2293,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.11,
                     "misfireChance": 0.336,
-                    "heatFactor": 2.51
+                    "heatFactor": 2.51,
+                    "durabilityBurnFactor": 2
                 }
             },
             {
@@ -2106,6 +2302,7 @@
                 "name": "12/70 SuperFormance HP slug",
                 "weight": 0.034,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 5,
                     "damage": 220,
                     "armorDamage": 12,
@@ -2119,7 +2316,8 @@
                     "lightBleedModifier": 0.3,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.154,
-                    "heatFactor": 2.04565
+                    "heatFactor": 2.04565,
+                    "durabilityBurnFactor": 1.2
                 }
             },
             {
@@ -2127,6 +2325,7 @@
                 "name": "12/70 Dual Sabot slug",
                 "weight": 0.05,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 17,
                     "damage": 85,
                     "armorDamage": 65,
@@ -2140,7 +2339,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.196,
-                    "heatFactor": 2.1335
+                    "heatFactor": 2.1335,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -2148,6 +2348,7 @@
                 "name": "12/70 FTX Custom Lite slug",
                 "weight": 0.026,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 20,
                     "damage": 183,
                     "armorDamage": 50,
@@ -2161,7 +2362,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.14,
-                    "heatFactor": 2.1837
+                    "heatFactor": 2.1837,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -2169,6 +2371,7 @@
                 "name": "12/70 flechette",
                 "weight": 0.04,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 31,
                     "damage": 25,
                     "armorDamage": 26,
@@ -2182,7 +2385,8 @@
                     "lightBleedModifier": 0.25,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.21,
-                    "heatFactor": 2.1586
+                    "heatFactor": 2.1586,
+                    "durabilityBurnFactor": 1.6
                 }
             },
             {
@@ -2190,6 +2394,7 @@
                 "name": "20/70 5.6mm buckshot",
                 "weight": 0.028,
                 "properties": {
+                    "caliber": "Caliber20g",
                     "penetrationPower": 1,
                     "damage": 26,
                     "armorDamage": 12,
@@ -2203,7 +2408,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.266,
-                    "heatFactor": 1.816
+                    "heatFactor": 1.816,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2211,6 +2417,7 @@
                 "name": "20/70 6.2mm buckshot",
                 "weight": 0.032,
                 "properties": {
+                    "caliber": "Caliber20g",
                     "penetrationPower": 2,
                     "damage": 22,
                     "armorDamage": 13,
@@ -2224,7 +2431,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.252,
-                    "heatFactor": 1.8387
+                    "heatFactor": 1.8387,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2232,6 +2440,7 @@
                 "name": "20/70 7.3mm buckshot",
                 "weight": 0.032,
                 "properties": {
+                    "caliber": "Caliber20g",
                     "penetrationPower": 3,
                     "damage": 23,
                     "armorDamage": 13,
@@ -2245,7 +2454,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.238,
-                    "heatFactor": 1.9522
+                    "heatFactor": 1.9522,
+                    "durabilityBurnFactor": 1.3
                 }
             },
             {
@@ -2253,6 +2463,7 @@
                 "name": "20/70 Star slug",
                 "weight": 0.034,
                 "properties": {
+                    "caliber": "Caliber20g",
                     "penetrationPower": 16,
                     "damage": 154,
                     "armorDamage": 42,
@@ -2266,7 +2477,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.196,
-                    "heatFactor": 2.27
+                    "heatFactor": 2.27,
+                    "durabilityBurnFactor": 1.8
                 }
             },
             {
@@ -2274,6 +2486,7 @@
                 "name": "20/70 \"Poleva-6u\" slug",
                 "weight": 0.032,
                 "properties": {
+                    "caliber": "Caliber20g",
                     "penetrationPower": 17,
                     "damage": 135,
                     "armorDamage": 40,
@@ -2287,7 +2500,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.224,
-                    "heatFactor": 2.2473
+                    "heatFactor": 2.2473,
+                    "durabilityBurnFactor": 1.8
                 }
             },
             {
@@ -2295,6 +2509,7 @@
                 "name": "20/70 \"Poleva-3\" slug",
                 "weight": 0.029,
                 "properties": {
+                    "caliber": "Caliber20g",
                     "penetrationPower": 14,
                     "damage": 120,
                     "armorDamage": 35,
@@ -2308,7 +2523,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.266,
-                    "heatFactor": 2.0657
+                    "heatFactor": 2.0657,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -2316,6 +2532,7 @@
                 "name": "20/70 Devastator slug",
                 "weight": 0.029,
                 "properties": {
+                    "caliber": "Caliber20g",
                     "penetrationPower": 5,
                     "damage": 198,
                     "armorDamage": 13,
@@ -2329,7 +2546,8 @@
                     "lightBleedModifier": 0.2,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.224,
-                    "heatFactor": 2.043
+                    "heatFactor": 2.043,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -2337,6 +2555,7 @@
                 "name": "7.62x54mm R T-46M gzh",
                 "weight": 0.025,
                 "properties": {
+                    "caliber": "Caliber762x54R",
                     "penetrationPower": 41,
                     "damage": 82,
                     "armorDamage": 83,
@@ -2350,7 +2569,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.154,
-                    "heatFactor": 2.056
+                    "heatFactor": 2.056,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2358,6 +2578,7 @@
                 "name": "7.62x54mm R BT gzh",
                 "weight": 0.024,
                 "properties": {
+                    "caliber": "Caliber762x54R",
                     "penetrationPower": 55,
                     "damage": 78,
                     "armorDamage": 87,
@@ -2371,7 +2592,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.0917,
                     "misfireChance": 0.182,
-                    "heatFactor": 2.4415
+                    "heatFactor": 2.4415,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -2379,6 +2601,7 @@
                 "name": "7.62x54mm R BS gs",
                 "weight": 0.025,
                 "properties": {
+                    "caliber": "Caliber762x54R",
                     "penetrationPower": 70,
                     "damage": 72,
                     "armorDamage": 88,
@@ -2392,7 +2615,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.0874,
                     "misfireChance": 0.196,
-                    "heatFactor": 2.57
+                    "heatFactor": 2.57,
+                    "durabilityBurnFactor": 1.7
                 }
             },
             {
@@ -2400,6 +2624,7 @@
                 "name": "7.62x51mm BCP FMJ",
                 "weight": 0.022,
                 "properties": {
+                    "caliber": "Caliber762x51",
                     "penetrationPower": 35,
                     "damage": 83,
                     "armorDamage": 42,
@@ -2413,7 +2638,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.168,
-                    "heatFactor": 2.1328
+                    "heatFactor": 2.1328,
+                    "durabilityBurnFactor": 1.18
                 }
             },
             {
@@ -2421,6 +2647,7 @@
                 "name": "7.62x51mm TCW SP",
                 "weight": 0.023,
                 "properties": {
+                    "caliber": "Caliber762x51",
                     "penetrationPower": 30,
                     "damage": 87,
                     "armorDamage": 25,
@@ -2434,7 +2661,8 @@
                     "lightBleedModifier": 0.12,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.154,
-                    "heatFactor": 1.984
+                    "heatFactor": 1.984,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2442,6 +2670,7 @@
                 "name": "7.62x51mm Ultra Nosler",
                 "weight": 0.021,
                 "properties": {
+                    "caliber": "Caliber762x51",
                     "penetrationPower": 15,
                     "damage": 107,
                     "armorDamage": 20,
@@ -2455,7 +2684,8 @@
                     "lightBleedModifier": 0.2,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 2.108
+                    "heatFactor": 2.108,
+                    "durabilityBurnFactor": 1.15
                 }
             },
             {
@@ -2475,6 +2705,7 @@
                 "name": ".45 ACP Match FMJ",
                 "weight": 0.015,
                 "properties": {
+                    "caliber": "Caliber1143x23ACP",
                     "penetrationPower": 25,
                     "damage": 72,
                     "armorDamage": 36,
@@ -2488,7 +2719,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 0.9963
+                    "heatFactor": 0.9963,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2496,6 +2728,7 @@
                 "name": "23x75mm Shrapnel-10 buckshot",
                 "weight": 0.08,
                 "properties": {
+                    "caliber": "Caliber23x75",
                     "penetrationPower": 11,
                     "damage": 87,
                     "armorDamage": 20,
@@ -2509,7 +2742,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 2.8
+                    "heatFactor": 2.8,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2517,6 +2751,7 @@
                 "name": "23x75mm Zvezda flashbang round",
                 "weight": 0.07,
                 "properties": {
+                    "caliber": "Caliber23x75",
                     "penetrationPower": 0,
                     "damage": 0,
                     "armorDamage": 0,
@@ -2530,7 +2765,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.336,
-                    "heatFactor": 3.5
+                    "heatFactor": 3.5,
+                    "durabilityBurnFactor": 4
                 }
             },
             {
@@ -2538,6 +2774,7 @@
                 "name": "23x75mm Barrikada slug",
                 "weight": 0.08,
                 "properties": {
+                    "caliber": "Caliber23x75",
                     "penetrationPower": 39,
                     "damage": 192,
                     "armorDamage": 75,
@@ -2551,7 +2788,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 3.325
+                    "heatFactor": 3.325,
+                    "durabilityBurnFactor": 2.7
                 }
             },
             {
@@ -2559,6 +2797,7 @@
                 "name": ".45 ACP RIP",
                 "weight": 0.019,
                 "properties": {
+                    "caliber": "Caliber1143x23ACP",
                     "penetrationPower": 3,
                     "damage": 130,
                     "armorDamage": 12,
@@ -2572,7 +2811,8 @@
                     "lightBleedModifier": 0.3,
                     "failureToFeedChance": 0.111,
                     "misfireChance": 0.196,
-                    "heatFactor": 1.1685
+                    "heatFactor": 1.1685,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -2580,6 +2820,7 @@
                 "name": "40x46mm M406 (HE) grenade",
                 "weight": 0.23,
                 "properties": {
+                    "caliber": "Caliber40x46",
                     "penetrationPower": 1,
                     "damage": 199,
                     "armorDamage": 95,
@@ -2593,7 +2834,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0,
                     "misfireChance": 0.175,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2601,6 +2843,7 @@
                 "name": "40x46mm M441 (HE) grenade",
                 "weight": 0.23,
                 "properties": {
+                    "caliber": "Caliber40x46",
                     "penetrationPower": 1,
                     "damage": 199,
                     "armorDamage": 95,
@@ -2614,7 +2857,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0,
                     "misfireChance": 0.175,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2622,6 +2866,7 @@
                 "name": "40x46mm M381 (HE) grenade",
                 "weight": 0.23,
                 "properties": {
+                    "caliber": "Caliber40x46",
                     "penetrationPower": 1,
                     "damage": 199,
                     "armorDamage": 95,
@@ -2635,7 +2880,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0,
                     "misfireChance": 0.175,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2643,6 +2889,7 @@
                 "name": "40x46mm M576 (MP-APERS) grenade",
                 "weight": 0.12,
                 "properties": {
+                    "caliber": "Caliber40x46",
                     "penetrationPower": 5,
                     "damage": 160,
                     "armorDamage": 95,
@@ -2656,7 +2903,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0,
                     "misfireChance": 0.175,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2664,6 +2912,7 @@
                 "name": "40x46mm M386 (HE) grenade",
                 "weight": 0.23,
                 "properties": {
+                    "caliber": "Caliber40x46",
                     "penetrationPower": 1,
                     "damage": 199,
                     "armorDamage": 95,
@@ -2677,7 +2926,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0,
                     "misfireChance": 0.175,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2685,6 +2935,7 @@
                 "name": "7.62x51mm M993",
                 "weight": 0.024,
                 "properties": {
+                    "caliber": "Caliber762x51",
                     "penetrationPower": 70,
                     "damage": 67,
                     "armorDamage": 85,
@@ -2698,7 +2949,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.081,
                     "misfireChance": 0.175,
-                    "heatFactor": 2.48
+                    "heatFactor": 2.48,
+                    "durabilityBurnFactor": 2
                 }
             },
             {
@@ -2706,6 +2958,7 @@
                 "name": ".45 ACP AP",
                 "weight": 0.015,
                 "properties": {
+                    "caliber": "Caliber1143x23ACP",
                     "penetrationPower": 38,
                     "damage": 66,
                     "armorDamage": 48,
@@ -2719,7 +2972,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.091,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.23
+                    "heatFactor": 1.23,
+                    "durabilityBurnFactor": 1.7
                 }
             },
             {
@@ -2727,6 +2981,7 @@
                 "name": ".45 ACP Lasermatch FMJ",
                 "weight": 0.015,
                 "properties": {
+                    "caliber": "Caliber1143x23ACP",
                     "penetrationPower": 19,
                     "damage": 76,
                     "armorDamage": 37,
@@ -2740,7 +2995,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.14,
-                    "heatFactor": 1.107
+                    "heatFactor": 1.107,
+                    "durabilityBurnFactor": 1.2
                 }
             },
             {
@@ -2748,6 +3004,7 @@
                 "name": "9x19mm PBP gzh",
                 "weight": 0.009,
                 "properties": {
+                    "caliber": "Caliber9x19PARA",
                     "penetrationPower": 39,
                     "damage": 52,
                     "armorDamage": 55,
@@ -2761,7 +3018,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.077,
                     "misfireChance": 0.21,
-                    "heatFactor": 1.19
+                    "heatFactor": 1.19,
+                    "durabilityBurnFactor": 2.7
                 }
             },
             {
@@ -2769,6 +3027,7 @@
                 "name": "9x19mm QuakeMaker",
                 "weight": 0.013,
                 "properties": {
+                    "caliber": "Caliber9x19PARA",
                     "penetrationPower": 8,
                     "damage": 85,
                     "armorDamage": 22,
@@ -2782,7 +3041,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.093,
                     "misfireChance": 0.126,
-                    "heatFactor": 0.98175
+                    "heatFactor": 0.98175,
+                    "durabilityBurnFactor": 1.1
                 }
             },
             {
@@ -2790,6 +3050,7 @@
                 "name": ".45 ACP Hydra-Shok",
                 "weight": 0.017,
                 "properties": {
+                    "caliber": "Caliber1143x23ACP",
                     "penetrationPower": 13,
                     "damage": 100,
                     "armorDamage": 30,
@@ -2803,7 +3064,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.096,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.13775
+                    "heatFactor": 1.13775,
+                    "durabilityBurnFactor": 1.1
                 }
             },
             {
@@ -2811,6 +3073,7 @@
                 "name": ".366 TKM AP-M",
                 "weight": 0.019,
                 "properties": {
+                    "caliber": "Caliber366TKM",
                     "penetrationPower": 42,
                     "damage": 90,
                     "armorDamage": 60,
@@ -2824,7 +3087,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.102,
                     "misfireChance": 0.224,
-                    "heatFactor": 2.27
+                    "heatFactor": 2.27,
+                    "durabilityBurnFactor": 1.9
                 }
             },
             {
@@ -2832,6 +3096,7 @@
                 "name": "40x46mm M433 (HEDP) grenade",
                 "weight": 0.23,
                 "properties": {
+                    "caliber": "Caliber40x46",
                     "penetrationPower": 1,
                     "damage": 199,
                     "armorDamage": 95,
@@ -2845,7 +3110,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0,
                     "misfireChance": 0.175,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2853,6 +3119,7 @@
                 "name": "23x75mm Shrapnel-25 buckshot",
                 "weight": 0.08,
                 "properties": {
+                    "caliber": "Caliber23x75",
                     "penetrationPower": 10,
                     "damage": 78,
                     "armorDamage": 20,
@@ -2866,7 +3133,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 2.975
+                    "heatFactor": 2.975,
+                    "durabilityBurnFactor": 1.8
                 }
             },
             {
@@ -2874,6 +3142,7 @@
                 "name": ".300 Blackout BCP FMJ",
                 "weight": 0.015,
                 "properties": {
+                    "caliber": "Caliber762x35",
                     "penetrationPower": 30,
                     "damage": 60,
                     "armorDamage": 36,
@@ -2887,7 +3156,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.592
+                    "heatFactor": 1.592,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2895,6 +3165,7 @@
                 "name": ".338 Lapua Magnum FMJ",
                 "weight": 0.047,
                 "properties": {
+                    "caliber": "Caliber86x70",
                     "penetrationPower": 47,
                     "damage": 122,
                     "armorDamage": 83,
@@ -2908,7 +3179,8 @@
                     "lightBleedModifier": 0.35,
                     "failureToFeedChance": 0.091,
                     "misfireChance": 0.175,
-                    "heatFactor": 3.097
+                    "heatFactor": 3.097,
+                    "durabilityBurnFactor": 1.8
                 }
             },
             {
@@ -2916,6 +3188,7 @@
                 "name": ".338 Lapua Magnum AP",
                 "weight": 0.049,
                 "properties": {
+                    "caliber": "Caliber86x70",
                     "penetrationPower": 79,
                     "damage": 115,
                     "armorDamage": 89,
@@ -2929,7 +3202,8 @@
                     "lightBleedModifier": 0.2,
                     "failureToFeedChance": 0.087,
                     "misfireChance": 0.175,
-                    "heatFactor": 3.26
+                    "heatFactor": 3.26,
+                    "durabilityBurnFactor": 2.4
                 }
             },
             {
@@ -2937,6 +3211,7 @@
                 "name": ".338 Lapua Magnum TAC-X",
                 "weight": 0.044,
                 "properties": {
+                    "caliber": "Caliber86x70",
                     "penetrationPower": 18,
                     "damage": 196,
                     "armorDamage": 55,
@@ -2950,7 +3225,8 @@
                     "lightBleedModifier": 0.8,
                     "failureToFeedChance": 0.0891,
                     "misfireChance": 0.21,
-                    "heatFactor": 2.934
+                    "heatFactor": 2.934,
+                    "durabilityBurnFactor": 1.4
                 }
             },
             {
@@ -2958,6 +3234,7 @@
                 "name": ".338 Lapua Magnum UCW",
                 "weight": 0.045,
                 "properties": {
+                    "caliber": "Caliber86x70",
                     "penetrationPower": 32,
                     "damage": 142,
                     "armorDamage": 70,
@@ -2971,7 +3248,8 @@
                     "lightBleedModifier": 0.5,
                     "failureToFeedChance": 0.0945,
                     "misfireChance": 0.224,
-                    "heatFactor": 2.608
+                    "heatFactor": 2.608,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -2979,6 +3257,7 @@
                 "name": ".300 Blackout AP",
                 "weight": 0.014,
                 "properties": {
+                    "caliber": "Caliber762x35",
                     "penetrationPower": 48,
                     "damage": 51,
                     "armorDamage": 65,
@@ -2992,7 +3271,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.086,
                     "misfireChance": 0.196,
-                    "heatFactor": 1.99
+                    "heatFactor": 1.99,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -3000,6 +3280,7 @@
                 "name": "5.56x45mm MK 318 Mod 0 (SOST)",
                 "weight": 0.012,
                 "properties": {
+                    "caliber": "Caliber556x45NATO",
                     "penetrationPower": 33,
                     "damage": 55,
                     "armorDamage": 39,
@@ -3013,7 +3294,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.154,
-                    "heatFactor": 1.52
+                    "heatFactor": 1.52,
+                    "durabilityBurnFactor": 1.15
                 }
             },
             {
@@ -3021,6 +3303,7 @@
                 "name": "5.56x45mm SSA AP",
                 "weight": 0.013,
                 "properties": {
+                    "caliber": "Caliber556x45NATO",
                     "penetrationPower": 57,
                     "damage": 38,
                     "armorDamage": 58,
@@ -3034,7 +3317,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.111,
                     "misfireChance": 0.196,
-                    "heatFactor": 1.9
+                    "heatFactor": 1.9,
+                    "durabilityBurnFactor": 1.8
                 }
             },
             {
@@ -3042,6 +3326,7 @@
                 "name": "7.62x39mm MAI AP",
                 "weight": 0.015,
                 "properties": {
+                    "caliber": "Caliber762x39",
                     "penetrationPower": 58,
                     "damage": 47,
                     "armorDamage": 76,
@@ -3055,7 +3340,8 @@
                     "lightBleedModifier": 0.1,
                     "failureToFeedChance": 0.102,
                     "misfireChance": 0.196,
-                    "heatFactor": 2.02
+                    "heatFactor": 2.02,
+                    "durabilityBurnFactor": 1.7
                 }
             },
             {
@@ -3063,6 +3349,7 @@
                 "name": "5.45x39mm 7N40",
                 "weight": 0.011,
                 "properties": {
+                    "caliber": "Caliber545x39",
                     "penetrationPower": 42,
                     "damage": 52,
                     "armorDamage": 45,
@@ -3076,7 +3363,8 @@
                     "lightBleedModifier": 0.2,
                     "failureToFeedChance": 0.059,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.7523
+                    "heatFactor": 1.7523,
+                    "durabilityBurnFactor": 1.35
                 }
             },
             {
@@ -3084,6 +3372,7 @@
                 "name": "9x39mm PAB-9 gs",
                 "weight": 0.024,
                 "properties": {
+                    "caliber": "Caliber9x39",
                     "penetrationPower": 43,
                     "damage": 62,
                     "armorDamage": 57,
@@ -3097,7 +3386,8 @@
                     "lightBleedModifier": 0.1,
                     "failureToFeedChance": 0.073,
                     "misfireChance": 0.196,
-                    "heatFactor": 1.56
+                    "heatFactor": 1.56,
+                    "durabilityBurnFactor": 1.55
                 }
             },
             {
@@ -3105,6 +3395,7 @@
                 "name": ".300 Blackout V-Max",
                 "weight": 0.015,
                 "properties": {
+                    "caliber": "Caliber762x35",
                     "penetrationPower": 20,
                     "damage": 72,
                     "armorDamage": 25,
@@ -3118,7 +3409,8 @@
                     "lightBleedModifier": 0.22,
                     "failureToFeedChance": 0.075,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.8
+                    "heatFactor": 1.8,
+                    "durabilityBurnFactor": 1.1
                 }
             },
             {
@@ -3126,6 +3418,7 @@
                 "name": ".300 Whisper",
                 "weight": 0.015,
                 "properties": {
+                    "caliber": "Caliber762x35",
                     "penetrationPower": 14,
                     "damage": 90,
                     "armorDamage": 18,
@@ -3139,7 +3432,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.042,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.9701
+                    "heatFactor": 1.9701,
+                    "durabilityBurnFactor": 1.05
                 }
             },
             {
@@ -3147,6 +3441,7 @@
                 "name": ".300 Blackout M62 Tracer",
                 "weight": 0.016,
                 "properties": {
+                    "caliber": "Caliber762x35",
                     "penetrationPower": 36,
                     "damage": 54,
                     "armorDamage": 40,
@@ -3160,7 +3455,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.055,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.7
+                    "heatFactor": 1.7,
+                    "durabilityBurnFactor": 1.25
                 }
             },
             {
@@ -3168,6 +3464,7 @@
                 "name": ".357 Magnum FMJ",
                 "weight": 0.016,
                 "properties": {
+                    "caliber": "Caliber9x33R",
                     "penetrationPower": 35,
                     "damage": 70,
                     "armorDamage": 43,
@@ -3181,7 +3478,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.102,
                     "misfireChance": 0.18,
-                    "heatFactor": 2.27
+                    "heatFactor": 2.27,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -3189,6 +3487,7 @@
                 "name": ".357 Magnum HP",
                 "weight": 0.016,
                 "properties": {
+                    "caliber": "Caliber9x33R",
                     "penetrationPower": 18,
                     "damage": 99,
                     "armorDamage": 20,
@@ -3202,7 +3501,8 @@
                     "lightBleedModifier": 0.4,
                     "failureToFeedChance": 0.128,
                     "misfireChance": 0.224,
-                    "heatFactor": 2.56
+                    "heatFactor": 2.56,
+                    "durabilityBurnFactor": 1.6
                 }
             },
             {
@@ -3210,6 +3510,7 @@
                 "name": ".357 Magnum JHP",
                 "weight": 0.016,
                 "properties": {
+                    "caliber": "Caliber9x33R",
                     "penetrationPower": 24,
                     "damage": 88,
                     "armorDamage": 28,
@@ -3223,7 +3524,8 @@
                     "lightBleedModifier": 0.25,
                     "failureToFeedChance": 0.102,
                     "misfireChance": 0.15,
-                    "heatFactor": 2.27
+                    "heatFactor": 2.27,
+                    "durabilityBurnFactor": 1.4
                 }
             },
             {
@@ -3231,6 +3533,7 @@
                 "name": ".357 Magnum SP",
                 "weight": 0.015,
                 "properties": {
+                    "caliber": "Caliber9x33R",
                     "penetrationPower": 12,
                     "damage": 108,
                     "armorDamage": 15,
@@ -3244,7 +3547,8 @@
                     "lightBleedModifier": 0.35,
                     "failureToFeedChance": 0.102,
                     "misfireChance": 0.18,
-                    "heatFactor": 1.65
+                    "heatFactor": 1.65,
+                    "durabilityBurnFactor": 1.3
                 }
             },
             {
@@ -3252,6 +3556,7 @@
                 "name": "26x75mm flare cartridge (Green)",
                 "weight": 0.043,
                 "properties": {
+                    "caliber": "Caliber26x75",
                     "penetrationPower": 0,
                     "damage": 37,
                     "armorDamage": 60,
@@ -3265,7 +3570,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0,
                     "misfireChance": 0,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -3273,6 +3579,7 @@
                 "name": "26x75mm flare cartridge (Red)",
                 "weight": 0.042,
                 "properties": {
+                    "caliber": "Caliber26x75",
                     "penetrationPower": 0,
                     "damage": 37,
                     "armorDamage": 60,
@@ -3286,7 +3593,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0,
                     "misfireChance": 0,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -3294,6 +3602,7 @@
                 "name": "26x75mm flare cartridge (White)",
                 "weight": 0.055,
                 "properties": {
+                    "caliber": "Caliber26x75",
                     "penetrationPower": 0,
                     "damage": 37,
                     "armorDamage": 60,
@@ -3307,7 +3616,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0,
                     "misfireChance": 0,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -3315,6 +3625,7 @@
                 "name": "26x75mm flare cartridge (Yellow)",
                 "weight": 0.05,
                 "properties": {
+                    "caliber": "Caliber26x75",
                     "penetrationPower": 0,
                     "damage": 37,
                     "armorDamage": 60,
@@ -3328,7 +3639,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0,
                     "misfireChance": 0,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -3336,6 +3648,7 @@
                 "name": "26x75mm flare cartridge (Acid Green)",
                 "weight": 0.043,
                 "properties": {
+                    "caliber": "Caliber26x75",
                     "penetrationPower": 0,
                     "damage": 37,
                     "armorDamage": 60,
@@ -3349,7 +3662,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0,
                     "misfireChance": 0,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -3357,6 +3671,7 @@
                 "name": "4.6x30mm JSP SX",
                 "weight": 0.007,
                 "properties": {
+                    "caliber": "Caliber46x30",
                     "penetrationPower": 32,
                     "damage": 46,
                     "armorDamage": 37,
@@ -3370,7 +3685,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.089,
                     "misfireChance": 0.175,
-                    "heatFactor": 0.99
+                    "heatFactor": 0.99,
+                    "durabilityBurnFactor": 0.9
                 }
             },
             {
@@ -3378,6 +3694,7 @@
                 "name": "7.62x39mm PP gzh",
                 "weight": 0.016,
                 "properties": {
+                    "caliber": "Caliber762x39",
                     "penetrationPower": 41,
                     "damage": 55,
                     "armorDamage": 57,
@@ -3391,7 +3708,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.184,
-                    "heatFactor": 1.725
+                    "heatFactor": 1.725,
+                    "durabilityBurnFactor": 1.35
                 }
             },
             {
@@ -3399,6 +3717,7 @@
                 "name": "7.62x39mm FMJ",
                 "weight": 0.012,
                 "properties": {
+                    "caliber": "Caliber762x39",
                     "penetrationPower": 26,
                     "damage": 63,
                     "armorDamage": 33,
@@ -3412,7 +3731,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.154,
-                    "heatFactor": 1
+                    "heatFactor": 1,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -3420,6 +3740,7 @@
                 "name": "7.62x39mm SP",
                 "weight": 0.012,
                 "properties": {
+                    "caliber": "Caliber762x39",
                     "penetrationPower": 20,
                     "damage": 68,
                     "armorDamage": 27,
@@ -3433,7 +3754,8 @@
                     "lightBleedModifier": 0.05,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.154,
-                    "heatFactor": 0.955
+                    "heatFactor": 0.955,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -3441,6 +3763,7 @@
                 "name": "9x19mm FMJ M882",
                 "weight": 0.005,
                 "properties": {
+                    "caliber": "Caliber9x19PARA",
                     "penetrationPower": 18,
                     "damage": 56,
                     "armorDamage": 35,
@@ -3454,7 +3777,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.175,
-                    "heatFactor": 1.071
+                    "heatFactor": 1.071,
+                    "durabilityBurnFactor": 1.05
                 }
             },
             {
@@ -3462,6 +3786,7 @@
                 "name": ".300 Blackout CBJ",
                 "weight": 0.015,
                 "properties": {
+                    "caliber": "Caliber762x35",
                     "penetrationPower": 43,
                     "damage": 58,
                     "armorDamage": 57,
@@ -3475,7 +3800,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.196,
-                    "heatFactor": 1.86
+                    "heatFactor": 1.86,
+                    "durabilityBurnFactor": 1.34
                 }
             },
             {
@@ -3483,6 +3809,7 @@
                 "name": "12/70 Piranha",
                 "weight": 0.05,
                 "properties": {
+                    "caliber": "Caliber12g",
                     "penetrationPower": 24,
                     "damage": 25,
                     "armorDamage": 22,
@@ -3496,7 +3823,8 @@
                     "lightBleedModifier": 0.15,
                     "failureToFeedChance": 0.01,
                     "misfireChance": 0.175,
-                    "heatFactor": 2.1084
+                    "heatFactor": 2.1084,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -3504,6 +3832,7 @@
                 "name": "7.62x54mm R FMJ",
                 "weight": 0.024,
                 "properties": {
+                    "caliber": "Caliber762x54R",
                     "penetrationPower": 33,
                     "damage": 84,
                     "armorDamage": 63,
@@ -3517,7 +3846,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.168,
-                    "heatFactor": 1.534
+                    "heatFactor": 1.534,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -3525,6 +3855,7 @@
                 "name": "7.62x54mm R SP BT",
                 "weight": 0.024,
                 "properties": {
+                    "caliber": "Caliber762x54R",
                     "penetrationPower": 27,
                     "damage": 92,
                     "armorDamage": 56,
@@ -3538,7 +3869,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.168,
-                    "heatFactor": 1.423
+                    "heatFactor": 1.423,
+                    "durabilityBurnFactor": 0.9
                 }
             },
             {
@@ -3546,6 +3878,7 @@
                 "name": "7.62x54mm R HP BT",
                 "weight": 0.024,
                 "properties": {
+                    "caliber": "Caliber762x54R",
                     "penetrationPower": 23,
                     "damage": 102,
                     "armorDamage": 37,
@@ -3559,7 +3892,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.168,
-                    "heatFactor": 1.357
+                    "heatFactor": 1.357,
+                    "durabilityBurnFactor": 0.85
                 }
             },
             {
@@ -3567,6 +3901,7 @@
                 "name": "6.8x51mm SIG Hybrid",
                 "weight": 0.024,
                 "properties": {
+                    "caliber": "Caliber68x51",
                     "penetrationPower": 47,
                     "damage": 72,
                     "armorDamage": 58,
@@ -3580,7 +3915,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.02,
                     "misfireChance": 0.168,
-                    "heatFactor": 2.53
+                    "heatFactor": 2.53,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -3588,6 +3924,7 @@
                 "name": "6.8x51mm SIG FMJ",
                 "weight": 0.024,
                 "properties": {
+                    "caliber": "Caliber68x51",
                     "penetrationPower": 36,
                     "damage": 80,
                     "armorDamage": 49,
@@ -3601,7 +3938,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.09,
                     "misfireChance": 0.175,
-                    "heatFactor": 2.36
+                    "heatFactor": 2.36,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -3609,6 +3947,7 @@
                 "name": "9x21mm 7N42 \"Zubilo\"",
                 "weight": 0.023,
                 "properties": {
+                    "caliber": "Caliber9x21",
                     "penetrationPower": 38,
                     "damage": 45,
                     "armorDamage": 47,
@@ -3622,7 +3961,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.094,
                     "misfireChance": 0.14,
-                    "heatFactor": 1.45
+                    "heatFactor": 1.45,
+                    "durabilityBurnFactor": 1.5
                 }
             },
             {
@@ -3630,6 +3970,7 @@
                 "name": "9x21mm 7U4",
                 "weight": 0.027,
                 "properties": {
+                    "caliber": "Caliber9x21",
                     "penetrationPower": 27,
                     "damage": 47,
                     "armorDamage": 44,
@@ -3643,7 +3984,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.094,
                     "misfireChance": 0.14,
-                    "heatFactor": 0.975
+                    "heatFactor": 0.975,
+                    "durabilityBurnFactor": 0.9
                 }
             },
             {
@@ -3651,6 +3993,7 @@
                 "name": "9x39mm FMJ",
                 "weight": 0.023,
                 "properties": {
+                    "caliber": "Caliber9x39",
                     "penetrationPower": 17,
                     "damage": 75,
                     "armorDamage": 28,
@@ -3664,7 +4007,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0.0871,
                     "misfireChance": 0.196,
-                    "heatFactor": 1.24
+                    "heatFactor": 1.24,
+                    "durabilityBurnFactor": 1
                 }
             },
             {
@@ -3672,6 +4016,7 @@
                 "name": "20x1mm disk",
                 "weight": 0.001,
                 "properties": {
+                    "caliber": "Caliber20x1mm",
                     "penetrationPower": 0,
                     "damage": 1,
                     "armorDamage": 0,
@@ -3685,7 +4030,8 @@
                     "lightBleedModifier": 0,
                     "failureToFeedChance": 0,
                     "misfireChance": 0,
-                    "heatFactor": 0
+                    "heatFactor": 0,
+                    "durabilityBurnFactor": 0
                 }
             }
         ]

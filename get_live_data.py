@@ -11,7 +11,7 @@ def run_query(query):
         raise Exception("Query failed to run by returning code of {}. {}".format(response.status_code, query))
 
 
-new_query = """
+ammo_query = """
 query Ammo_query {
   items(lang: en, type: ammo) {
     id
@@ -19,6 +19,7 @@ query Ammo_query {
     weight
     properties {
       ... on ItemPropertiesAmmo {
+        caliber
         penetrationPower
         damage
         armorDamage
@@ -34,10 +35,13 @@ query Ammo_query {
         misfireChance
         heatFactor
         bulletMassGrams
+        durabilityBurnFactor
       }
     }
   }
 }
 """
+
+
 with open("live_data.json", "w", encoding="UTF-8") as file:
-    json.dump(run_query(new_query), file, indent=4)
+    json.dump(run_query(ammo_query), file, indent=4)
