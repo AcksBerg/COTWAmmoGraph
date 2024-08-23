@@ -8,9 +8,11 @@ def find_ammo_position(data, id):
     )
 
 live_data: list = []
-
+ammo_file = "ammo.js"
+data_file = "data.js"
+live_data_file = "live_data.json"
 try:
-    with open("live_data.json", "r", encoding="UTF-8") as file:
+    with open(live_data_file, "r", encoding="UTF-8") as file:
         live_data = json.load(file)["data"]["items"]
 except OSError:
     print("Live data could not be read.")
@@ -76,7 +78,6 @@ for entry in live_data:
     if entry["ProjectileCount"] > 2:
         cal += " Shot"
     del entry["Caliber"]
-    # Calculate the damage
     if cal not in processed_data:
         processed_data[cal] = [entry]
         continue
@@ -88,7 +89,7 @@ available_data_types = ["PenetrationPower", "DurabilityBurnModificator", "Damage
                         "AmmoAccr", "AmmoHear", "AmmoRec"]
 
 try:
-    with open("ammo.js", "r", encoding="UTF-8") as file:
+    with open(ammo_file, "r", encoding="UTF-8") as file:
         current_id = None
         current_ammo_pos = None
         for line in file:
@@ -106,14 +107,13 @@ try:
                 value = value.rstrip(';')
                 if name in available_data_types and value[0].isnumeric() and current_ammo_pos:
                     processed_data[current_ammo_pos[0]][current_ammo_pos[1]][name] = value
-                    pass
 
 except OSError:
     print("Ammo.js could not be read")
     exit()
 
 
-with open("data.js", "w", encoding="UTF-8") as file:
+with open(data_file, "w", encoding="UTF-8") as file:
     file.write("const data = ")
     # Sort the calibers by name. Makes the webside easier to use.
     json.dump({caliber: processed_data[caliber] for caliber in sorted(processed_data.keys())}, file, indent=4)
