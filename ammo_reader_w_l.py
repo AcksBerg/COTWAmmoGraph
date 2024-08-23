@@ -1,5 +1,12 @@
 import json
 
+def find_ammo_position(data, id):
+    return next(
+        ([caliber, index] for caliber, ammos in data.items() 
+         for index, ammo in enumerate(ammos) if ammo['id'] == id),
+        None
+    )
+
 live_data: list = []
 
 try:
@@ -76,23 +83,6 @@ for entry in live_data:
         continue
     processed_data[cal].append(entry)
 
-with open("test.json", "w", encoding="UTF-8") as file:
-    json.dump(processed_data, file, indent=4)
-
-# rm_data: dict = {entry["id"]: {k: v for k, v in entry.items() if k != "id"} for entry in processed_data}
-rm_data: dict = {}
-
-# TODO Überlegung anstellen ob es nicht besser ist die Daten zur Munition hinter der ID zu speichern. Dies behebt eine Hürde beim suchen nach der ID. Dies hätte zurfolge, dass der obenstehende Code noch mal angepasst werden muss.
-# TODO Möglichkeit 1:
-# TODO - Code für processed_data anpassen um Munitionsdaten hinter der ID zu speichern.
-# TODO - Code für rm_data anpassen, es wird sich das Kaliber gespeichert und die ID um den Zugriff zu erleichtern.
-# TODO Möglichkeit 2:
-# TODO - Code für processed_data nicht anpassen
-# TODO - Code für rm_data anpassen, speichern in welchem element der Liste von welchem Kaliber die Daten gespeichert werden.
-# TODO Möglichkeit 2 macht es für die Webseite vielleicht leichter. Möglichkeit 1 vielleicht für die Python-Scripte.
-
-
-
 available_data_types = ["PenetrationPower", "DurabilityBurnModificator", "Damage", "Weight", "ArmorDamage", "ProjectileCount",
                         "InitialSpeed", "BallisticCoeficient", "RicochetChance", "FragmentationChance", "BulletMassGram",
                         "HeavyBleedingDelta", "LightBleedingDelta", "MalfFeedChance", "MalfMisfireChance", "HeatFactor",
@@ -101,21 +91,20 @@ available_data_types = ["PenetrationPower", "DurabilityBurnModificator", "Damage
 try:
     with open("ammo.js", "r", encoding="UTF-8") as file:
         current_id = None
+        current_ammo_pos = None
         for line in file:
             line = line.strip()
             if "serverItem" in line and (line.startswith("if") and "._id" in line or line.startswith("serverItem")):
                 if line.startswith("if"):
                     current_id = line.split('"')[1]
+                    current_ammo_pos = find_ammo_position(processed_data, current_id)
                     continue
                 line = line.removeprefix("serverItem._props.")
                 name, *dummy, value = line.split()
                 value = value.rstrip(';')
-                if name in available_data_types and value[0].isnumeric():
-                    # TODO Das raussuchen der Munition in den Bereich verschieben wo wir die current_ID festgelegt haben.
-                    for caliber in processed_data:
-                        for ammo in processed_data[caliber]:
-                            if ammo["id"] == current_id:
-                                pass
+                if name in available_data_types and value[0].isnumeric() and current_ammo_pos:
+                    processed_data[current_ammo_pos[0]][current_ammo_pos[1]][name] = value
+                    pass
 
 except OSError:
     print("Ammo.js could not be read")
@@ -124,5 +113,5 @@ except OSError:
 
 with open("data.js", "w", encoding="UTF-8") as file:
     file.write("const data = ")
-    json.dump(rm_data, file, indent=4)
+    json.dump(processed_data, file, indent=4)
     file.write(";")
