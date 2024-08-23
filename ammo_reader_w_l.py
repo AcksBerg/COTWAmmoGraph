@@ -113,5 +113,6 @@ except OSError:
 
 with open("data.js", "w", encoding="UTF-8") as file:
     file.write("const data = ")
-    json.dump(processed_data, file, indent=4)
+    # Sort the calibers by name. Makes the website easier to use.
+    json.dump({caliber: processed_data[caliber] for caliber in sorted(processed_data.keys())}, file, indent=4)
     file.write(";")

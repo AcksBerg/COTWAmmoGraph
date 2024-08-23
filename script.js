@@ -2,7 +2,8 @@ const symbolMap = ['circle', 'cross', 'crossRot', 'rect', 'rectRot', 'star', 'tr
 const colorMap = ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF', '#FF9F40', '#FFCD56', '#4BC0C0', '#36A2EB', '#FF6384', '#FF9F40', '#9966FF', '#FFCD56'];
 
 function getIndex(caliber, map) {
-    return data.findIndex(c => c.caliber === caliber) % map.length;
+    const keys = Object.keys(data); 
+    return keys.indexOf(caliber) % map.length;
 }
 
 let selectedCalibers = new Set();
@@ -85,18 +86,22 @@ function initializeChart() {
                         label: function (context) {
                             const type = context.raw;
                             let label = `${type.label}:\n`;
+                            label += `Weight: ${type.Weight}\n`;
                             label += `Damage: ${type.Damage}\n`;
-                            label += `Penetration: ${type.PenetrationPower}\n`;
+                            label += `Penetration Power: ${type.PenetrationPower}\n`;
+                            label += `Armor Damage: ${type.ArmorDamage}\n`;
                             label += `Projectile Count: ${type.ProjectileCount}\n`;
                             label += `Initial Speed: ${type.InitialSpeed}\n`;
+                            label += `Ballistic Coefficient: ${type.BallisticCoeficient}\n`;
                             label += `Ricochet Chance: ${type.RicochetChance}\n`;
                             label += `Fragmentation Chance: ${type.FragmentationChance}\n`;
                             label += `Bullet Mass (g): ${type.BulletMassGram}\n`;
                             label += `Heavy Bleeding Delta: ${type.HeavyBleedingDelta}\n`;
                             label += `Light Bleeding Delta: ${type.LightBleedingDelta}\n`;
-                            label += `Ammo Accuracy: ${type.ammoAccr}\n`;
-                            label += `Ammo Hear: ${type.ammoHear}\n`;
-                            label += `Ammo Recoil: ${type.ammoRec}\n`;
+                            label += `Malf Feed Chance: ${type.MalfFeedChance}\n`;
+                            label += `Malf Misfire Chance: ${type.MalfMisfireChance}\n`;
+                            label += `Heat Factor: ${type.HeatFactor}\n`;
+                            label += `Durability Burn Modifier: ${type.DurabilityBurnModificator}`;
                             return label.split('\n');
                         }
                     }
@@ -143,7 +148,6 @@ function initializeChart() {
 }
 
 let ammoChart;
-
 function updateChart() {
     if (!ammoChart) return;
 
@@ -154,14 +158,14 @@ function updateChart() {
     let maxY = -Infinity;
 
     selectedCalibers.forEach(caliber => {
-        const caliberData = data.find(c => c.caliber === caliber);
+        const caliberData = data[caliber]; 
         if (caliberData) {
             const colorIndex = getIndex(caliber, colorMap);
             const symbolIndex = getIndex(caliber, symbolMap);
 
             const dataset = {
                 label: caliber,
-                data: caliberData.types.map(type => {
+                data: caliberData.map(type => {
                     const xValue = parseFloat(type[xAxis]) || 0;
                     const yValue = parseFloat(type[yAxis]) || 0;
 
@@ -173,25 +177,23 @@ function updateChart() {
                     return {
                         x: xValue,
                         y: yValue,
-                        label: type.name, // Ensure the label is included here
-                        ProjectileCount: type.ProjectileCount || 1,
-                        Damage: type.Damage || 0,
-                        PenetrationPower: type.PenetrationPower || 0,
-                        InitialSpeed: type.InitialSpeed || 0,
-                        RicochetChance: type.RicochetChance || 0,
-                        FragmentationChance: type.FragmentationChance || 0,
-                        BulletMassGram: type.BulletMassGram || 0,
-                        HeavyBleedingDelta: type.HeavyBleedingDelta || 0,
-                        LightBleedingDelta: type.LightBleedingDelta || 0,
-                        ammoAccr: type.ammoAccr || 0,
-                        ammoHear: type.ammoHear || 0,
-                        ammoRec: type.ammoRec || 0,
-                        malf_changes: type.malf_changes || 0,
-                        MalfMisfireChance: type.MalfMisfireChance || 0,
-                        MisfireChance: type.MisfireChance || 0,
-                        MalfFeedChance: type.MalfFeedChance || 0,
-                        DurabilityBurnModificator: type.DurabilityBurnModificator || 0,
-                        HeatFactor: type.HeatFactor || 0
+                        label: type.Name, 
+                        Weight: type.Weight,
+                        Damage: type.Damage,
+                        PenetrationPower: type.PenetrationPower,
+                        ArmorDamage: type.ArmorDamage,
+                        ProjectileCount: type.ProjectileCount,
+                        InitialSpeed: type.InitialSpeed,
+                        BallisticCoeficient: type.BallisticCoeficient,
+                        RicochetChance: type.RicochetChance,
+                        FragmentationChance: type.FragmentationChance,
+                        BulletMassGram: type.BulletMassGram,
+                        HeavyBleedingDelta: type.HeavyBleedingDelta,
+                        LightBleedingDelta: type.LightBleedingDelta,
+                        MalfFeedChance: type.MalfFeedChance,
+                        MalfMisfireChance: type.MalfMisfireChance,
+                        HeatFactor: type.HeatFactor,
+                        DurabilityBurnModificator: type.DurabilityBurnModificator
                     };
                 }),
                 backgroundColor: colorMap[colorIndex],
@@ -216,24 +218,25 @@ function updateChart() {
     ammoChart.update();
 }
 
+
 function createCaliberButtons() {
     const caliberButtonsDiv = document.getElementById('caliberButtons');
-    data.forEach((caliber, index) => {
-        const colorIndex = getIndex(caliber.caliber, colorMap);
-        const symbolIndex = getIndex(caliber.caliber, symbolMap);
+    Object.keys(data).forEach((caliber, index) => { 
+        const colorIndex = getIndex(caliber, colorMap);
+        const symbolIndex = getIndex(caliber, symbolMap);
 
         const button = document.createElement('button');
-        button.innerHTML = `<span style="color:${colorMap[colorIndex]}; font-size: 20px;">&#9679;</span> ${caliber.caliber}`;
+        button.innerHTML = `<span style="color:${colorMap[colorIndex]}; font-size: 20px;">&#9679;</span> ${caliber}`;
         button.style.color = colorMap[colorIndex];
-        if (selectedCalibers.has(caliber.caliber)) {
+        if (selectedCalibers.has(caliber)) {
             button.classList.add('active');
         }
         button.addEventListener('click', () => {
-            if (selectedCalibers.has(caliber.caliber)) {
-                selectedCalibers.delete(caliber.caliber);
+            if (selectedCalibers.has(caliber)) {
+                selectedCalibers.delete(caliber);
                 button.classList.remove('active');
             } else {
-                selectedCalibers.add(caliber.caliber);
+                selectedCalibers.add(caliber);
                 button.classList.add('active');
             }
             saveSelectedCalibers();
@@ -242,6 +245,7 @@ function createCaliberButtons() {
         caliberButtonsDiv.appendChild(button);
     });
 }
+
 
 document.addEventListener('DOMContentLoaded', () => {
     loadSelectedCalibers();
