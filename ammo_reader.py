@@ -77,7 +77,6 @@ for entry in live_data:
         cal += " Shot"
     del entry["Caliber"]
     # Calculate the damage
-    entry["Damage"] = entry["Damage"] * entry["ProjectileCount"]
     if cal not in processed_data:
         processed_data[cal] = [entry]
         continue
@@ -96,6 +95,9 @@ try:
             line = line.strip()
             if "serverItem" in line and (line.startswith("if") and "._id" in line or line.startswith("serverItem")):
                 if line.startswith("if"):
+                    # Calculate the Damage
+                    if current_ammo_pos:
+                        processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["Damage"] = int(processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["Damage"]) * int(processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["ProjectileCount"])
                     current_id = line.split('"')[1]
                     current_ammo_pos = find_ammo_position(processed_data, current_id)
                     continue
