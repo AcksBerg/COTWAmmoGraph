@@ -14,9 +14,12 @@ This web application visualizes ammunition data for the SPT Realism Mod, display
 - **data.js**: A JavaScript file containing the ammunition data used by the web application. Currently for SPT 3.9.8 RM 1.4.4
 
 ## Usage
-Just download the ```index.html```, ```script.js``` and ```data.js```. The rest of the files are examples or to create the ```data.js```.
+Visit https://acksberg.github.io/AcksBerg/ or download the ```index.html```, ```script.js``` and ```data.js```.
 
 After downloading open the ```index.html```.
+
+The rest of the files are examples or to create the ```data.js```.
+
 
 ## License
 
