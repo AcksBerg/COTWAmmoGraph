@@ -34,4 +34,8 @@ caliber_map = {
 available_data_types = ["PenetrationPower", "DurabilityBurnModificator", "Damage", "Weight", "ArmorDamage", "ProjectileCount",
                         "InitialSpeed", "BallisticCoeficient", "RicochetChance", "FragmentationChance", "BulletMassGram",
                         "HeavyBleedingDelta", "LightBleedingDelta", "MalfFeedChance", "MalfMisfireChance", "HeatFactor",
-                        "AmmoAccr", "AmmoHear", "AmmoRec", "Name", "Caliber"]
+                        "AmmoAccr", "AmmoHear", "AmmoRec", "Name", "Caliber", "id"]
+
+# Ammo which should not be visible on the webpage
+# Airsoft 6mm BB
+blacklisted_ammo = ["6241c316234b593b5676b637"]

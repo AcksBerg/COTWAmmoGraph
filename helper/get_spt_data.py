@@ -1,5 +1,5 @@
 import json
-from caliber_and_types import available_data_types, caliber_map
+from caliber_and_types import available_data_types, caliber_map, blacklisted_ammo
 
 # Files are located in \SPT_Data\Server\database\templates\ and \SPT_Data\Server\database\locales\global
 items_file = "data/items.json"
@@ -15,7 +15,7 @@ except OSError:
     print("items.json could not be opened")
     exit()
 caliber = set()
-data = {key: value for key, value in data.items() if value.get("_name", "MISSING VALUE").startswith("patron_")}
+data = {key: value for key, value in data.items() if value.get("_name", "MISSING VALUE").startswith("patron_") and value.get("_id", "MISSING VALUE") not in blacklisted_ammo}
 for ammo in data:
     caliber.add(data[ammo]["_props"]["Caliber"])
 

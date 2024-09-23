@@ -1,11 +1,13 @@
 import requests
 import json
-from caliber_and_types import available_data_types, caliber_map
+from caliber_and_types import available_data_types, caliber_map, blacklisted_ammo
 
 # File paths
 output_file = "data/live_data.json"  # Output file to store the processed data
 
 # Function to request data from tarkov.dev API
+
+
 def run_query(query):
     headers = {"Content-Type": "application/json"}
     response = requests.post('https://api.tarkov.dev/graphql', headers=headers, json={'query': query})
@@ -15,6 +17,7 @@ def run_query(query):
         raise Exception(
             f"Query failed to run by returning code of {response.status_code}. {query}"
         )
+
 
 # GraphQL query to fetch ammunition data
 ammo_query = """
@@ -57,7 +60,7 @@ missing_calibers = set()
 # Process each ammunition item
 for entry in data["data"]["items"]:
     # Skip grenades and items without properties
-    if 'grenade' in entry["name"].lower() or not entry.get("properties"):
+    if 'grenade' in entry["name"].lower() or not entry.get("properties") or entry.get("id", "A") in blacklisted_ammo:
         continue
     properties = entry["properties"]
     # Get the caliber code
@@ -103,7 +106,8 @@ for entry in data["data"]["items"]:
         "lightBleedModifier": "LightBleedingDelta",
         "failureToFeedChance": "MalfFeedChance",
         "misfireChance": "MalfMisfireChance",
-        "heatFactor": "HeatFactor"
+        "heatFactor": "HeatFactor",
+        "id":"id"
     }
 
     # Copy and rename the properties

@@ -1151,26 +1151,6 @@
             "HeatFactor": 1.539,
             "MalfFeedChance": 0.091,
             "id": "5c0d5ae286f7741e46554302"
-        },
-        {
-            "Name": "Airsoft 6mm BB",
-            "Weight": 0.02,
-            "InitialSpeed": 70,
-            "BallisticCoeficient": 0.001,
-            "BulletMassGram": 0.02,
-            "Damage": 1,
-            "PenetrationPower": 1,
-            "ProjectileCount": 1,
-            "RicochetChance": 0.1,
-            "FragmentationChance": 0.35,
-            "ArmorDamage": 0,
-            "HeavyBleedingDelta": 0,
-            "LightBleedingDelta": 0,
-            "MalfMisfireChance": 0.175,
-            "DurabilityBurnModificator": 1.05,
-            "HeatFactor": 1.9701,
-            "MalfFeedChance": 0.042,
-            "id": "6241c316234b593b5676b637"
         }
     ],
     "4.6x30mm": [
