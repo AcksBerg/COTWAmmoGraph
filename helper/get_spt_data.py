@@ -1,41 +1,12 @@
 import json
+from caliber_and_types import available_data_types, caliber_map
 
-# File is located in \SPT_Data\Server\database\templates\
+# Files are located in \SPT_Data\Server\database\templates\ and \SPT_Data\Server\database\locales\global
 items_file = "data/items.json"
 language_file = "data/en.json"
 output_file = "data/spt_data.json"
 
-# Removed the following calibers
-# 40x36 (underbarrel)
-# 30x29 (underbarrel)
-# 127x108 (HMG)
-# 20x1 (Toy Gun)
 # In line 80 is a line which will output all the available calibers which are not in the caliber_map
-caliber_map = {
-    "Caliber556x45NATO": "5.56x45mm",
-    "Caliber12g": "12/70",
-    "Caliber762x54R": "7.62x54mm R",
-    "Caliber762x39": "7.62x39mm",
-    "Caliber9x19PARA": "9x19mm",
-    "Caliber545x39": "5.45x39mm",
-    "Caliber762x25TT": "7.62x25mm TT",
-    "Caliber9x18PM": "9x18mm PM",
-    "Caliber9x39": "9x39mm",
-    "Caliber762x51": "7.62x51mm",
-    "Caliber366TKM": ".366 TKM",
-    "Caliber9x21": "9x21mm",
-    "Caliber20g": "20/70",
-    "Caliber46x30": "4.6x30mm",
-    "Caliber127x55": "12.7x55mm",
-    "Caliber57x28": "5.7x28mm",
-    "Caliber1143x23ACP": ".45 ACP",
-    "Caliber23x75": "23x75mm",
-    "Caliber762x35": ".300",
-    "Caliber86x70": ".338 Lapua Magnum",
-    "Caliber9x33R": ".357 Magnum",
-    "Caliber26x75": "26x75mm",
-    "Caliber68x51": "6.8x51mm"
-}
 
 try:
     with open(items_file, mode="r", encoding="UTF-8") as file:
@@ -47,12 +18,6 @@ caliber = set()
 data = {key: value for key, value in data.items() if value.get("_name", "MISSING VALUE").startswith("patron_")}
 for ammo in data:
     caliber.add(data[ammo]["_props"]["Caliber"])
-
-# Move props down to make handling easier
-available_data_types = ["PenetrationPower", "DurabilityBurnModificator", "Damage", "Weight", "ArmorDamage", "ProjectileCount",
-                        "InitialSpeed", "BallisticCoeficient", "RicochetChance", "FragmentationChance", "BulletMassGram",
-                        "HeavyBleedingDelta", "LightBleedingDelta", "MalfFeedChance", "MalfMisfireChance", "HeatFactor",
-                        "AmmoAccr", "AmmoHear", "AmmoRec", "Name", "Caliber"]
 
 try:
     with open(language_file, mode="r", encoding="UTF-8") as file:
@@ -77,7 +42,7 @@ for ammo_id in data:
     data[ammo_id]["Name"] = language[ammo_id + " Name"]
 
 # Print every Caliber not in caliber_map (good for updating the map)
-# print(*{key for key in caliber if key not in caliber_map})
+print("\nCalibers not in caliber_map (Missing):", *{key for key in caliber if key not in caliber_map}, sep="\n",end="\n\n")
 
 
 output_dict = {}
