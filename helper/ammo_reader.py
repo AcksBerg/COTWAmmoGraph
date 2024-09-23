@@ -8,9 +8,9 @@ def find_ammo_position(data, id):
     )
 
 live_data: list = []
-ammo_file = "../data/ammo.js"
-data_file = "../data/data.js"
-live_data_file = "../data/live_data.json"
+ammo_file = "data/ammo.js"
+data_file = "data/data.js"
+live_data_file = "data/live_data.json"
 try:
     with open(live_data_file, "r", encoding="UTF-8") as file:
         live_data = json.load(file)["data"]["items"]
@@ -45,7 +45,8 @@ caliber_map = {
     "Caliber86x70": ".338 Lapua Magnum",
     "Caliber9x33R": ".357 Magnum",
     "Caliber26x75": "26x75mm",
-    "Caliber68x51": "6.8x51mm"
+    "Caliber68x51": "6.8x51mm",
+    "Caliber20x1mm": "20x1mm"
 }
 
 # Remove grenades and data missing properties from live data and move the properties to the main data to make the handling easier
@@ -84,6 +85,7 @@ for entry in live_data:
         continue
     processed_data[cal].append(entry)
 
+print(*processed_data.items(),sep="\n")
 available_data_types = ["PenetrationPower", "DurabilityBurnModificator", "Damage", "Weight", "ArmorDamage", "ProjectileCount",
                         "InitialSpeed", "BallisticCoeficient", "RicochetChance", "FragmentationChance", "BulletMassGram",
                         "HeavyBleedingDelta", "LightBleedingDelta", "MalfFeedChance", "MalfMisfireChance", "HeatFactor",
