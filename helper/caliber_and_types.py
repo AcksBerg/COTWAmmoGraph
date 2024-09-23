@@ -5,6 +5,7 @@
 # 30x29 (underbarrel)
 # 127x108 (HMG)
 # 20x1 (Toy Gun)
+# 26x75 (Flare)
 caliber_map = {
     "Caliber556x45NATO": "5.56x45mm",
     "Caliber12g": "12/70",
@@ -27,7 +28,6 @@ caliber_map = {
     "Caliber762x35": ".300",
     "Caliber86x70": ".338 Lapua Magnum",
     "Caliber9x33R": ".357 Magnum",
-    "Caliber26x75": "26x75mm",
     "Caliber68x51": "6.8x51mm"
 }
 
@@ -38,4 +38,5 @@ available_data_types = ["PenetrationPower", "DurabilityBurnModificator", "Damage
 
 # Ammo which should not be visible on the webpage
 # Airsoft 6mm BB
-blacklisted_ammo = ["6241c316234b593b5676b637"]
+# Zvezda flashbang round
+blacklisted_ammo = ["6241c316234b593b5676b637","5e85a9f4add9fe03027d9bf1"]
