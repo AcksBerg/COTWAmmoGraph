@@ -1,7 +1,7 @@
 {
     "12/70": [
         {
-            "Name": "12/70 Dual Sabot slug",
+            "Name": "Dual Sabot slug",
             "Weight": 0.05,
             "InitialSpeed": 415,
             "BallisticCoeficient": 0.074,
@@ -17,10 +17,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 2.1335,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e68dea4b9361bcc29e659"
         },
         {
-            "Name": "12/70 flechette",
+            "Name": "Flechette",
             "Weight": 0.04,
             "InitialSpeed": 320,
             "BallisticCoeficient": 0.257,
@@ -36,10 +37,11 @@
             "MalfMisfireChance": 0.21,
             "DurabilityBurnModificator": 1.6,
             "HeatFactor": 2.1586,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e6911a4b9361bd5780d52"
         },
         {
-            "Name": "12/70 5.25mm buckshot",
+            "Name": "5.25mm buckshot",
             "Weight": 0.044,
             "InitialSpeed": 330,
             "BallisticCoeficient": 0.025,
@@ -55,10 +57,11 @@
             "MalfMisfireChance": 0.266,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 2.008,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e6772a4b936088465b17c"
         },
         {
-            "Name": "12/70 7mm buckshot",
+            "Name": "7mm buckshot",
             "Weight": 0.05,
             "InitialSpeed": 415,
             "BallisticCoeficient": 0.013,
@@ -74,10 +77,11 @@
             "MalfMisfireChance": 0.266,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 2.0331,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "560d5e524bdc2d25448b4571"
         },
         {
-            "Name": "12/70 RIP",
+            "Name": "RIP",
             "Weight": 0.04,
             "InitialSpeed": 410,
             "BallisticCoeficient": 0.055,
@@ -93,10 +97,11 @@
             "MalfMisfireChance": 0.21,
             "DurabilityBurnModificator": 1.6,
             "HeatFactor": 2.3845,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5c0d591486f7744c505b416f"
         },
         {
-            "Name": "12/70 6.5mm Express buckshot",
+            "Name": "6.5mm Express buckshot",
             "Weight": 0.048,
             "InitialSpeed": 430,
             "BallisticCoeficient": 0.024,
@@ -112,10 +117,11 @@
             "MalfMisfireChance": 0.224,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 2.259,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e67fba4b9361bc73bc779"
         },
         {
-            "Name": "12/70 8.5mm Magnum buckshot",
+            "Name": "8.5mm Magnum buckshot",
             "Weight": 0.059,
             "InitialSpeed": 385,
             "BallisticCoeficient": 0.022,
@@ -131,10 +137,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 2.4598,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e6806a4b936088465b17e"
         },
         {
-            "Name": "12/70 SuperFormance HP slug",
+            "Name": "SuperFormance HP slug",
             "Weight": 0.034,
             "InitialSpeed": 594,
             "BallisticCoeficient": 0.2,
@@ -150,10 +157,11 @@
             "MalfMisfireChance": 0.154,
             "DurabilityBurnModificator": 1.2,
             "HeatFactor": 2.04565,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e68d1a4b93622fe60e845"
         },
         {
-            "Name": "12/70 Grizzly 40 slug",
+            "Name": "Grizzly 40 slug",
             "Weight": 0.055,
             "InitialSpeed": 390,
             "BallisticCoeficient": 0.222,
@@ -169,10 +177,11 @@
             "MalfMisfireChance": 0.224,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 2.02055,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e6869a4b9361c140bcfde"
         },
         {
-            "Name": "12/70 makeshift .50 BMG slug",
+            "Name": "Makeshift .50 BMG slug",
             "Weight": 0.055,
             "InitialSpeed": 410,
             "BallisticCoeficient": 0.582,
@@ -188,10 +197,11 @@
             "MalfMisfireChance": 0.336,
             "DurabilityBurnModificator": 2,
             "HeatFactor": 2.51,
-            "MalfFeedChance": 0.11
+            "MalfFeedChance": 0.11,
+            "id": "5d6e68c4a4b9361b93413f79"
         },
         {
-            "Name": "12/70 \"Poleva-3\" slug",
+            "Name": "\"Poleva-3\" slug",
             "Weight": 0.044,
             "InitialSpeed": 410,
             "BallisticCoeficient": 0.116,
@@ -207,10 +217,11 @@
             "MalfMisfireChance": 0.266,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 2.0833,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e6891a4b9361bd473feea"
         },
         {
-            "Name": "12/70 Copper Sabot Premier HP slug",
+            "Name": "Copper Sabot Premier HP slug",
             "Weight": 0.043,
             "InitialSpeed": 442,
             "BallisticCoeficient": 0.099,
@@ -226,10 +237,11 @@
             "MalfMisfireChance": 0.154,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 2.0582,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e68b3a4b9361bca7e50b5"
         },
         {
-            "Name": "12/70 AP-20 armor-piercing slug",
+            "Name": "AP-20 armor-piercing slug",
             "Weight": 0.05,
             "InitialSpeed": 510,
             "BallisticCoeficient": 0.383,
@@ -245,10 +257,11 @@
             "MalfMisfireChance": 0.21,
             "DurabilityBurnModificator": 2.2,
             "HeatFactor": 2.4849,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e68a8a4b9360b6c0d54e2"
         },
         {
-            "Name": "12/70 lead slug",
+            "Name": "Lead slug",
             "Weight": 0.05,
             "InitialSpeed": 370,
             "BallisticCoeficient": 0.121,
@@ -264,10 +277,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 2.1084,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "58820d1224597753c90aeb13"
         },
         {
-            "Name": "12/70 \"Poleva-6u\" slug",
+            "Name": "\"Poleva-6u\" slug",
             "Weight": 0.048,
             "InitialSpeed": 430,
             "BallisticCoeficient": 0.057,
@@ -283,10 +297,11 @@
             "MalfMisfireChance": 0.224,
             "DurabilityBurnModificator": 1.6,
             "HeatFactor": 2.3594,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e689ca4b9361bc8618956"
         },
         {
-            "Name": "12/70 FTX Custom Lite slug",
+            "Name": "FTX Custom Lite slug",
             "Weight": 0.026,
             "InitialSpeed": 480,
             "BallisticCoeficient": 0.188,
@@ -302,10 +317,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 2.1837,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e68e6a4b9361c140bcfe0"
         },
         {
-            "Name": "12/70 Piranha",
+            "Name": "Piranha",
             "Weight": 0.05,
             "InitialSpeed": 310,
             "BallisticCoeficient": 0.257,
@@ -321,12 +337,13 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 2.1084,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "64b8ee384b75259c590fa89b"
         }
     ],
     "12.7x55mm": [
         {
-            "Name": "12.7x55mm PS12A",
+            "Name": "PS12A",
             "Weight": 0.044,
             "InitialSpeed": 290,
             "BallisticCoeficient": 0.091,
@@ -342,10 +359,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 2.1335,
-            "MalfFeedChance": 0.0925
+            "MalfFeedChance": 0.0925,
+            "id": "5cadf6e5ae921500113bb973"
         },
         {
-            "Name": "12.7x55mm PS12B",
+            "Name": "PS12B",
             "Weight": 0.055,
             "InitialSpeed": 300,
             "BallisticCoeficient": 0.151,
@@ -361,10 +379,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.8,
             "HeatFactor": 2.51,
-            "MalfFeedChance": 0.0874
+            "MalfFeedChance": 0.0874,
+            "id": "5cadf6eeae921500134b2799"
         },
         {
-            "Name": "12.7x55mm PS12",
+            "Name": "PS12",
             "Weight": 0.07,
             "InitialSpeed": 285,
             "BallisticCoeficient": 0.426,
@@ -380,12 +399,13 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.4,
             "HeatFactor": 2.3845,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5cadf6ddae9215051e1c23b2"
         }
     ],
     ".45 ACP": [
         {
-            "Name": ".45 ACP RIP",
+            "Name": "RIP",
             "Weight": 0.019,
             "InitialSpeed": 293,
             "BallisticCoeficient": 0.131,
@@ -401,10 +421,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 1.1685,
-            "MalfFeedChance": 0.111
+            "MalfFeedChance": 0.111,
+            "id": "5ea2a8e200685063ec28c05a"
         },
         {
-            "Name": ".45 ACP Match FMJ",
+            "Name": "Match FMJ",
             "Weight": 0.015,
             "InitialSpeed": 340,
             "BallisticCoeficient": 0.131,
@@ -420,10 +441,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.9963,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5e81f423763d9f754677bf2e"
         },
         {
-            "Name": ".45 ACP Lasermatch FMJ",
+            "Name": "Lasermatch FMJ",
             "Weight": 0.015,
             "InitialSpeed": 290,
             "BallisticCoeficient": 0.161,
@@ -439,10 +461,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1.2,
             "HeatFactor": 1.107,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5efb0d4f4bc50b58e81710f3"
         },
         {
-            "Name": ".45 ACP AP",
+            "Name": "AP",
             "Weight": 0.015,
             "InitialSpeed": 299,
             "BallisticCoeficient": 0.197,
@@ -458,10 +481,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.7,
             "HeatFactor": 1.23,
-            "MalfFeedChance": 0.091
+            "MalfFeedChance": 0.091,
+            "id": "5efb0cabfb3e451d70735af5"
         },
         {
-            "Name": ".45 ACP Hydra-Shok",
+            "Name": "Hydra-Shok",
             "Weight": 0.017,
             "InitialSpeed": 274,
             "BallisticCoeficient": 0.114,
@@ -477,12 +501,13 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.1,
             "HeatFactor": 1.13775,
-            "MalfFeedChance": 0.096
+            "MalfFeedChance": 0.096,
+            "id": "5efb0fc6aeb21837e749c801"
         }
     ],
     "26x75mm": [
         {
-            "Name": "26x75mm flare cartridge (Red)",
+            "Name": "Flare cartridge (Red)",
             "Weight": 0.042,
             "InitialSpeed": 80,
             "BallisticCoeficient": 0.5,
@@ -498,10 +523,11 @@
             "MalfMisfireChance": 0,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1,
-            "MalfFeedChance": 0
+            "MalfFeedChance": 0,
+            "id": "62389ba9a63f32501b1b4451"
         },
         {
-            "Name": "26x75mm flare cartridge (White)",
+            "Name": "Flare cartridge (White)",
             "Weight": 0.055,
             "InitialSpeed": 80,
             "BallisticCoeficient": 0.5,
@@ -517,10 +543,11 @@
             "MalfMisfireChance": 0,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1,
-            "MalfFeedChance": 0
+            "MalfFeedChance": 0,
+            "id": "62389bc9423ed1685422dc57"
         },
         {
-            "Name": "26x75mm flare cartridge (Yellow)",
+            "Name": "Flare cartridge (Yellow)",
             "Weight": 0.05,
             "InitialSpeed": 80,
             "BallisticCoeficient": 0.5,
@@ -536,10 +563,11 @@
             "MalfMisfireChance": 0,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1,
-            "MalfFeedChance": 0
+            "MalfFeedChance": 0,
+            "id": "62389be94d5d474bf712e709"
         },
         {
-            "Name": "26x75mm flare cartridge (Green)",
+            "Name": "Flare cartridge (Green)",
             "Weight": 0.043,
             "InitialSpeed": 80,
             "BallisticCoeficient": 0.5,
@@ -555,7 +583,8 @@
             "MalfMisfireChance": 0,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1,
-            "MalfFeedChance": 0
+            "MalfFeedChance": 0,
+            "id": "62389aaba63f32501b1b444f"
         },
         {
             "Name": "Signal flare (Green)",
@@ -574,7 +603,8 @@
             "MalfMisfireChance": 0,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1,
-            "MalfFeedChance": 0
+            "MalfFeedChance": 0,
+            "id": "624c0570c9b794431568f5d5"
         },
         {
             "Name": "Signal flare (Yellow)",
@@ -593,7 +623,8 @@
             "MalfMisfireChance": 0,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1,
-            "MalfFeedChance": 0
+            "MalfFeedChance": 0,
+            "id": "624c09e49b98e019a3315b66"
         },
         {
             "Name": "Signal flare (Red)",
@@ -612,7 +643,8 @@
             "MalfMisfireChance": 0,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1,
-            "MalfFeedChance": 0
+            "MalfFeedChance": 0,
+            "id": "624c09cfbc2e27219346d955"
         },
         {
             "Name": "Signal flare (White)",
@@ -631,10 +663,11 @@
             "MalfMisfireChance": 0,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1,
-            "MalfFeedChance": 0
+            "MalfFeedChance": 0,
+            "id": "624c09da2cec124eb67c1046"
         },
         {
-            "Name": "26x75mm flare cartridge (Acid Green)",
+            "Name": "Flare cartridge (Acid Green)",
             "Weight": 0.043,
             "InitialSpeed": 80,
             "BallisticCoeficient": 0.5,
@@ -650,12 +683,13 @@
             "MalfMisfireChance": 0,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1,
-            "MalfFeedChance": 0
+            "MalfFeedChance": 0,
+            "id": "635267f063651329f75a4ee8"
         }
     ],
     "20/70": [
         {
-            "Name": "20/70 \"Poleva-6u\" slug",
+            "Name": "\"Poleva-6u\" slug",
             "Weight": 0.032,
             "InitialSpeed": 445,
             "BallisticCoeficient": 0.144,
@@ -671,10 +705,11 @@
             "MalfMisfireChance": 0.224,
             "DurabilityBurnModificator": 1.8,
             "HeatFactor": 2.2473,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e6a42a4b9364f07165f52"
         },
         {
-            "Name": "20/70 Star slug",
+            "Name": "Star slug",
             "Weight": 0.034,
             "InitialSpeed": 415,
             "BallisticCoeficient": 0.121,
@@ -690,10 +725,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1.8,
             "HeatFactor": 2.27,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e6a05a4b93618084f58d0"
         },
         {
-            "Name": "20/70 7.5mm buckshot",
+            "Name": "7.5mm buckshot",
             "Weight": 0.04,
             "InitialSpeed": 430,
             "BallisticCoeficient": 0.057,
@@ -709,10 +745,11 @@
             "MalfMisfireChance": 0.266,
             "DurabilityBurnModificator": 1.35,
             "HeatFactor": 1.9295,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5a38ebd9c4a282000d722a5b"
         },
         {
-            "Name": "20/70 6.2mm buckshot",
+            "Name": "6.2mm buckshot",
             "Weight": 0.032,
             "InitialSpeed": 410,
             "BallisticCoeficient": 0.03,
@@ -728,10 +765,11 @@
             "MalfMisfireChance": 0.252,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.8387,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e69b9a4b9361bc8618958"
         },
         {
-            "Name": "20/70 5.6mm buckshot",
+            "Name": "5.6mm buckshot",
             "Weight": 0.028,
             "InitialSpeed": 340,
             "BallisticCoeficient": 0.029,
@@ -747,10 +785,11 @@
             "MalfMisfireChance": 0.266,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.816,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e695fa4b936359b35d852"
         },
         {
-            "Name": "20/70 7.3mm buckshot",
+            "Name": "7.3mm buckshot",
             "Weight": 0.032,
             "InitialSpeed": 475,
             "BallisticCoeficient": 0.034,
@@ -766,10 +805,11 @@
             "MalfMisfireChance": 0.238,
             "DurabilityBurnModificator": 1.3,
             "HeatFactor": 1.9522,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e69c7a4b9360b6c0d54e4"
         },
         {
-            "Name": "20/70 Devastator slug",
+            "Name": "Devastator slug",
             "Weight": 0.029,
             "InitialSpeed": 405,
             "BallisticCoeficient": 0.032,
@@ -785,10 +825,11 @@
             "MalfMisfireChance": 0.224,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 2.043,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e6a5fa4b93614ec501745"
         },
         {
-            "Name": "20/70 \"Poleva-3\" slug",
+            "Name": "\"Poleva-3\" slug",
             "Weight": 0.029,
             "InitialSpeed": 425,
             "BallisticCoeficient": 0.156,
@@ -804,12 +845,13 @@
             "MalfMisfireChance": 0.266,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 2.0657,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5d6e6a53a4b9361bd473feec"
         }
     ],
     "23x75mm": [
         {
-            "Name": "23x75mm Shrapnel-25 buckshot",
+            "Name": "Shrapnel-25 buckshot",
             "Weight": 0.08,
             "InitialSpeed": 375,
             "BallisticCoeficient": 0.022,
@@ -825,10 +867,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.8,
             "HeatFactor": 2.975,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5f647f31b6238e5dd066e196"
         },
         {
-            "Name": "23x75mm Barrikada slug",
+            "Name": "Barrikada slug",
             "Weight": 0.08,
             "InitialSpeed": 420,
             "BallisticCoeficient": 0.287,
@@ -844,10 +887,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 2.7,
             "HeatFactor": 3.325,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5e85aa1a988a8701445df1f5"
         },
         {
-            "Name": "23x75mm Zvezda flashbang round",
+            "Name": "Zvezda flashbang round",
             "Weight": 0.07,
             "InitialSpeed": 80,
             "BallisticCoeficient": 0.5,
@@ -863,10 +907,11 @@
             "MalfMisfireChance": 0.336,
             "DurabilityBurnModificator": 4,
             "HeatFactor": 3.5,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5e85a9f4add9fe03027d9bf1"
         },
         {
-            "Name": "23x75mm Shrapnel-10 buckshot",
+            "Name": "Shrapnel-10 buckshot",
             "Weight": 0.08,
             "InitialSpeed": 270,
             "BallisticCoeficient": 0.022,
@@ -882,12 +927,13 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 2.8,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5e85a9a6eacf8c039e4e2ac1"
         }
     ],
     "5.56x45mm": [
         {
-            "Name": "5.56x45mm FMJ",
+            "Name": "FMJ",
             "Weight": 0.012,
             "InitialSpeed": 957,
             "BallisticCoeficient": 0.252,
@@ -903,10 +949,11 @@
             "MalfMisfireChance": 0.154,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.501,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "59e6920f86f77411d82aa167"
         },
         {
-            "Name": "5.56x45mm M855",
+            "Name": "M855",
             "Weight": 0.012,
             "InitialSpeed": 922,
             "BallisticCoeficient": 0.233,
@@ -922,10 +969,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.15,
             "HeatFactor": 1.615,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "54527a984bdc2d4e668b4567"
         },
         {
-            "Name": "5.56x45mm M995",
+            "Name": "M995",
             "Weight": 0.012,
             "InitialSpeed": 1013,
             "BallisticCoeficient": 0.196,
@@ -941,10 +989,11 @@
             "MalfMisfireChance": 0.1834,
             "DurabilityBurnModificator": 1.7,
             "HeatFactor": 1.805,
-            "MalfFeedChance": 0.087
+            "MalfFeedChance": 0.087,
+            "id": "59e690b686f7746c9f75e848"
         },
         {
-            "Name": "5.56x45mm M855A1",
+            "Name": "M855A1",
             "Weight": 0.012,
             "InitialSpeed": 945,
             "BallisticCoeficient": 0.233,
@@ -960,10 +1009,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.34,
             "HeatFactor": 1.71,
-            "MalfFeedChance": 0.094
+            "MalfFeedChance": 0.094,
+            "id": "54527ac44bdc2d36668b4567"
         },
         {
-            "Name": "5.56x45mm HP",
+            "Name": "HP",
             "Weight": 0.012,
             "InitialSpeed": 947,
             "BallisticCoeficient": 0.209,
@@ -979,10 +1029,11 @@
             "MalfMisfireChance": 0.154,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.558,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "59e6927d86f77411da468256"
         },
         {
-            "Name": "5.56x45mm M856",
+            "Name": "M856",
             "Weight": 0.012,
             "InitialSpeed": 874,
             "BallisticCoeficient": 0.241,
@@ -998,10 +1049,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.15,
             "HeatFactor": 1.634,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "59e68f6f86f7746c9f75e846"
         },
         {
-            "Name": "5.56x45mm MK 255 Mod 0 (RRLP)",
+            "Name": "MK 255 Mod 0 (RRLP)",
             "Weight": 0.012,
             "InitialSpeed": 936,
             "BallisticCoeficient": 0.335,
@@ -1017,10 +1069,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.1,
             "HeatFactor": 1.596,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "59e6918f86f7746c9f75e849"
         },
         {
-            "Name": "5.56x45mm M856A1",
+            "Name": "M856A1",
             "Weight": 0.012,
             "InitialSpeed": 940,
             "BallisticCoeficient": 0.269,
@@ -1036,10 +1089,11 @@
             "MalfMisfireChance": 0.1834,
             "DurabilityBurnModificator": 1.2,
             "HeatFactor": 1.653,
-            "MalfFeedChance": 0.081
+            "MalfFeedChance": 0.081,
+            "id": "59e6906286f7746c9f75e847"
         },
         {
-            "Name": "5.56x45mm MK 318 Mod 0 (SOST)",
+            "Name": "MK 318 Mod 0 (SOST)",
             "Weight": 0.012,
             "InitialSpeed": 902,
             "BallisticCoeficient": 0.269,
@@ -1055,10 +1109,11 @@
             "MalfMisfireChance": 0.154,
             "DurabilityBurnModificator": 1.15,
             "HeatFactor": 1.52,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "60194943740c5d77f6705eea"
         },
         {
-            "Name": "5.56x45mm SSA AP",
+            "Name": "SSA AP",
             "Weight": 0.013,
             "InitialSpeed": 1013,
             "BallisticCoeficient": 0.196,
@@ -1074,10 +1129,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1.8,
             "HeatFactor": 1.9,
-            "MalfFeedChance": 0.111
+            "MalfFeedChance": 0.111,
+            "id": "601949593ae8f707c4608daa"
         },
         {
-            "Name": "5.56x45mm Warmageddon",
+            "Name": "Warmageddon",
             "Weight": 0.011,
             "InitialSpeed": 936,
             "BallisticCoeficient": 0.335,
@@ -1093,7 +1149,8 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.539,
-            "MalfFeedChance": 0.091
+            "MalfFeedChance": 0.091,
+            "id": "5c0d5ae286f7741e46554302"
         },
         {
             "Name": "Airsoft 6mm BB",
@@ -1112,12 +1169,13 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.05,
             "HeatFactor": 1.9701,
-            "MalfFeedChance": 0.042
+            "MalfFeedChance": 0.042,
+            "id": "6241c316234b593b5676b637"
         }
     ],
     "4.6x30mm": [
         {
-            "Name": "4.6x30mm Action SX",
+            "Name": "Action SX",
             "Weight": 0.007,
             "InitialSpeed": 690,
             "BallisticCoeficient": 0.175,
@@ -1133,10 +1191,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.99,
-            "MalfFeedChance": 0.089
+            "MalfFeedChance": 0.089,
+            "id": "5ba26812d4351e003201fef1"
         },
         {
-            "Name": "4.6x30mm Subsonic SX",
+            "Name": "Subsonic SX",
             "Weight": 0.01,
             "InitialSpeed": 290,
             "BallisticCoeficient": 0.437,
@@ -1152,10 +1211,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 0.7,
             "HeatFactor": 0.88,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5ba26844d4351e00334c9475"
         },
         {
-            "Name": "4.6x30mm AP SX",
+            "Name": "AP SX",
             "Weight": 0.007,
             "InitialSpeed": 680,
             "BallisticCoeficient": 0.14,
@@ -1171,10 +1231,11 @@
             "MalfMisfireChance": 0.21,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 1.1,
-            "MalfFeedChance": 0.084
+            "MalfFeedChance": 0.084,
+            "id": "5ba26835d4351e0035628ff5"
         },
         {
-            "Name": "4.6x30mm FMJ SX",
+            "Name": "FMJ SX",
             "Weight": 0.007,
             "InitialSpeed": 620,
             "BallisticCoeficient": 0.228,
@@ -1190,10 +1251,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5ba2678ad4351e44f824b344"
         },
         {
-            "Name": "4.6x30mm JSP SX",
+            "Name": "JSP SX",
             "Weight": 0.007,
             "InitialSpeed": 579,
             "BallisticCoeficient": 0.175,
@@ -1209,12 +1271,13 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 0.9,
             "HeatFactor": 0.99,
-            "MalfFeedChance": 0.089
+            "MalfFeedChance": 0.089,
+            "id": "64b6979341772715af0f9c39"
         }
     ],
     "5.45x39mm": [
         {
-            "Name": "5.45x39mm PRS gs",
+            "Name": "PRS gs",
             "Weight": 0.01,
             "InitialSpeed": 866,
             "BallisticCoeficient": 0.266,
@@ -1230,10 +1293,11 @@
             "MalfMisfireChance": 0.154,
             "DurabilityBurnModificator": 1.15,
             "HeatFactor": 1.5045,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "56dff338d2720bbd668b4569"
         },
         {
-            "Name": "5.45x39mm PS gs",
+            "Name": "PS gs",
             "Weight": 0.01,
             "InitialSpeed": 890,
             "BallisticCoeficient": 0.235,
@@ -1249,10 +1313,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.1,
             "HeatFactor": 1.4868,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "56dff3afd2720bba668b4567"
         },
         {
-            "Name": "5.45x39mm SP",
+            "Name": "SP",
             "Weight": 0.01,
             "InitialSpeed": 873,
             "BallisticCoeficient": 0.246,
@@ -1268,10 +1333,11 @@
             "MalfMisfireChance": 0.154,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.4514,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "56dff421d2720b5f5a8b4567"
         },
         {
-            "Name": "5.45x39mm BS gs",
+            "Name": "BS gs",
             "Weight": 0.01,
             "InitialSpeed": 830,
             "BallisticCoeficient": 0.254,
@@ -1287,10 +1353,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.45,
             "HeatFactor": 1.6992,
-            "MalfFeedChance": 0.094
+            "MalfFeedChance": 0.094,
+            "id": "56dff026d2720bb8668b4567"
         },
         {
-            "Name": "5.45x39mm PPBS gs \"Igolnik\"",
+            "Name": "PPBS gs \"Igolnik\"",
             "Weight": 0.011,
             "InitialSpeed": 905,
             "BallisticCoeficient": 0.283,
@@ -1306,10 +1373,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.7,
             "HeatFactor": 1.77,
-            "MalfFeedChance": 0.089
+            "MalfFeedChance": 0.089,
+            "id": "5c0d5e4486f77478390952fe"
         },
         {
-            "Name": "5.45x39mm US gs",
+            "Name": "US gs",
             "Weight": 0.01,
             "InitialSpeed": 303,
             "BallisticCoeficient": 0.355,
@@ -1325,10 +1393,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 0.8,
             "HeatFactor": 1.3275,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "56dff4ecd2720b5f5a8b4568"
         },
         {
-            "Name": "5.45x39mm BP gs",
+            "Name": "BP gs",
             "Weight": 0.01,
             "InitialSpeed": 890,
             "BallisticCoeficient": 0.252,
@@ -1344,10 +1413,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.35,
             "HeatFactor": 1.593,
-            "MalfFeedChance": 0.082
+            "MalfFeedChance": 0.082,
+            "id": "56dfef82d2720bbd668b4567"
         },
         {
-            "Name": "5.45x39mm HP",
+            "Name": "HP",
             "Weight": 0.01,
             "InitialSpeed": 884,
             "BallisticCoeficient": 0.246,
@@ -1363,10 +1433,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.416,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "56dff216d2720bbd668b4568"
         },
         {
-            "Name": "5.45x39mm 7N40",
+            "Name": "7N40",
             "Weight": 0.011,
             "InitialSpeed": 915,
             "BallisticCoeficient": 0.252,
@@ -1382,10 +1453,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.35,
             "HeatFactor": 1.7523,
-            "MalfFeedChance": 0.059
+            "MalfFeedChance": 0.059,
+            "id": "61962b617c6c7b169525f168"
         },
         {
-            "Name": "5.45x39mm BT gs",
+            "Name": "BT gs",
             "Weight": 0.01,
             "InitialSpeed": 880,
             "BallisticCoeficient": 0.209,
@@ -1401,10 +1473,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 1.6815,
-            "MalfFeedChance": 0.079
+            "MalfFeedChance": 0.079,
+            "id": "56dff061d2720bb5668b4567"
         },
         {
-            "Name": "5.45x39mm FMJ",
+            "Name": "FMJ",
             "Weight": 0.01,
             "InitialSpeed": 884,
             "BallisticCoeficient": 0.266,
@@ -1420,10 +1493,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.4337,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "56dff0bed2720bb0668b4567"
         },
         {
-            "Name": "5.45x39mm T gs",
+            "Name": "T gs",
             "Weight": 0.01,
             "InitialSpeed": 883,
             "BallisticCoeficient": 0.223,
@@ -1439,10 +1513,11 @@
             "MalfMisfireChance": 0.182,
             "DurabilityBurnModificator": 1.15,
             "HeatFactor": 1.5222,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "56dff4a2d2720bbd668b456a"
         },
         {
-            "Name": "5.45x39mm PP gs",
+            "Name": "PP gs",
             "Weight": 0.01,
             "InitialSpeed": 886,
             "BallisticCoeficient": 0.254,
@@ -1458,12 +1533,13 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.2,
             "HeatFactor": 1.5399,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "56dff2ced2720bb4668b4567"
         }
     ],
     ".366 TKM": [
         {
-            "Name": ".366 TKM AP-M",
+            "Name": "AP-M",
             "Weight": 0.019,
             "InitialSpeed": 602,
             "BallisticCoeficient": 0.373,
@@ -1479,10 +1555,11 @@
             "MalfMisfireChance": 0.224,
             "DurabilityBurnModificator": 1.9,
             "HeatFactor": 2.27,
-            "MalfFeedChance": 0.102
+            "MalfFeedChance": 0.102,
+            "id": "5f0596629e22f464da6bbdd9"
         },
         {
-            "Name": ".366 TKM Geksa",
+            "Name": "Geksa",
             "Weight": 0.016,
             "InitialSpeed": 550,
             "BallisticCoeficient": 0.241,
@@ -1498,10 +1575,11 @@
             "MalfMisfireChance": 0.21,
             "DurabilityBurnModificator": 1.35,
             "HeatFactor": 2.043,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "59e6658b86f77411d949b250"
         },
         {
-            "Name": ".366 TKM EKO",
+            "Name": "EKO",
             "Weight": 0.01,
             "InitialSpeed": 770,
             "BallisticCoeficient": 0.135,
@@ -1517,10 +1595,11 @@
             "MalfMisfireChance": 0.266,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.816,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "59e655cb86f77411dc52a77b"
         },
         {
-            "Name": ".366 TKM FMJ",
+            "Name": "FMJ",
             "Weight": 0.016,
             "InitialSpeed": 580,
             "BallisticCoeficient": 0.202,
@@ -1536,12 +1615,13 @@
             "MalfMisfireChance": 0.21,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.8387,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "59e6542b86f77411dc52a77a"
         }
     ],
     "9x21mm": [
         {
-            "Name": "9x21mm PE gzh",
+            "Name": "PE gzh",
             "Weight": 0.023,
             "InitialSpeed": 415,
             "BallisticCoeficient": 0.117,
@@ -1557,10 +1637,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1.1,
             "HeatFactor": 1,
-            "MalfFeedChance": 0.087
+            "MalfFeedChance": 0.087,
+            "id": "5a26ac06c4a282000c5a90a8"
         },
         {
-            "Name": "9x21mm 7N42 \"Zubilo\"",
+            "Name": "7N42 \"Zubilo\"",
             "Weight": 0.023,
             "InitialSpeed": 400,
             "BallisticCoeficient": 0.156,
@@ -1576,10 +1657,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 1.45,
-            "MalfFeedChance": 0.094
+            "MalfFeedChance": 0.094,
+            "id": "6576f4708ca9c4381d16cd9d"
         },
         {
-            "Name": "9x21mm P gzh",
+            "Name": "P gzh",
             "Weight": 0.023,
             "InitialSpeed": 413,
             "BallisticCoeficient": 0.138,
@@ -1595,10 +1677,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1.1,
             "HeatFactor": 1,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5a26abfac4a28232980eabff"
         },
         {
-            "Name": "9x21mm PS gzh",
+            "Name": "PS gzh",
             "Weight": 0.023,
             "InitialSpeed": 410,
             "BallisticCoeficient": 0.084,
@@ -1614,10 +1697,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1.35,
             "HeatFactor": 1.1875,
-            "MalfFeedChance": 0.094
+            "MalfFeedChance": 0.094,
+            "id": "5a269f97c4a282000b151807"
         },
         {
-            "Name": "9x21mm 7U4",
+            "Name": "7U4",
             "Weight": 0.027,
             "InitialSpeed": 300,
             "BallisticCoeficient": 0.117,
@@ -1633,10 +1717,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 0.9,
             "HeatFactor": 0.975,
-            "MalfFeedChance": 0.094
+            "MalfFeedChance": 0.094,
+            "id": "6576f93989f0062e741ba952"
         },
         {
-            "Name": "9x21mm BT gzh",
+            "Name": "BT gzh",
             "Weight": 0.023,
             "InitialSpeed": 410,
             "BallisticCoeficient": 0.084,
@@ -1652,12 +1737,13 @@
             "MalfMisfireChance": 0.126,
             "DurabilityBurnModificator": 1.4,
             "HeatFactor": 1.25,
-            "MalfFeedChance": 0.082
+            "MalfFeedChance": 0.082,
+            "id": "5a26ac0ec4a28200741e1e18"
         }
     ],
     "5.7x28mm": [
         {
-            "Name": "5.7x28mm SS190",
+            "Name": "SS190",
             "Weight": 0.006,
             "InitialSpeed": 715,
             "BallisticCoeficient": 0.233,
@@ -1673,10 +1759,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.2,
             "HeatFactor": 1.17,
-            "MalfFeedChance": 0.0935
+            "MalfFeedChance": 0.0935,
+            "id": "5cc80f38e4a949001152b560"
         },
         {
-            "Name": "5.7x28mm R37.F",
+            "Name": "R37.F",
             "Weight": 0.006,
             "InitialSpeed": 729,
             "BallisticCoeficient": 0.075,
@@ -1692,10 +1779,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.9711,
-            "MalfFeedChance": 0.087
+            "MalfFeedChance": 0.087,
+            "id": "5cc86832d7f00c000d3a6e6c"
         },
         {
-            "Name": "5.7x28mm R37.X",
+            "Name": "R37.X",
             "Weight": 0.006,
             "InitialSpeed": 724,
             "BallisticCoeficient": 0.075,
@@ -1711,10 +1799,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.9828,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5cc86840d7f00c002412c56c"
         },
         {
-            "Name": "5.7x28mm L191",
+            "Name": "L191",
             "Weight": 0.006,
             "InitialSpeed": 715,
             "BallisticCoeficient": 0.233,
@@ -1730,10 +1819,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.15,
             "HeatFactor": 1.1115,
-            "MalfFeedChance": 0.081
+            "MalfFeedChance": 0.081,
+            "id": "5cc80f53e4a949000e1ea4f8"
         },
         {
-            "Name": "5.7x28mm SB193",
+            "Name": "SB193",
             "Weight": 0.007,
             "InitialSpeed": 299,
             "BallisticCoeficient": 0.233,
@@ -1749,10 +1839,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 0.75,
             "HeatFactor": 0.936,
-            "MalfFeedChance": 0.0775
+            "MalfFeedChance": 0.0775,
+            "id": "5cc80f67e4a949035e43bbba"
         },
         {
-            "Name": "5.7x28mm SS197SR",
+            "Name": "SS197SR",
             "Weight": 0.007,
             "InitialSpeed": 594,
             "BallisticCoeficient": 0.233,
@@ -1768,10 +1859,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 0.8,
             "HeatFactor": 1,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5cc80f8fe4a949033b0224a2"
         },
         {
-            "Name": "5.7x28mm SS198LF",
+            "Name": "SS198LF",
             "Weight": 0.006,
             "InitialSpeed": 792,
             "BallisticCoeficient": 0.233,
@@ -1787,12 +1879,13 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.9945,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5cc80f79e4a949033c7343b2"
         }
     ],
     "9x18mm PM": [
         {
-            "Name": "9x18mm PM PRS gs",
+            "Name": "PRS gs",
             "Weight": 0.011,
             "InitialSpeed": 302,
             "BallisticCoeficient": 0.101,
@@ -1808,10 +1901,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.9006,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "57371eb62459776125652ac1"
         },
         {
-            "Name": "9x18mm PM BZhT gzh",
+            "Name": "BZhT gzh",
             "Weight": 0.01,
             "InitialSpeed": 325,
             "BallisticCoeficient": 0.067,
@@ -1827,10 +1921,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.15,
             "HeatFactor": 1.0431,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "573718ba2459775a75491131"
         },
         {
-            "Name": "9x18mm PM PBM gzh",
+            "Name": "PBM gzh",
             "Weight": 0.007,
             "InitialSpeed": 519,
             "BallisticCoeficient": 0.061,
@@ -1846,10 +1941,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1.7,
             "HeatFactor": 1.14,
-            "MalfFeedChance": 0.078
+            "MalfFeedChance": 0.078,
+            "id": "573719df2459775a626ccbc2"
         },
         {
-            "Name": "9x18mm PM P gzh",
+            "Name": "P gzh",
             "Weight": 0.011,
             "InitialSpeed": 302,
             "BallisticCoeficient": 0.101,
@@ -1865,10 +1961,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.9291,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "573719762459775a626ccbc1"
         },
         {
-            "Name": "9x18mm PM PS gs PPO",
+            "Name": "PS gs PPO",
             "Weight": 0.01,
             "InitialSpeed": 330,
             "BallisticCoeficient": 0.104,
@@ -1884,10 +1981,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.9177,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "57371f2b24597761224311f1"
         },
         {
-            "Name": "9x18mm PM PSV",
+            "Name": "PSV",
             "Weight": 0.012,
             "InitialSpeed": 280,
             "BallisticCoeficient": 0.124,
@@ -1903,10 +2001,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.912,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5737207f24597760ff7b25f2"
         },
         {
-            "Name": "9x18mm PM PSO gzh",
+            "Name": "PSO gzh",
             "Weight": 0.008,
             "InitialSpeed": 315,
             "BallisticCoeficient": 0.099,
@@ -1922,10 +2021,11 @@
             "MalfMisfireChance": 0.266,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.9063,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "57371f8d24597761006c6a81"
         },
         {
-            "Name": "9x18mm PM SP8 gzh",
+            "Name": "SP8 gzh",
             "Weight": 0.009,
             "InitialSpeed": 250,
             "BallisticCoeficient": 0.083,
@@ -1941,10 +2041,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 0.8,
             "HeatFactor": 0.855,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5737218f245977612125ba51"
         },
         {
-            "Name": "9x18mm PM PPe gzh",
+            "Name": "PPe gzh",
             "Weight": 0.009,
             "InitialSpeed": 297,
             "BallisticCoeficient": 0.092,
@@ -1960,10 +2061,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.92625,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "57371b192459775a9f58a5e0"
         },
         {
-            "Name": "9x18mm PM Pst gzh",
+            "Name": "Pst gzh",
             "Weight": 0.01,
             "InitialSpeed": 298,
             "BallisticCoeficient": 0.097,
@@ -1979,10 +2081,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.15,
             "HeatFactor": 1.0374,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5737201124597760fc4431f1"
         },
         {
-            "Name": "9x18mm PMM PstM gzh",
+            "Name": "M PstM gzh",
             "Weight": 0.009,
             "InitialSpeed": 420,
             "BallisticCoeficient": 0.096,
@@ -1998,10 +2101,11 @@
             "MalfMisfireChance": 0.21,
             "DurabilityBurnModificator": 1.6,
             "HeatFactor": 1.083,
-            "MalfFeedChance": 0.088
+            "MalfFeedChance": 0.088,
+            "id": "57371aab2459775a77142f22"
         },
         {
-            "Name": "9x18mm PM SP7 gzh",
+            "Name": "SP7 gzh",
             "Weight": 0.011,
             "InitialSpeed": 420,
             "BallisticCoeficient": 0.069,
@@ -2017,10 +2121,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.9348,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "57372140245977611f70ee91"
         },
         {
-            "Name": "9x18mm PM RG028 gzh",
+            "Name": "RG028 gzh",
             "Weight": 0.011,
             "InitialSpeed": 330,
             "BallisticCoeficient": 0.106,
@@ -2036,10 +2141,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.9234,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "573720e02459776143012541"
         },
         {
-            "Name": "9x18mm PM PPT gzh",
+            "Name": "PPT gzh",
             "Weight": 0.01,
             "InitialSpeed": 301,
             "BallisticCoeficient": 0.104,
@@ -2055,12 +2161,13 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.15,
             "HeatFactor": 1.0317,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "57371e4124597760ff7b25f1"
         }
     ],
     "9x19mm": [
         {
-            "Name": "9x19mm Green Tracer",
+            "Name": "Green Tracer",
             "Weight": 0.006,
             "InitialSpeed": 365,
             "BallisticCoeficient": 0.105,
@@ -2076,10 +2183,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1.15,
             "HeatFactor": 1.1305,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5c3df7d588a4501f290594e5"
         },
         {
-            "Name": "9x19mm PBP gzh",
+            "Name": "PBP gzh",
             "Weight": 0.009,
             "InitialSpeed": 560,
             "BallisticCoeficient": 0.051,
@@ -2095,10 +2203,11 @@
             "MalfMisfireChance": 0.21,
             "DurabilityBurnModificator": 2.7,
             "HeatFactor": 1.19,
-            "MalfFeedChance": 0.077
+            "MalfFeedChance": 0.077,
+            "id": "5efb0da7a29a85116f6ea05f"
         },
         {
-            "Name": "9x19mm QuakeMaker",
+            "Name": "QuakeMaker",
             "Weight": 0.013,
             "InitialSpeed": 290,
             "BallisticCoeficient": 0.15,
@@ -2114,10 +2223,11 @@
             "MalfMisfireChance": 0.126,
             "DurabilityBurnModificator": 1.1,
             "HeatFactor": 0.98175,
-            "MalfFeedChance": 0.093
+            "MalfFeedChance": 0.093,
+            "id": "5efb0e16aeb21837e749c7ff"
         },
         {
-            "Name": "9x19mm PSO gzh",
+            "Name": "PSO gzh",
             "Weight": 0.01,
             "InitialSpeed": 340,
             "BallisticCoeficient": 0.131,
@@ -2133,10 +2243,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.0115,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "58864a4f2459770fcc257101"
         },
         {
-            "Name": "9x19mm RIP",
+            "Name": "RIP",
             "Weight": 0.013,
             "InitialSpeed": 381,
             "BallisticCoeficient": 0.075,
@@ -2152,10 +2263,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1.2,
             "HeatFactor": 1.0829,
-            "MalfFeedChance": 0.112
+            "MalfFeedChance": 0.112,
+            "id": "5c0d56a986f774449d5de529"
         },
         {
-            "Name": "9x19mm FMJ M882",
+            "Name": "FMJ M882",
             "Weight": 0.005,
             "InitialSpeed": 385,
             "BallisticCoeficient": 0.068,
@@ -2171,10 +2283,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.05,
             "HeatFactor": 1.071,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "64b7bbb74b75259c590fa897"
         },
         {
-            "Name": "9x19mm Pst gzh",
+            "Name": "Pst gzh",
             "Weight": 0.005,
             "InitialSpeed": 457,
             "BallisticCoeficient": 0.068,
@@ -2190,10 +2303,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 2.17,
             "HeatFactor": 1.071,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "56d59d3ad2720bdb418b4577"
         },
         {
-            "Name": "9x19mm AP 6.3",
+            "Name": "AP 6.3",
             "Weight": 0.009,
             "InitialSpeed": 392,
             "BallisticCoeficient": 0.121,
@@ -2209,10 +2323,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1.35,
             "HeatFactor": 1.13645,
-            "MalfFeedChance": 0.086
+            "MalfFeedChance": 0.086,
+            "id": "5c925fa22e221601da359b7b"
         },
         {
-            "Name": "9x19mm Luger CCI",
+            "Name": "Luger CCI",
             "Weight": 0.015,
             "InitialSpeed": 420,
             "BallisticCoeficient": 0.131,
@@ -2228,12 +2343,13 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1.1,
             "HeatFactor": 0.952,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5a3c16fe86f77452b62de32a"
         }
     ],
     "7.62x54mm R": [
         {
-            "Name": "7.62x54mm R SP BT",
+            "Name": "SP BT",
             "Weight": 0.024,
             "InitialSpeed": 703,
             "BallisticCoeficient": 0.334,
@@ -2249,10 +2365,11 @@
             "MalfMisfireChance": 0.168,
             "DurabilityBurnModificator": 0.9,
             "HeatFactor": 1.423,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "64b8f7b5389d7ffd620ccba2"
         },
         {
-            "Name": "7.62x54mm R LPS gzh",
+            "Name": "LPS gzh",
             "Weight": 0.024,
             "InitialSpeed": 865,
             "BallisticCoeficient": 0.334,
@@ -2268,10 +2385,11 @@
             "MalfMisfireChance": 0.168,
             "DurabilityBurnModificator": 1.1,
             "HeatFactor": 2.313,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5887431f2459777e1612938f"
         },
         {
-            "Name": "7.62x54mm R HP BT",
+            "Name": "HP BT",
             "Weight": 0.024,
             "InitialSpeed": 807,
             "BallisticCoeficient": 0.334,
@@ -2287,10 +2405,11 @@
             "MalfMisfireChance": 0.168,
             "DurabilityBurnModificator": 0.85,
             "HeatFactor": 1.357,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "64b8f7c241772715af0f9c3d"
         },
         {
-            "Name": "7.62x54mm R FMJ",
+            "Name": "FMJ",
             "Weight": 0.024,
             "InitialSpeed": 760,
             "BallisticCoeficient": 0.334,
@@ -2306,10 +2425,11 @@
             "MalfMisfireChance": 0.168,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.534,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "64b8f7968532cf95ee0a0dbf"
         },
         {
-            "Name": "7.62x54mm R PS gzh",
+            "Name": "PS gzh",
             "Weight": 0.024,
             "InitialSpeed": 875,
             "BallisticCoeficient": 0.342,
@@ -2325,10 +2445,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.15,
             "HeatFactor": 2.1845,
-            "MalfFeedChance": 0.082
+            "MalfFeedChance": 0.082,
+            "id": "59e77a2386f7742ee578960a"
         },
         {
-            "Name": "7.62x54mm R SNB gzh",
+            "Name": "SNB gzh",
             "Weight": 0.024,
             "InitialSpeed": 875,
             "BallisticCoeficient": 0.342,
@@ -2344,10 +2465,11 @@
             "MalfMisfireChance": 0.168,
             "DurabilityBurnModificator": 1.2,
             "HeatFactor": 2.3387,
-            "MalfFeedChance": 0.095
+            "MalfFeedChance": 0.095,
+            "id": "560d61e84bdc2da74d8b4571"
         },
         {
-            "Name": "7.62x54mm R T-46M gzh",
+            "Name": "T-46M gzh",
             "Weight": 0.025,
             "InitialSpeed": 800,
             "BallisticCoeficient": 0.289,
@@ -2363,10 +2485,11 @@
             "MalfMisfireChance": 0.154,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 2.056,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5e023cf8186a883be655e54f"
         },
         {
-            "Name": "7.62x54mm R BS gs",
+            "Name": "BS gs",
             "Weight": 0.025,
             "InitialSpeed": 785,
             "BallisticCoeficient": 0.425,
@@ -2382,10 +2505,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1.7,
             "HeatFactor": 2.57,
-            "MalfFeedChance": 0.0874
+            "MalfFeedChance": 0.0874,
+            "id": "5e023d48186a883be655e551"
         },
         {
-            "Name": "7.62x54mm R BT gzh",
+            "Name": "BT gzh",
             "Weight": 0.024,
             "InitialSpeed": 875,
             "BallisticCoeficient": 0.331,
@@ -2401,12 +2525,13 @@
             "MalfMisfireChance": 0.182,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 2.4415,
-            "MalfFeedChance": 0.0917
+            "MalfFeedChance": 0.0917,
+            "id": "5e023d34e8a400319a28ed44"
         }
     ],
     ".338 Lapua Magnum": [
         {
-            "Name": ".338 Lapua Magnum AP",
+            "Name": "AP",
             "Weight": 0.049,
             "InitialSpeed": 849,
             "BallisticCoeficient": 0.477,
@@ -2422,10 +2547,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 2.4,
             "HeatFactor": 3.26,
-            "MalfFeedChance": 0.087
+            "MalfFeedChance": 0.087,
+            "id": "5fc382a9d724d907e2077dab"
         },
         {
-            "Name": ".338 Lapua Magnum FMJ",
+            "Name": "FMJ",
             "Weight": 0.047,
             "InitialSpeed": 900,
             "BallisticCoeficient": 0.48,
@@ -2441,10 +2567,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.8,
             "HeatFactor": 3.097,
-            "MalfFeedChance": 0.091
+            "MalfFeedChance": 0.091,
+            "id": "5fc275cf85fd526b824a571a"
         },
         {
-            "Name": ".338 Lapua Magnum UCW",
+            "Name": "UCW",
             "Weight": 0.045,
             "InitialSpeed": 849,
             "BallisticCoeficient": 0.48,
@@ -2460,10 +2587,11 @@
             "MalfMisfireChance": 0.224,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 2.608,
-            "MalfFeedChance": 0.0945
+            "MalfFeedChance": 0.0945,
+            "id": "5fc382c1016cce60e8341b20"
         },
         {
-            "Name": ".338 Lapua Magnum TAC-X",
+            "Name": "TAC-X",
             "Weight": 0.044,
             "InitialSpeed": 880,
             "BallisticCoeficient": 0.476,
@@ -2479,12 +2607,13 @@
             "MalfMisfireChance": 0.21,
             "DurabilityBurnModificator": 1.4,
             "HeatFactor": 2.934,
-            "MalfFeedChance": 0.0891
+            "MalfFeedChance": 0.0891,
+            "id": "5fc382b6d6fa9c00c571bbc3"
         }
     ],
     "9x39mm": [
         {
-            "Name": "9x39mm BP gs",
+            "Name": "BP gs",
             "Weight": 0.023,
             "InitialSpeed": 295,
             "BallisticCoeficient": 0.395,
@@ -2500,10 +2629,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1.35,
             "HeatFactor": 1.61,
-            "MalfFeedChance": 0.0871
+            "MalfFeedChance": 0.0871,
+            "id": "5c0d688c86f77413ae3407b2"
         },
         {
-            "Name": "9x39mm SPP gs",
+            "Name": "SPP gs",
             "Weight": 0.023,
             "InitialSpeed": 310,
             "BallisticCoeficient": 0.189,
@@ -2519,10 +2649,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1.1,
             "HeatFactor": 1.45,
-            "MalfFeedChance": 0.0884
+            "MalfFeedChance": 0.0884,
+            "id": "5c0d668f86f7747ccb7f13b2"
         },
         {
-            "Name": "9x39mm PAB-9 gs",
+            "Name": "PAB-9 gs",
             "Weight": 0.024,
             "InitialSpeed": 320,
             "BallisticCoeficient": 0.395,
@@ -2538,10 +2669,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1.55,
             "HeatFactor": 1.56,
-            "MalfFeedChance": 0.073
+            "MalfFeedChance": 0.073,
+            "id": "61962d879bb3d20b0946d385"
         },
         {
-            "Name": "9x39mm SP-6 gs",
+            "Name": "SP-6 gs",
             "Weight": 0.023,
             "InitialSpeed": 305,
             "BallisticCoeficient": 0.414,
@@ -2557,10 +2689,11 @@
             "MalfMisfireChance": 0.168,
             "DurabilityBurnModificator": 1.45,
             "HeatFactor": 1.61,
-            "MalfFeedChance": 0.0903
+            "MalfFeedChance": 0.0903,
+            "id": "57a0e5022459774d1673f889"
         },
         {
-            "Name": "9x39mm SP-5 gs",
+            "Name": "SP-5 gs",
             "Weight": 0.023,
             "InitialSpeed": 290,
             "BallisticCoeficient": 0.353,
@@ -2576,10 +2709,11 @@
             "MalfMisfireChance": 0.154,
             "DurabilityBurnModificator": 1.2,
             "HeatFactor": 1.53,
-            "MalfFeedChance": 0.0923
+            "MalfFeedChance": 0.0923,
+            "id": "57a0dfb82459774d3078b56c"
         },
         {
-            "Name": "9x39mm FMJ",
+            "Name": "FMJ",
             "Weight": 0.023,
             "InitialSpeed": 330,
             "BallisticCoeficient": 0.343,
@@ -2595,12 +2729,13 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.24,
-            "MalfFeedChance": 0.0871
+            "MalfFeedChance": 0.0871,
+            "id": "6576f96220d53a5b8f3e395e"
         }
     ],
     "7.62x25mm TT": [
         {
-            "Name": "7.62x25mm TT LRN",
+            "Name": "LRN",
             "Weight": 0.01,
             "InitialSpeed": 375,
             "BallisticCoeficient": 0.146,
@@ -2616,10 +2751,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1.15,
             "HeatFactor": 1.062,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "573601b42459776410737435"
         },
         {
-            "Name": "7.62x25mm TT P gl",
+            "Name": "P gl",
             "Weight": 0.01,
             "InitialSpeed": 430,
             "BallisticCoeficient": 0.127,
@@ -2635,10 +2771,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.9558,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5736026a245977644601dc61"
         },
         {
-            "Name": "7.62x25mm TT Pst gzh",
+            "Name": "Pst gzh",
             "Weight": 0.01,
             "InitialSpeed": 430,
             "BallisticCoeficient": 0.126,
@@ -2654,10 +2791,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1.4,
             "HeatFactor": 1.0738,
-            "MalfFeedChance": 0.081
+            "MalfFeedChance": 0.081,
+            "id": "573603562459776430731618"
         },
         {
-            "Name": "7.62x25mm TT PT gzh",
+            "Name": "PT gzh",
             "Weight": 0.01,
             "InitialSpeed": 415,
             "BallisticCoeficient": 0.124,
@@ -2673,10 +2811,11 @@
             "MalfMisfireChance": 0.154,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 1.18,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "573603c924597764442bd9cb"
         },
         {
-            "Name": "7.62x25mm TT AKBS",
+            "Name": "AKBS",
             "Weight": 0.01,
             "InitialSpeed": 425,
             "BallisticCoeficient": 0.127,
@@ -2692,10 +2831,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.944,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5735fdcd2459776445391d61"
         },
         {
-            "Name": "7.62x25mm TT FMJ43",
+            "Name": "FMJ43",
             "Weight": 0.01,
             "InitialSpeed": 427,
             "BallisticCoeficient": 0.055,
@@ -2711,10 +2851,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.9735,
-            "MalfFeedChance": 0.128
+            "MalfFeedChance": 0.128,
+            "id": "5735ff5c245977640e39ba7e"
         },
         {
-            "Name": "7.62x25mm TT LRNPC",
+            "Name": "LRNPC",
             "Weight": 0.01,
             "InitialSpeed": 385,
             "BallisticCoeficient": 0.119,
@@ -2730,12 +2871,13 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1.15,
             "HeatFactor": 1.0679,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "573602322459776445391df1"
         }
     ],
     ".300": [
         {
-            "Name": ".300 Whisper",
+            "Name": "Whisper",
             "Weight": 0.015,
             "InitialSpeed": 853,
             "BallisticCoeficient": 0.334,
@@ -2751,10 +2893,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.05,
             "HeatFactor": 1.9701,
-            "MalfFeedChance": 0.042
+            "MalfFeedChance": 0.042,
+            "id": "6196365d58ef8c428c287da1"
         },
         {
-            "Name": ".300 Blackout M62 Tracer",
+            "Name": "Blackout M62 Tracer",
             "Weight": 0.016,
             "InitialSpeed": 442,
             "BallisticCoeficient": 0.334,
@@ -2770,10 +2913,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.25,
             "HeatFactor": 1.7,
-            "MalfFeedChance": 0.055
+            "MalfFeedChance": 0.055,
+            "id": "619636be6db0f2477964e710"
         },
         {
-            "Name": ".300 Blackout BCP FMJ",
+            "Name": "Blackout BCP FMJ",
             "Weight": 0.015,
             "InitialSpeed": 605,
             "BallisticCoeficient": 0.334,
@@ -2789,10 +2933,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.592,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5fbe3ffdf8b6a877a729ea82"
         },
         {
-            "Name": ".300 Blackout CBJ",
+            "Name": "Blackout CBJ",
             "Weight": 0.015,
             "InitialSpeed": 725,
             "BallisticCoeficient": 0.334,
@@ -2808,10 +2953,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1.34,
             "HeatFactor": 1.86,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "64b8725c4b75259c590fa899"
         },
         {
-            "Name": ".300 Blackout V-Max",
+            "Name": "Blackout V-Max",
             "Weight": 0.015,
             "InitialSpeed": 723,
             "BallisticCoeficient": 0.334,
@@ -2827,10 +2973,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.1,
             "HeatFactor": 1.8,
-            "MalfFeedChance": 0.075
+            "MalfFeedChance": 0.075,
+            "id": "6196364158ef8c428c287d9f"
         },
         {
-            "Name": ".300 Blackout AP",
+            "Name": "Blackout AP",
             "Weight": 0.014,
             "InitialSpeed": 635,
             "BallisticCoeficient": 0.334,
@@ -2846,12 +2993,13 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 1.99,
-            "MalfFeedChance": 0.086
+            "MalfFeedChance": 0.086,
+            "id": "5fd20ff893a8961fc660a954"
         }
     ],
     "7.62x51mm": [
         {
-            "Name": "7.62x51mm TCW SP",
+            "Name": "TCW SP",
             "Weight": 0.023,
             "InitialSpeed": 808,
             "BallisticCoeficient": 0.383,
@@ -2867,10 +3015,11 @@
             "MalfMisfireChance": 0.154,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1.984,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5e023e6e34d52a55c3304f71"
         },
         {
-            "Name": "7.62x51mm M62 Tracer",
+            "Name": "M62 Tracer",
             "Weight": 0.024,
             "InitialSpeed": 816,
             "BallisticCoeficient": 0.326,
@@ -2886,10 +3035,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 2.232,
-            "MalfFeedChance": 0.09
+            "MalfFeedChance": 0.09,
+            "id": "5a608bf24f39f98ffc77720e"
         },
         {
-            "Name": "7.62x51mm M80",
+            "Name": "M80",
             "Weight": 0.024,
             "InitialSpeed": 833,
             "BallisticCoeficient": 0.335,
@@ -2905,10 +3055,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.3,
             "HeatFactor": 2.2568,
-            "MalfFeedChance": 0.0935
+            "MalfFeedChance": 0.0935,
+            "id": "58dd3ad986f77403051cba8f"
         },
         {
-            "Name": "7.62x51mm M993",
+            "Name": "M993",
             "Weight": 0.024,
             "InitialSpeed": 910,
             "BallisticCoeficient": 0.291,
@@ -2924,10 +3075,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 2,
             "HeatFactor": 2.48,
-            "MalfFeedChance": 0.081
+            "MalfFeedChance": 0.081,
+            "id": "5efb0c1bd79ff02a1f5e68d9"
         },
         {
-            "Name": "7.62x51mm Ultra Nosler",
+            "Name": "Ultra Nosler",
             "Weight": 0.021,
             "InitialSpeed": 822,
             "BallisticCoeficient": 0.375,
@@ -2943,10 +3095,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.15,
             "HeatFactor": 2.108,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "5e023e88277cce2b522ff2b1"
         },
         {
-            "Name": "7.62x51mm BCP FMJ",
+            "Name": "BCP FMJ",
             "Weight": 0.022,
             "InitialSpeed": 840,
             "BallisticCoeficient": 0.402,
@@ -2962,10 +3115,11 @@
             "MalfMisfireChance": 0.168,
             "DurabilityBurnModificator": 1.18,
             "HeatFactor": 2.1328,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5e023e53d4353e3302577c4c"
         },
         {
-            "Name": "7.62x51mm M61",
+            "Name": "M61",
             "Weight": 0.024,
             "InitialSpeed": 849,
             "BallisticCoeficient": 0.346,
@@ -2981,12 +3135,13 @@
             "MalfMisfireChance": 0.1834,
             "DurabilityBurnModificator": 1.8,
             "HeatFactor": 2.356,
-            "MalfFeedChance": 0.087
+            "MalfFeedChance": 0.087,
+            "id": "5a6086ea4f39f99cd479502f"
         }
     ],
     "7.62x39mm": [
         {
-            "Name": "7.62x39mm PS gzh",
+            "Name": "PS gzh",
             "Weight": 0.016,
             "InitialSpeed": 717,
             "BallisticCoeficient": 0.28,
@@ -3002,10 +3157,11 @@
             "MalfMisfireChance": 0.154,
             "DurabilityBurnModificator": 1.2,
             "HeatFactor": 1.125,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "5656d7c34bdc2d9d198b4587"
         },
         {
-            "Name": "7.62x39mm FMJ",
+            "Name": "FMJ",
             "Weight": 0.012,
             "InitialSpeed": 775,
             "BallisticCoeficient": 0.28,
@@ -3021,10 +3177,11 @@
             "MalfMisfireChance": 0.154,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 1,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "64b7af5a8532cf95ee0a0dbd"
         },
         {
-            "Name": "7.62x39mm T-45M1 gzh",
+            "Name": "T-45M1 gzh",
             "Weight": 0.016,
             "InitialSpeed": 720,
             "BallisticCoeficient": 0.227,
@@ -3040,10 +3197,11 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1.2,
             "HeatFactor": 1.2,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "59e4cf5286f7741778269d8a"
         },
         {
-            "Name": "7.62x39mm PP gzh",
+            "Name": "PP gzh",
             "Weight": 0.016,
             "InitialSpeed": 732,
             "BallisticCoeficient": 0.28,
@@ -3059,10 +3217,11 @@
             "MalfMisfireChance": 0.184,
             "DurabilityBurnModificator": 1.35,
             "HeatFactor": 1.725,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "64b7af434b75259c590fa893"
         },
         {
-            "Name": "7.62x39mm SP",
+            "Name": "SP",
             "Weight": 0.012,
             "InitialSpeed": 772,
             "BallisticCoeficient": 0.28,
@@ -3078,10 +3237,11 @@
             "MalfMisfireChance": 0.154,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.955,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "64b7af734b75259c590fa895"
         },
         {
-            "Name": "7.62x39mm MAI AP",
+            "Name": "MAI AP",
             "Weight": 0.015,
             "InitialSpeed": 875,
             "BallisticCoeficient": 0.28,
@@ -3097,10 +3257,11 @@
             "MalfMisfireChance": 0.196,
             "DurabilityBurnModificator": 1.7,
             "HeatFactor": 2.02,
-            "MalfFeedChance": 0.102
+            "MalfFeedChance": 0.102,
+            "id": "601aa3d2b2bcb34913271e6d"
         },
         {
-            "Name": "7.62x39mm BP gzh",
+            "Name": "BP gzh",
             "Weight": 0.016,
             "InitialSpeed": 730,
             "BallisticCoeficient": 0.28,
@@ -3116,10 +3277,11 @@
             "MalfMisfireChance": 0.1834,
             "DurabilityBurnModificator": 1.45,
             "HeatFactor": 1.919,
-            "MalfFeedChance": 0.088
+            "MalfFeedChance": 0.088,
+            "id": "59e0d99486f7744a32234762"
         },
         {
-            "Name": "7.62x39mm HP",
+            "Name": "HP",
             "Weight": 0.012,
             "InitialSpeed": 754,
             "BallisticCoeficient": 0.278,
@@ -3135,10 +3297,11 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 0.925,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "59e4d3d286f774176a36250a"
         },
         {
-            "Name": "7.62x39mm US gzh",
+            "Name": "US gzh",
             "Weight": 0.02,
             "InitialSpeed": 301,
             "BallisticCoeficient": 0.379,
@@ -3154,12 +3317,13 @@
             "MalfMisfireChance": 0.14,
             "DurabilityBurnModificator": 0.8,
             "HeatFactor": 0.896,
-            "MalfFeedChance": 0.01
+            "MalfFeedChance": 0.01,
+            "id": "59e4d24686f7741776641ac7"
         }
     ],
     ".357 Magnum": [
         {
-            "Name": ".357 Magnum SP",
+            "Name": "SP",
             "Weight": 0.015,
             "InitialSpeed": 455,
             "BallisticCoeficient": 0.189,
@@ -3175,10 +3339,11 @@
             "MalfMisfireChance": 0.18,
             "DurabilityBurnModificator": 1.3,
             "HeatFactor": 1.65,
-            "MalfFeedChance": 0.102
+            "MalfFeedChance": 0.102,
+            "id": "62330c40bdd19b369e1e53d1"
         },
         {
-            "Name": ".357 Magnum JHP",
+            "Name": "JHP",
             "Weight": 0.016,
             "InitialSpeed": 425,
             "BallisticCoeficient": 0.155,
@@ -3194,10 +3359,11 @@
             "MalfMisfireChance": 0.15,
             "DurabilityBurnModificator": 1.4,
             "HeatFactor": 2.27,
-            "MalfFeedChance": 0.102
+            "MalfFeedChance": 0.102,
+            "id": "62330c18744e5e31df12f516"
         },
         {
-            "Name": ".357 Magnum HP",
+            "Name": "HP",
             "Weight": 0.016,
             "InitialSpeed": 481,
             "BallisticCoeficient": 0.124,
@@ -3213,10 +3379,11 @@
             "MalfMisfireChance": 0.224,
             "DurabilityBurnModificator": 1.6,
             "HeatFactor": 2.56,
-            "MalfFeedChance": 0.128
+            "MalfFeedChance": 0.128,
+            "id": "62330bfadc5883093563729b"
         },
         {
-            "Name": ".357 Magnum FMJ",
+            "Name": "FMJ",
             "Weight": 0.016,
             "InitialSpeed": 385,
             "BallisticCoeficient": 0.163,
@@ -3232,12 +3399,13 @@
             "MalfMisfireChance": 0.18,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 2.27,
-            "MalfFeedChance": 0.102
+            "MalfFeedChance": 0.102,
+            "id": "62330b3ed4dc74626d570b95"
         }
     ],
     "6.8x51mm": [
         {
-            "Name": "6.8x51mm SIG Hybrid",
+            "Name": "SIG Hybrid",
             "Weight": 0.024,
             "InitialSpeed": 914,
             "BallisticCoeficient": 0.388,
@@ -3253,10 +3421,11 @@
             "MalfMisfireChance": 0.168,
             "DurabilityBurnModificator": 1.5,
             "HeatFactor": 2.53,
-            "MalfFeedChance": 0.02
+            "MalfFeedChance": 0.02,
+            "id": "6529243824cbe3c74a05e5c1"
         },
         {
-            "Name": "6.8x51mm SIG FMJ",
+            "Name": "SIG FMJ",
             "Weight": 0.024,
             "InitialSpeed": 899,
             "BallisticCoeficient": 0.405,
@@ -3272,7 +3441,8 @@
             "MalfMisfireChance": 0.175,
             "DurabilityBurnModificator": 1,
             "HeatFactor": 2.36,
-            "MalfFeedChance": 0.09
+            "MalfFeedChance": 0.09,
+            "id": "6529302b8c26af6326029fb7"
         }
     ]
 }

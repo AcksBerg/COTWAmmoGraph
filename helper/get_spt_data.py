@@ -86,6 +86,9 @@ for ammo_id in data:
         continue
     if caliber_map[data[ammo_id]["Caliber"]] not in output_dict:
         output_dict[caliber_map[data[ammo_id]["Caliber"]]] = []
+    data[ammo_id]["Name"] = data[ammo_id]["Name"].removeprefix(caliber_map[data[ammo_id]["Caliber"]]).strip()
+    data[ammo_id]["Name"] = data[ammo_id]["Name"][0].upper() + data[ammo_id]["Name"][1:]
+    data[ammo_id]["id"] = ammo_id
     output_dict[caliber_map[data[ammo_id]["Caliber"]]].append(data[ammo_id])
     del output_dict[caliber_map[data[ammo_id]["Caliber"]]][-1]["Caliber"]
 
