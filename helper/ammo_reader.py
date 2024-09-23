@@ -45,8 +45,7 @@ caliber_map = {
     "Caliber86x70": ".338 Lapua Magnum",
     "Caliber9x33R": ".357 Magnum",
     "Caliber26x75": "26x75mm",
-    "Caliber68x51": "6.8x51mm",
-    "Caliber20x1mm": "20x1mm"
+    "Caliber68x51": "6.8x51mm"
 }
 
 # Remove grenades and data missing properties from live data and move the properties to the main data to make the handling easier
