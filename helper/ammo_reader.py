@@ -22,6 +22,7 @@ except OSError:
 
 try:
     with open(ammo_file, "r", encoding="UTF-8") as file:
+        # TODO Add way to split slug and shot
         current_id = None
         current_ammo_pos = None
         for line in file:
