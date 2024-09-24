@@ -46,6 +46,7 @@ try:
                     # Calculate the Damage
                     if current_ammo_pos:
                         processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["Damage"] = int(processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["Damage"]) * int(processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["ProjectileCount"])
+                        processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["ProjectileCount"] = int(processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["ProjectileCount"])
                     current_id = line.split('"')[1]
                     current_ammo_pos = find_ammo_position(processed_data, current_id)
                     continue
@@ -54,10 +55,22 @@ try:
                 value = value.rstrip(';')
                 if name in available_data_types and value[0].isnumeric() and current_ammo_pos:
                     processed_data[current_ammo_pos[0]][current_ammo_pos[1]][name] = value
-
 except OSError:
     print("Ammo.js could not be read: ", ammo_file)
     exit()
+
+# create the single shot values
+for caliber in list(processed_data):
+    if " shot" not in caliber:
+        continue
+    if f'{caliber} single' not in processed_data:
+        processed_data[f'{caliber.removesuffix(" shot")} single'] = []
+    for ammo in processed_data[caliber]:
+        single_ammo = ammo.copy()
+        single_ammo["Damage"] = single_ammo["Damage"] / single_ammo["ProjectileCount"]
+        processed_data[f'{caliber.removesuffix(" shot")} single'].append(single_ammo)
+
+
 
 try:
     with open(data_file, "w", encoding="UTF-8") as file:
