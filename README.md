@@ -20,7 +20,7 @@ This web application visualizes ammunition data for the SPT Realism Mod, display
     - The `ammo.js` file is located in `\user\mods\SPT-Realism\src\ballistics\ammo.js` if you want to update the `data.js` file yourself.
 - **index.html**: The main HTML file that structures the web page, including the canvas for the chart and buttons for selecting calibers.
 - **script.js**: The JavaScript file that handles data processing, chart rendering, and user interactions.
-- **data.js**: A JavaScript file containing the ammunition data used by the web application, currently for SPT 3.9.8 and RM 1.4.4.
+- **data.js**: A JavaScript file containing the ammunition data used by the web application, currently for SPT 3.9.8 and RM 1.4.5.
 
 ## Usage
 

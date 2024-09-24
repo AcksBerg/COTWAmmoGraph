@@ -9,7 +9,7 @@ def find_ammo_position(data, id):
     )
 
 live_data: list = []
-ammo_file = "data/ammo.js"
+ammo_file = "data/ammo.ts"
 data_file = "data/data.js"
 input_file = "data/spt_data.json" # spt_data.json or live_data.json
 processed_data = {}
