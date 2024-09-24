@@ -2,7 +2,14 @@
 
 This web application visualizes ammunition data for the SPT Realism Mod, displaying damage and penetration values for different calibers in a scatter plot. Users can select various calibers to compare their performance. The chart dynamically adjusts its axes and includes class labels for penetration levels.
 
-![Screenshot of the Ammo Graph](img/Example1.png)
+
+## Usage
+
+Visit [https://acksberg.github.io/SPTRealismAmmoGraph/](https://acksberg.github.io/SPTRealismAmmoGraph/) or download the `index.html`, `script.js`, and `data\data.js`.
+
+After downloading, open the `index.html`.
+
+The rest of the files are examples or are used to create the `data.js`.
 
 ## Files
 
@@ -22,13 +29,7 @@ This web application visualizes ammunition data for the SPT Realism Mod, display
 - **script.js**: The JavaScript file that handles data processing, chart rendering, and user interactions.
 - **data.js**: A JavaScript file containing the ammunition data used by the web application, currently for SPT 3.9.8 and RM 1.4.5.
 
-## Usage
-
-Visit [https://acksberg.github.io/SPTRealismAmmoGraph/](https://acksberg.github.io/SPTRealismAmmoGraph/) or download the `index.html`, `script.js`, and `data\data.js`.
-
-After downloading, open the `index.html`.
-
-The rest of the files are examples or are used to create the `data.js`.
+![Screenshot of the Ammo Graph](img/Example1.png)
 
 ## License
 
