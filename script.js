@@ -86,7 +86,6 @@ function initializeChart() {
                         label: function (context) {
                             const type = context.raw;
                             let label = `${type.label}:\n`;
-                            label += `Weight: ${type.Weight}\n`;
                             label += `Damage: ${type.Damage}\n`;
                             label += `Penetration Power: ${type.PenetrationPower}\n`;
                             label += `Armor Damage: ${type.ArmorDamage}\n`;
@@ -101,7 +100,8 @@ function initializeChart() {
                             label += `Malf Feed Chance: ${type.MalfFeedChance}\n`;
                             label += `Malf Misfire Chance: ${type.MalfMisfireChance}\n`;
                             label += `Heat Factor: ${type.HeatFactor}\n`;
-                            label += `Durability Burn Modifier: ${type.DurabilityBurnModificator}`;
+                            label += `Durability Burn Modifier: ${type.DurabilityBurnModificator}\n`;
+                            label += `Weight: ${type.Weight}\n`;
                             return label.split('\n');
                         }
                     }
