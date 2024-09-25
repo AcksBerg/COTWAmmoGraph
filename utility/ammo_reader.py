@@ -1,17 +1,19 @@
 import json
 from caliber_and_types import available_data_types
 
+
 def find_ammo_position(data, id):
     return next(
-        ([caliber, index] for caliber, ammos in data.items() 
+        ([caliber, index] for caliber, ammos in data.items()
          for index, ammo in enumerate(ammos) if ammo['id'] == id),
         None
     )
 
+
 live_data: list = []
 ammo_file = "data/ammo.ts"
 data_file = "data/data.js"
-input_file = "data/spt_data.json" # spt_data.json or live_data.json
+input_file = "data/spt_data.json"  # spt_data.json or live_data.json
 processed_data = {}
 try:
     with open(input_file, "r", encoding="UTF-8") as file:
@@ -33,8 +35,6 @@ for caliber in list(processed_data):
             processed_data[caliber].remove(ammo)
 
 
-            
-
 try:
     with open(ammo_file, "r", encoding="UTF-8") as file:
         current_id = None
@@ -45,7 +45,8 @@ try:
                 if line.startswith("if"):
                     # Calculate the Damage
                     if current_ammo_pos:
-                        processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["Damage"] = int(processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["Damage"]) * int(processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["ProjectileCount"])
+                        processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["Damage"] = int(
+                            processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["Damage"]) * int(processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["ProjectileCount"])
                         processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["ProjectileCount"] = int(processed_data[current_ammo_pos[0]][current_ammo_pos[1]]["ProjectileCount"])
                     current_id = line.split('"')[1]
                     current_ammo_pos = find_ammo_position(processed_data, current_id)
@@ -69,7 +70,6 @@ for caliber in list(processed_data):
         single_ammo = ammo.copy()
         single_ammo["Damage"] = single_ammo["Damage"] / single_ammo["ProjectileCount"]
         processed_data[f'{caliber.removesuffix(" shot")} single'].append(single_ammo)
-
 
 
 try:

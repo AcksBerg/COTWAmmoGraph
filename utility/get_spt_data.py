@@ -1,5 +1,7 @@
 import json
+import os
 from caliber_and_types import available_data_types, caliber_map, blacklisted_ammo
+# In line 70 is a line which will output all the available calibers which are not in the caliber_map
 
 # Files are located in \SPT_Data\Server\database\templates\ and \SPT_Data\Server\database\locales\global
 items_file = "data/items.json"
@@ -8,7 +10,7 @@ output_file = "data/spt_data.json"
 items_backport_file = "data/items_backport.json"
 language_backport_file = "data/locale.json"
 
-# In line 80 is a line which will output all the available calibers which are not in the caliber_map
+with_backport = os.path.isfile(items_backport_file) and os.path.isfile(language_backport_file)
 
 data = {}
 
@@ -19,12 +21,13 @@ except OSError:
     print("items.json could not be opened")
     exit()
 
-try:
-    with open(items_backport_file, mode="r", encoding="UTF-8") as file:
-        data.update(json.load(file))
-except OSError:
-    print("items_backport.json could not be opened")
-    exit()
+if with_backport:
+    try:
+        with open(items_backport_file, mode="r", encoding="UTF-8") as file:
+            data.update(json.load(file))
+    except OSError:
+        print("items_backport.json could not be opened")
+        exit()
 
 data = {key: value for key, value in data.items() if value.get("_name", "MISSING VALUE").startswith("patron_") and value.get("_id", "MISSING VALUE") not in blacklisted_ammo}
 
@@ -40,12 +43,13 @@ try:
 except OSError:
     print("language file could not be opend")
     exit()
-try:
-    with open(language_backport_file, mode="r", encoding="UTF-8") as file:
-        language.update(json.load(file)["en"])
-except OSError:
-    print("language file could not be opend")
-    exit()
+if with_backport:
+    try:
+        with open(language_backport_file, mode="r", encoding="UTF-8") as file:
+            language.update(json.load(file)["en"])
+    except OSError:
+        print("language file could not be opend")
+        exit()
 
 # Transform the Data to the needed format
 for ammo_id in data:
@@ -63,7 +67,7 @@ for ammo_id in data:
     data[ammo_id]["Name"] = language[ammo_id + " Name"]
 
 # Print every Caliber not in caliber_map (good for updating the map)
-print("\nCalibers not in caliber_map (Missing):", *{key for key in caliber if key not in caliber_map}, sep="\n",end="\n\n")
+print("\nCalibers not in caliber_map (Missing/Blacklisted):", *{key for key in caliber if key not in caliber_map}, sep="\n", end="\n\n")
 
 
 output_dict = {}

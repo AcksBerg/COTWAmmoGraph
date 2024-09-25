@@ -1,4 +1,4 @@
-# How the different Calibers should be named on the Webpage, 
+# How the different Calibers should be named on the Webpage,
 # "%Caliber%" Shot will be generated automatically if a Caliber has ammo with more then one projectile (e.g. Buckshot).
 # Removed the following calibers
 # 40x36 (underbarrel)
@@ -28,7 +28,8 @@ caliber_map = {
     "Caliber762x35": ".300",
     "Caliber86x70": ".338 Lapua Magnum",
     "Caliber9x33R": ".357 Magnum",
-    "Caliber68x51": "6.8x51mm"
+    "Caliber68x51": "6.8x51mm",
+    "Caliber127x33": ".50 AE"
 }
 
 available_data_types = ["PenetrationPower", "DurabilityBurnModificator", "Damage", "Weight", "ArmorDamage", "ProjectileCount",
@@ -39,4 +40,4 @@ available_data_types = ["PenetrationPower", "DurabilityBurnModificator", "Damage
 # Ammo which should not be visible on the webpage
 # Airsoft 6mm BB
 # Zvezda flashbang round
-blacklisted_ammo = ["6241c316234b593b5676b637","5e85a9f4add9fe03027d9bf1"]
+blacklisted_ammo = ["6241c316234b593b5676b637", "5e85a9f4add9fe03027d9bf1"]

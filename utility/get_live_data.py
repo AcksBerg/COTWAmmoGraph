@@ -107,7 +107,7 @@ for entry in data["data"]["items"]:
         "failureToFeedChance": "MalfFeedChance",
         "misfireChance": "MalfMisfireChance",
         "heatFactor": "HeatFactor",
-        "id":"id"
+        "id": "id"
     }
 
     # Copy and rename the properties
@@ -127,7 +127,7 @@ for entry in data["data"]["items"]:
 
 # Print missing calibers, if any (useful for updating caliber_map)
 if missing_calibers:
-    print("Calibers not in caliber_map (Missing):")
+    print("Calibers not in caliber_map (Missing/Blacklisted):")
     print(*missing_calibers, sep="\n")
 
 # Write the output dictionary to the output file
