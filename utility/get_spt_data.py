@@ -5,8 +5,12 @@ from caliber_and_types import available_data_types, caliber_map, blacklisted_amm
 items_file = "data/items.json"
 language_file = "data/en.json"
 output_file = "data/spt_data.json"
+items_backport_file = "data/items_backport.json"
+language_backport_file = "data/locale.json"
 
 # In line 80 is a line which will output all the available calibers which are not in the caliber_map
+
+data = {}
 
 try:
     with open(items_file, mode="r", encoding="UTF-8") as file:
@@ -14,14 +18,31 @@ try:
 except OSError:
     print("items.json could not be opened")
     exit()
-caliber = set()
+
+try:
+    with open(items_backport_file, mode="r", encoding="UTF-8") as file:
+        data.update(json.load(file))
+except OSError:
+    print("items_backport.json could not be opened")
+    exit()
+
 data = {key: value for key, value in data.items() if value.get("_name", "MISSING VALUE").startswith("patron_") and value.get("_id", "MISSING VALUE") not in blacklisted_ammo}
+
+
+caliber = set()
 for ammo in data:
     caliber.add(data[ammo]["_props"]["Caliber"])
 
+language = {}
 try:
     with open(language_file, mode="r", encoding="UTF-8") as file:
         language = json.load(file)
+except OSError:
+    print("language file could not be opend")
+    exit()
+try:
+    with open(language_backport_file, mode="r", encoding="UTF-8") as file:
+        language.update(json.load(file)["en"])
 except OSError:
     print("language file could not be opend")
     exit()
